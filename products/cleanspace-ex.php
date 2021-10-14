@@ -90,8 +90,8 @@
 						</ul>
 					</div>
 
-					<div class="col-md-6 col-sm-12" data-aos="fade-left">
-						<img src="../assets/img/gallery/cleanspace_ex/13-CleanSpace-EX.jpg" style="width: 90%;border-radius: 25px;">
+					<div class="col-md-6 col-sm-12" data-aos="fade-left" >
+						<img src="../assets/img/gallery/cleanspace_ex/13-CleanSpace-EX.jpg" style="width: 90%;">
 					</div>
 				</div>
 

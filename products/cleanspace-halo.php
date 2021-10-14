@@ -80,7 +80,10 @@
 			<div class="container">
 
 				<div class="row content">
-					<div class="col-md-6 col-sm-12" data-aos="fade-right">
+					<div class="col-md-6 col-sm-12" data-aos="fade-right" style="background: top center no-repeat;background-size: cover; height 100%; background-image: url(../assets/img/gallery/cleanspace_halo/CleanSpace-Steri-Plus-for-healthcare-04.jpg);">
+					</div>
+
+					<div class="col-md-6 col-sm-12" data-aos="fade-left">
 						<h4 class="title">CleanSpace HALO is suitable for industries such as:</h4>
 						<ul>
 							<li><i class="bi bi-check"></i> Anaesthesiology</li>
@@ -95,10 +98,6 @@
 							<li><i class="bi bi-check"></i> Dental</li>
 							<li><i class="bi bi-check"></i> Aged Care</li>
 						</ul>
-					</div>
-
-					<div class="col-md-6 col-sm-12" data-aos="fade-left">
-						<img src="../assets/img/gallery/cleanspace_ex/13-CleanSpace-EX.jpg" style="width: 90%;border-radius: 25px;">
 					</div>
 				</div>
 

@@ -14,7 +14,7 @@
 	      <div class="row justify-content-between">
 	        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
 	        	<div data-aos="zoom-out" class="hero_text">
-		            <h1><span>INNOVATION</span></h1>
+		            <h1><span>ABOUT</span> US</h1>
 	            </div>
 	        </div>
 	      </div>
@@ -25,8 +25,12 @@
 	<div id="about">
 		<section class="details">
 			<div class="container">
+				<div class="content" data-aos="fade-right">
+					<div class="section-title">
+						<h2 class="uppercase">CleanSpace</h2>
+						<p>INOVATION</p>
+					</div>
 
-				<div class="content" data-aos="zoom-out">
 					<div class="pt-4" style="border-left: 3px solid #0a9995; padding-left: 3%;">
 						<h3>CleanSpace Technology’s vision was to create a respirator that was a true innovation in personal respiratory protection.</h3>
 						<p>
@@ -95,11 +99,13 @@
 
 		<section class="about bg-gray">
 			<div class="container">
-				<div class="row content" data-aos="fade-up">
-					<div class="section-title">
-						<p>Our Mission</p>
-					</div>
+				<div class="section-title" data-aos="fade-right">
+					<h2 class="uppercase">CleanSpace</h2>
+					<p>Company Overview</p>
+				</div>
 
+				<div class="row content" data-aos="fade-right">
+					<h2> OUR MISSION </h2>
 					<div class="col-md-3 col-sm-12 pt4">
 						<p> To improve the day-to-day lives of our customers. </p>
 					</div>
@@ -113,13 +119,9 @@
 						<p> To improve the day-to-day lives of our customers. </p>
 					</div>
 				</div>
-			</div>
-		</section>
 
-		<section class="about">
-			<div class="container" data-aos="zoom-out">
-				<div class="row content">
-					<div class="col-md-6 col-sm-12 pt-5"  style="border-left: 3px solid #0a9995; padding-left: 3%; padding-top: 25px;">
+				<div class="row content" data-aos="fade-right">
+					<div class="col-md-6 col-sm-12 pt-5 border-left">
 						<h3> Cleanspace is the definition of innovation and quality, combining world-class expertise with ongoing training and support</h3>
 					</div>
 
@@ -134,19 +136,59 @@
 			</div>
 		</section>
 
-		<section class="details bg-gray">
+		<section class="about">
 			<div class="container">
-				<div class="content" data-aos="fade-right">
-					<div>
-						<h4>DESIGNED AND MADE TO LAST</h4>
-						<p>
-							CleanSpace Technology’s design and manufacturing is ISO9001 accredited, assuring the highest level of quality and reliability standards. All CleanSpace Respirators are covered by a two-year limited warranty. CleanSpace Respirators are proudly made in Australia.
-						</p>
+				<div class="section-title" data-aos="fade-up">
+					<h2 class="uppercase">CleanSpace</h2>
+					<p>Our Story</p>
+				</div>
+				<div class="row content" data-aos="fade-up">
+					<h4> OUR VISION </h4>
+					<div class="col-md-6 col-sm-12 pt4">
+						<p> CleanSpace Technology was established in 2009 when a world class medical device engineering team saw a need to create a respirator that not only delivered the highest level of protection but was also comfortable and easy to use.</p>
+					</div>
+					<div class="col-md-6 col-sm-12 pt4">
+						<p> The respirator industry had not seen notable innovation in some 20 years, so when CleanSpace launched their first product a year later, it was seen as a game changer. CleanSpace Respirators are unique in that they provide all the protection of a conventional PAPR, but have no belts or hoses, do not create heat stress or fogging of eyewear, and are lightweight and simple to use.</p>
+					</div>
+				</div>
+
+				<div class="row content pt-5">
+					<div class="col-md-6 col-sm-12" data-aos="fade-right" style="background: top center no-repeat;background-size: cover; height 100%; background-image: url(assets/img/gallery/aboutus/our-story-04.jpg);">
+					</div>
+
+					<div class="col-md-6 col-sm-12" data-aos="fade-left">
+						<div class="content">
+							<img src="assets/img/gallery/aboutus/our-story-02-1200x800.jpg" style="width: 100%; padding-bottom: 10px;">
+							<div class="details"> 
+								<h4 class="title">INNOVATION FOR COMFORT</h4>
+								<p class="fst-italic">Today, CleanSpace respirators protect those on the frontline of industry and healthcare in some 45 countries.</p>
+								<p>Our training team offers a structured well-adopted programme that can be delivered efficiently and effectively. When you join the CleanSpace community you can rely on product, training and deployment support globally.</p>
+								<p>Our team is continuously innovating and responding to industry needs globally, and finding solutions to the everyday challenges and concerns of those working in potentially hazardous environments.</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+
+				<div class="row content pt-5">
+					<div class="col-md-6 col-sm-12" data-aos="fade-right">
+						<div class="content">
+							<img src="assets/img/gallery/aboutus/our-story-01-1200x800.jpg" style="width: 100%; padding-bottom: 10px;">
+							<div class="details"> 
+								<h4 class="title">CUSTOMERS</h4>
+								<p class="fst-italic">CleanSpace customers work in a variety of industries, but they all rely on respirators as an essential line of personal protection.</p>
+								<p>In the Industrial sector, CleanSpace respirators are used in a variety of industries including mining, welding, stonemasonry, firefighting, construction and wastewater, while in the healthcare industry, we are utilised by hospitals, aged care facilities, air rescue, laboratories, first responders and pharmaceuticals.</p>
+								<p>CleanSpace is the combination of a quality respirator product and an ongoing relationship of trust, training and support. We work hard to ensure our customers’ daily working needs are being met safely, comfortably and effectively.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-12" data-aos="fade-left" style="background: top center no-repeat;background-size: cover; height 100%; background-image: url(assets/img/gallery/aboutus/our-story-03.jpg);">
 					</div>
 				</div>
 			</div>
 		</section>
-	</div>
-	<!-- End About Section -->
+	</div><!-- End About Section -->
+	
 <?php require("assets/common/contact.php") ?>
 <?php require("assets/common/footer.php") ?>

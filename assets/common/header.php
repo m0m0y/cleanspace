@@ -29,6 +29,8 @@
     <!--==========================================================================
       FOR OTHER PAGES LINK
     ========================================================================== -->
+	<!-- Favicons -->
+	<link href="../assets/img/favicon.ico" rel="icon">
 
     <!-- Vendor CSS Files -->
     <link href="../assets/vendor/aos/aos.css" rel="stylesheet">

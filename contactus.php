@@ -118,19 +118,19 @@ require("assets/common/header.php");
             <div class="address">
               <i class="bi bi-geo-alt"></i>
               <h4>Location:</h4>
-              <p>A108 Adam Street, New York, NY 535022</p>
+              <p>Unit 5, 39 Herbert Street, St. Leonards NSW 2065 Australia</p>
             </div>
 
             <div class="email">
               <i class="bi bi-envelope"></i>
               <h4>Email:</h4>
-              <p>info@example.com</p>
+              <p>sales@cleanspacetechnology.com</p>
             </div>
 
             <div class="phone">
               <i class="bi bi-phone"></i>
               <h4>Call:</h4>
-              <p>+1 5589 55488 55s</p>
+              <p>+612 8436 4000</p>
             </div>
           </div>
         </div>
@@ -188,14 +188,14 @@ require("assets/common/header.php");
     <div class="container" data-aos="fade-left">
 
       <div class="content">
-        <div class="pt-4 icon-boxes" style="border-left: 3px solid #0a9995; padding-left: 3%;">
+        <div class="pt-4 icon-boxes border-left">
           <h3>CLEANSPACE RESPIRATOR TECHNOLOGY</p></h3>
 
           <div class="icon-box" data-aos-delay="100">
             <p class="description">Our vision was to create a respirator that was a true innovation in personal respiratory protection. Using a combination of world class skills with a desire to better protect and serve people on the frontline of industry and healthcare, our biomedical engineers created something that would change the way people used respirators. </br></br>
             CleanSpace respirators deliver all the protection of a Powered Air Purifying Respirator (PAPR), are comfortable to wear and easy to use. Through our proprietary technology, we have created the world’s smallest and smartest respirator
             </p>
-            <p><a class="uppercase" href="about_us.php">Learn More</a></p>
+            <p><a class="uppercase" href="about_us.php">Learn More About Us</a></p>
           </div>
 
         </div>

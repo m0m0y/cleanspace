@@ -7,16 +7,22 @@
 				<div class="col-lg-2 col-md-6 footer-links">
 					<h4>Useful Links</h4>
 					<ul>
-					<li><i class="bx bx-chevron-right"></i> <a href="index.php">Home</a></li>
-					<li><i class="bx bx-chevron-right"></i> <a href="about.php">About us</a></li>
-					<li><i class="bx bx-chevron-right"></i> <a href="warranty.php">Warranty</a></li>
-					<li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-					<li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+						<li><i class="bx bx-chevron-right"></i> <a href="index.php">Home</a></li>
+						<li><i class="bx bx-chevron-right"></i> <a href="about_us.php">About us</a></li>
+						<li><i class="bx bx-chevron-right"></i> <a href="warranty.php">Warranty</a></li>
+						<li><i class="bx bx-chevron-right"></i> <a href="terms_and_condition.php">Terms and Conditions</a></li>
+						<li><i class="bx bx-chevron-right"></i> <a href="privacy_policy.php">Privacy policy</a></li>
 					</ul>
 				</div>
 
 				<div class="col-lg-2 col-md-6 footer-links">
-	            
+					<h4>Products</h4>
+					<ul>
+						<li><i class="bx bx-chevron-right"></i> <a href="products/cleanspace-halo.php">CleanSpace HALO</a></li>
+						<li><i class="bx bx-chevron-right"></i> <a href="products/cleanspace-ex.php">CleanSpace EX</a></li>
+						<li><i class="bx bx-chevron-right"></i> <a href="products/cleanspace-ultra.php">CleanSpace ULTRA</a></li>
+						<li><i class="bx bx-chevron-right"></i> <a href="products/cleanspace2.php">CleanSpace2</a></li>
+					</ul>
 				</div>
 
 	           <div class="col-lg-8">
@@ -36,7 +42,22 @@
 			            </div>
 		            </div>
 		        </div>
-	        </div>
+
+				<div class="col-lg-12">
+					<div class="row shop-icon">
+						<div class="col-lg-2 col-sm-6 icon-container">
+							<p>Other Services:</p>
+							<img src="assets/img/lazada.png">
+							<img src="assets/img/shopee.png">
+						</div>
+						<div class="col-lg-2 col-sm-6 icon-container"> 
+							<p>Medical Shop:</p>
+							<img class="ppi" src="assets/img/ppi.ico">
+							<img class="tms" src="assets/img/tms.ico">
+						</div>
+					</div>					
+				</div>
+			</div>
 	      </div>
 	    </div>
 
