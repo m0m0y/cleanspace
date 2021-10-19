@@ -58,12 +58,12 @@
               <p class="description">Our vision was to create a respirator that was a true innovation in personal respiratory protection. Using a combination of world class skills with a desire to better protect and serve people on the frontline of industry and healthcare, our biomedical engineers created something that would change the way people used respirators. </br></br>
               CleanSpace respirators deliver all the protection of a Powered Air Purifying Respirator (PAPR), are comfortable to wear and easy to use. Through our proprietary technology, we have created the world’s smallest and smartest respirator
               </p>
-              <p><a class="uppercase" href="about_us.php">Learn More About Us</a></p>
+              <p><a class="uppercase btn btn-outline-primary" href="about_us.php">Learn More About Us</a></p>
             </div>
 
           </div>
         </div>
-
+      
       </div>
     </section><!-- End About Section -->
 
@@ -79,44 +79,43 @@
 			<div class="row" data-aos="fade-left">
 				<div class="col-lg-3">
 					<div class="content-box">
-						<img src="assets/img/products/cleanspace_halo.jpg">
-						<h4 class="uppercase">Cleanspace HALO</h4>
-						<small> The gold standard in Personal Respiratory Protection for workers in clinical settings. </small> </br></br>
-						<p> A powered air purifying respirator (PAPR) designed for high protection, comfort and cost effectiveness </p>
-						<p><a class="uppercase" href="products/cleanspace-halo.php">Learn More</a></p>
+						<img src="assets/img/products/head harness.png">
+						<h4 class="uppercase">CleanSpace® HALO Head Harness for Half Mask (Non Fabric)</h4> <br/>
+						<p> The CleanSpace HALO Head Harness is designed to be used with the CleanSpace HALO PAPR Power Units (CS3000). The Head Harness comes with every CleanSpace HALO PAPR system.<br/><br/>
+						<a class="uppercase btn btn-outline-primary" href="products/cleanspace_halo_head_harness.php">Learn More</a></p>
 					</div>
 				</div>
+				
 				<div class="col-lg-3">
 					<div class="content-box">
-						<img src="assets/img/products/cleanspace_ex.jpg">
-						<h4 class="uppercase">Cleanspace EX</h4>
-						<small> The gold standard in Personal Protection for people working in potentially explosive environments. CleanSpace EX is Intrinsically safe (ATEX) </small> </br></br>
-						<p> A powered air purifying respirator (PAPR) designed for high protection, comfort and cost effectiveness </p>
-						<p><a class="uppercase" href="products/cleanspace-ex.php">Learn More</a></p>
+						<img src="assets/img/products/power unit.png">
+						<h4 class="uppercase">CleanSpace® HALO Power Unit (Half Mask is Sold Separately)</h4>  <br/>
+						<p>CleanSpace® Halo is a Powered Air Purifying Respirator (PAPR) system that houses smart technology, designed by biomedical engineers in a revolutionary, compact system. <br/><br/>
+						<a class="uppercase btn btn-outline-primary" href="products/cleanspace_halo_power_unit.php">Learn More</a></p>
 					</div>
 				</div>
+
 				<div class="col-lg-3">
 					<div class="content-box">
-						<img src="assets/img/products/cleanspace_ultra.jpg">
-						<h4 class="uppercase">Cleanspace Ultra</h4>
-						<small>The gold standard in Personal Respiratory Protection for workers in environments requiring face/eye protection and water tolerance (IP Rated 66)</small> </br></br>
-						<p>A powered air purifying respirator (PAPR) designed for high protection, comfort and cost effectiveness</p>
-						<p><a class="uppercase" href="products/cleanspace-ultra.php">Learn More</a></p>
+						<img src="assets/img/products/CleanSpace2_Power_System.png">
+						<h4 class="uppercase">CleanSpace2 Power System</h4>  <br/>
+						<small class="fst-italic">* MASK is NOT included</small> </br>
+						<p> The CleanSpace2 Powered Respirator Unit is a battery-powered, positive pressure air-purifying/filtering respirator. This respirator is breathe responsive and is designed to provide comfortable respiratory protection<br/><br/>
+						<a class="uppercase btn btn-outline-primary" href="products/cleanspace2_power_system.php">Learn More</a></p>
 					</div>
 				</div>
+
 				<div class="col-lg-3">
 					<div class="content-box">
-						<img src="assets/img/products/cleanspace2.jpg">
-						<h4 class="uppercase">Cleanspace2</h4>
-						<small>The gold standard in Personal Respiratory Protection for workers in general industrial environments</small></br></br>
-						<p>A powered air purifying respirator (PAPR) designed for high protection, comfort and cost effectiveness.</p>
-						<p><a class="uppercase" href="products/cleanspace2.php">Learn More</a></p>
+						<img src="assets/img/products/cleanspace2_2.png">
+						<h4 class="uppercase">CleanSpace2 Half Mask</h4>  <br/>
+						<p>The CleanSpace Half Masks are specifically designed to work to complete the CleanSpace PAPR system. Compatible with all CleanSpace Respirators, the Half Masks clip quickly onto the power units and are easily unclipped for cleaning. <br/><br/>
+						<a class="uppercase btn btn-outline-primary" href="products/cleanspace2_half_mask.php">Learn More</a></p>
 					</div>
 				</div>
 			</div>
 		</div>
     </section><!-- End Features Section -->
-
 
 	<!-- ======= Testimonials Section ======= -->
 	<section id="testimonials" class="testimonials">
@@ -125,68 +124,68 @@
 				<div class="swiper-wrapper">
 
 					<div class="swiper-slide">
-					<div class="testimonial-item">
-						<img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-						<h3>Lorem Ipsum </h3>
-						<h4>Ceo &amp; Founder</h4>
-						<p>
-						<i class="bx bxs-quote-alt-left quote-icon-left"></i>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-						<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-						</p>
-					</div>
+						<div class="testimonial-item">
+							<img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+							<h3>Lorem Ipsum </h3>
+							<h4>Ceo &amp; Founder</h4>
+							<p>
+							<i class="bx bxs-quote-alt-left quote-icon-left"></i>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							<i class="bx bxs-quote-alt-right quote-icon-right"></i>
+							</p>
+						</div>
 					</div><!-- End testimonial item -->
 
 					<div class="swiper-slide">
-					<div class="testimonial-item">
-						<img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-						<h3>Lorem Ipsum </h3>
-						<h4>Designer</h4>
-						<p>
-						<i class="bx bxs-quote-alt-left quote-icon-left"></i>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-						<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-						</p>
-					</div>
+						<div class="testimonial-item">
+							<img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+							<h3>Lorem Ipsum </h3>
+							<h4>Designer</h4>
+							<p>
+							<i class="bx bxs-quote-alt-left quote-icon-left"></i>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							<i class="bx bxs-quote-alt-right quote-icon-right"></i>
+							</p>
+						</div>
 					</div><!-- End testimonial item -->
 
 					<div class="swiper-slide">
-					<div class="testimonial-item">
-						<img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-						<h3>Lorem Ipsum </h3>
-						<h4>Store Owner</h4>
-						<p>
-						<i class="bx bxs-quote-alt-left quote-icon-left"></i>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-						<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-						</p>
-					</div>
+						<div class="testimonial-item">
+							<img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+							<h3>Lorem Ipsum </h3>
+							<h4>Store Owner</h4>
+							<p>
+							<i class="bx bxs-quote-alt-left quote-icon-left"></i>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							<i class="bx bxs-quote-alt-right quote-icon-right"></i>
+							</p>
+						</div>
 					</div><!-- End testimonial item -->
 
 					<div class="swiper-slide">
-					<div class="testimonial-item">
-						<img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-						<h3>Lorem Ipsum</h3>
-						<h4>Freelancer</h4>
-						<p>
-						<i class="bx bxs-quote-alt-left quote-icon-left"></i>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-						<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-						</p>
-					</div>
+						<div class="testimonial-item">
+							<img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+							<h3>Lorem Ipsum</h3>
+							<h4>Freelancer</h4>
+							<p>
+							<i class="bx bxs-quote-alt-left quote-icon-left"></i>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							<i class="bx bxs-quote-alt-right quote-icon-right"></i>
+							</p>
+						</div>
 					</div><!-- End testimonial item -->
 
 					<div class="swiper-slide">
-					<div class="testimonial-item">
-						<img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-						<h3>Lorem Ipsum </h3>
-						<h4>Entrepreneur</h4>
-						<p>
-						<i class="bx bxs-quote-alt-left quote-icon-left"></i>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-						<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-						</p>
-					</div>
+						<div class="testimonial-item">
+							<img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+							<h3>Lorem Ipsum </h3>
+							<h4>Entrepreneur</h4>
+							<p>
+							<i class="bx bxs-quote-alt-left quote-icon-left"></i>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							<i class="bx bxs-quote-alt-right quote-icon-right"></i>
+							</p>
+						</div>
 					</div><!-- End testimonial item -->
 
 				</div>

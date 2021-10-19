@@ -31,6 +31,10 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 3px solid #1acc8d; 
   padding-left: 3%;
 }
+
+hr.solid {
+  border-top: 2px solid #b0abab9e;
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -401,7 +405,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-get-started:hover {
   background: #17b57d;
 }
-#hero .animated, #cleanspace-ex .animated, #cleanspace-halo .animated, #cleanspace-2 .animated, #cleanspace-ultra .animated, #warranty .animated {
+#hero .animated, #cleanspace-ex .animated, #cleanspace-halo .animated, #cleanspace-2 .animated, #cleanspace-ultra .animated, #warranty .animated, #product-hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
@@ -429,13 +433,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /*=============================================*/
 
-#cleanspace-ex {
+/* #cleanspace-ex {
   width: 100%;
   background: url("../img/hero/CleanSpace-EX-Banner-01.jpg") no-repeat;
   background-size: cover; 
   position: relative;
   padding: 15% 0px;
-}
+} */
 
 /*=============================================*/
 
@@ -459,14 +463,23 @@ h1, h2, h3, h4, h5, h6 {
 
 /*=============================================*/
 
-#cleanspace-ultra {
+/* #cleanspace-ultra {
   width: 100%;
   background: url("../img/hero/CleanSpace-ULTRA-Banner-01.jpg") no-repeat;
   background-size: cover; 
   position: relative;
   padding: 15% 0px;
-}
+} */
 
+/*=============================================*/
+
+#product-hero {
+  width: 100%;
+  background: url("../img/hero/CleanSpace-HALO-08.jpg") no-repeat;
+  background-size: cover; 
+  position: relative;
+  padding: 15% 0px;
+}
 
 
 /*=============================================*/
@@ -482,10 +495,11 @@ h1, h2, h3, h4, h5, h6 {
   } */
 }
 @media (max-width: 991px) {
-  #hero, #cleanspace-ex, #cleanspace-halo, #cleanspace-2, #cleanspace-ultra, #warranty {
+  #hero, #cleanspace-ex, #cleanspace-halo, #cleanspace-2, #cleanspace-ultra, #warranty, #product-hero {
     padding: 6% 0;
   }
-  #hero .animated, #cleanspace-ex .animated, #cleanspace-halo .animated, #cleanspace-2 .animated, #cleanspace-ultra .animated, #warranty .animated {
+  #hero .animated, #cleanspace-ex .animated, #cleanspace-halo .animated, #cleanspace-2 .animated, #cleanspace-ultra .animated, #warranty .animated, 
+  #product-hero .animated {
     -webkit-animation: none;
     animation: none;
   }
@@ -892,6 +906,7 @@ div.content-box img {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
+  background: url("../img/testimonials/pmc.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -903,7 +918,7 @@ div.content-box img {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgb(223 226 233);
+  background: rgb(255 255 255 / 60%);
 }
 .testimonials .section-header {
   margin-bottom: 40px;
@@ -1122,7 +1137,7 @@ div.content-box img {
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: #1acc8d;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -1285,8 +1300,21 @@ div.content-box img {
 }
 #footer .shop-icon img {
   width: 40px;
+  margin-right: 1%;
 }
-#footer .shop-icon .ppi, .tms {
+
+#footer .shop-icon .ppi, .tms, .inmed {
+  border-radius: 5px;
+}
+
+div.row .content{
+  margin-top: 40px;
+}
+
+div.row.shop-icon img {
+  width: 40px;
+}
+div.row .shop-icon .ppi, .tms {
   border-radius: 5px;
 }
 

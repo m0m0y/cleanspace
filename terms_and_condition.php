@@ -11,9 +11,10 @@
             <!-- Navbar -->
             <nav id="navbar" class="navbar">
                 <ul>
-                <li><a class="nav-link scrollto" href="#features">Product</a></li>
+                <li><a class="nav-link scrollto" href="index.php">Home</a></li>
+                <li><a class="nav-link scrollto" href="product.php">Product</a></li>
                 <li><a class="nav-link scrollto" href="about_us.php">About</a></li>
-                <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+                <li><a class="nav-link scrollto" href="warranty.php">Warranty</a></li>
                 <li><a class='nav-link scrollto' href="contactus.php">Contact Us</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -77,9 +78,9 @@
                     <p> 
                     PAFtec Australia Pty Ltd<br/>
                     (ABN 24 146 453 554)<br/>
-                    P | +612 8436 4000<br/>
-                    A | Ground Floor, 16-18 Carlotta St, Artarmon, NSW Australia<br/>
-                    E | sales@paftec.com<br/><br/>
+                    P | +63 (2) 8656 6888<br/>
+                    A | 200 C. Raymundo Avenue Caniogan, Pasig City 1606 Philippines.<br/>
+                    E | info@pmc.ph<br/>
 
                     <b>Last updated: April 15, 2016</b>
                     </p>

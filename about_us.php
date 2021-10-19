@@ -157,14 +157,12 @@
 					</div>
 
 					<div class="col-md-6 col-sm-12" data-aos="fade-left">
-						<div class="content">
-							<img src="assets/img/gallery/aboutus/our-story-02-1200x800.jpg" style="width: 100%; padding-bottom: 10px;">
-							<div class="details"> 
-								<h4 class="title">INNOVATION FOR COMFORT</h4>
-								<p class="fst-italic">Today, CleanSpace respirators protect those on the frontline of industry and healthcare in some 45 countries.</p>
-								<p>Our training team offers a structured well-adopted programme that can be delivered efficiently and effectively. When you join the CleanSpace community you can rely on product, training and deployment support globally.</p>
-								<p>Our team is continuously innovating and responding to industry needs globally, and finding solutions to the everyday challenges and concerns of those working in potentially hazardous environments.</p>
-							</div>
+						<img src="assets/img/gallery/aboutus/our-story-02-1200x800.jpg" style="width: 100%; padding-bottom: 10px;">
+						<div class="details"> 
+							<h4 class="title">INNOVATION FOR COMFORT</h4>
+							<p class="fst-italic">Today, CleanSpace respirators protect those on the frontline of industry and healthcare in some 45 countries.</p>
+							<p>Our training team offers a structured well-adopted programme that can be delivered efficiently and effectively. When you join the CleanSpace community you can rely on product, training and deployment support globally.</p>
+							<p>Our team is continuously innovating and responding to industry needs globally, and finding solutions to the everyday challenges and concerns of those working in potentially hazardous environments.</p>
 						</div>
 					</div>
 					
@@ -172,14 +170,12 @@
 
 				<div class="row content pt-5">
 					<div class="col-md-6 col-sm-12" data-aos="fade-right">
-						<div class="content">
-							<img src="assets/img/gallery/aboutus/our-story-01-1200x800.jpg" style="width: 100%; padding-bottom: 10px;">
-							<div class="details"> 
-								<h4 class="title">CUSTOMERS</h4>
-								<p class="fst-italic">CleanSpace customers work in a variety of industries, but they all rely on respirators as an essential line of personal protection.</p>
-								<p>In the Industrial sector, CleanSpace respirators are used in a variety of industries including mining, welding, stonemasonry, firefighting, construction and wastewater, while in the healthcare industry, we are utilised by hospitals, aged care facilities, air rescue, laboratories, first responders and pharmaceuticals.</p>
-								<p>CleanSpace is the combination of a quality respirator product and an ongoing relationship of trust, training and support. We work hard to ensure our customers’ daily working needs are being met safely, comfortably and effectively.</p>
-							</div>
+						<img src="assets/img/gallery/aboutus/our-story-01-1200x800.jpg" style="width: 100%; padding-bottom: 10px;">
+						<div class="details"> 
+							<h4 class="title">CUSTOMERS</h4>
+							<p class="fst-italic">CleanSpace customers work in a variety of industries, but they all rely on respirators as an essential line of personal protection.</p>
+							<p>In the Industrial sector, CleanSpace respirators are used in a variety of industries including mining, welding, stonemasonry, firefighting, construction and wastewater, while in the healthcare industry, we are utilised by hospitals, aged care facilities, air rescue, laboratories, first responders and pharmaceuticals.</p>
+							<p>CleanSpace is the combination of a quality respirator product and an ongoing relationship of trust, training and support. We work hard to ensure our customers’ daily working needs are being met safely, comfortably and effectively.</p>
 						</div>
 					</div>
 

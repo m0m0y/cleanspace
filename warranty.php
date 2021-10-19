@@ -10,9 +10,10 @@
             <!-- Navbar -->
             <nav id="navbar" class="navbar">
                 <ul>
-                <li><a class="nav-link scrollto" href="#features">Product</a></li>
+                <li><a class="nav-link scrollto" href="index.php">Home</a></li>
+                <li><a class="nav-link scrollto" href="product.php">Product</a></li>
                 <li><a class="nav-link scrollto" href="about_us.php">About</a></li>
-                <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+                <li><a class="nav-link scrollto" href="#active">Warranty</a></li>
                 <li><a class='nav-link scrollto' href="contactus.php">Contact Us</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -37,7 +38,7 @@
 	</section><!-- End Hero Section -->
 
     <!-- ======= Details Section ======= -->
-    <section id="details" class="details">
+    <section id="active" class="details">
         <div class="container">
 
             <div class="content" data-aos="fade-right">
@@ -64,9 +65,9 @@
                     <p> 
                     CleanSpace Technology Pty Ltd<br/>
                     (ABN 24 146 453 554)<br/>
-                    P | +612 8436 4000<br/>
-                    A | Unit 5, 39 Herbert St, St. Leonards NSW Australia<br/>
-                    E | sales@cleanspacetechnology.com<br/>
+                    P | +63 (2) 8656 6888<br/>
+                    A | 200 C. Raymundo Avenue Caniogan, Pasig City 1606 Philippines.<br/>
+                    E | info@pmc.ph<br/>
                     </p>
                 </div>
             </div>

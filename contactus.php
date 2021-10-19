@@ -20,7 +20,10 @@ $rand = getRand($moy);
 /////////////////////////////////////////////////////////////
 //                      EMAIL FUNCTION
 ////////////////////////////////////////////////////////////
+require_once("controller/phpmail/Exception.php");
 require_once("controller/phpmail/PHPMailerAutoload.php");
+require_once("controller/phpmail/SMTP.php");
+require_once("controller/phpmail/PHPMailer.php");
 
 $error_msg = "";
 $success_msg = "";
@@ -36,12 +39,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $subject = $_POST['subject'];
   $message = $_POST['message'];
   $captcha = $_POST['captcha'];
-  $qwe = $_POST['qwe'];
+  $captcha_validate = $_POST['captcha_validate'];
 
   if ($email != $confirm_email) {
     $email_verify = "Please double check your email address!";
   } 
-  elseif ($captcha != $qwe) {
+  elseif ($captcha != $captcha_validate) {
     $captcha_alert = "Invalid Captcha";
   }
   else {
@@ -56,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail->Password = "123Pascual123";
     $mail->setFrom('cpascual107@gmail.com', 'no-reply');
     $mail->addReplyTo($email, $name);
-    $mail->addAddress('cpascual107@gmail.com', 'Christian');
+    $mail->addAddress('itchaaanp@gmail.com', 'PMC');
     $mail->Subject = $subject;
     $mail->Body = '
     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -118,19 +121,19 @@ require("assets/common/header.php");
             <div class="address">
               <i class="bi bi-geo-alt"></i>
               <h4>Location:</h4>
-              <p>Unit 5, 39 Herbert Street, St. Leonards NSW 2065 Australia</p>
+              <p>200 C. Raymundo Avenue Caniogan, Pasig City 1606 Philippines.</p>
             </div>
 
             <div class="email">
               <i class="bi bi-envelope"></i>
               <h4>Email:</h4>
-              <p>sales@cleanspacetechnology.com</p>
+              <p>info@cleanspace.ph</p>
             </div>
 
             <div class="phone">
               <i class="bi bi-phone"></i>
               <h4>Call:</h4>
-              <p>+612 8436 4000</p>
+              <p>+63 (2) 8656 6888</p>
             </div>
           </div>
         </div>
@@ -164,7 +167,7 @@ require("assets/common/header.php");
 
             <div class="form-group mt-3">
               <?php echo "Please type <b>".$rand."</b> in the field:"; ?>
-              <input type="hidden" class="form-control" name="qwe" id="subject" value="<?php echo $rand; ?>" readonly>
+              <input type="hidden" class="form-control" name="captcha_validate" id="subject" value="<?php echo $rand; ?>" readonly>
               <input type="text" class="form-control" name="captcha" id="subject" placeholder="Captcha">
               <span class="error"><?php echo $captcha_alert; ?></span>
             </div>
@@ -195,7 +198,7 @@ require("assets/common/header.php");
             <p class="description">Our vision was to create a respirator that was a true innovation in personal respiratory protection. Using a combination of world class skills with a desire to better protect and serve people on the frontline of industry and healthcare, our biomedical engineers created something that would change the way people used respirators. </br></br>
             CleanSpace respirators deliver all the protection of a Powered Air Purifying Respirator (PAPR), are comfortable to wear and easy to use. Through our proprietary technology, we have created the world’s smallest and smartest respirator
             </p>
-            <p><a class="uppercase" href="about_us.php">Learn More About Us</a></p>
+            <p><a class="uppercase btn btn-outline-primary" href="about_us.php">Learn More About Us</a></p>
           </div>
 
         </div>

@@ -18,10 +18,10 @@
 				<div class="col-lg-2 col-md-6 footer-links">
 					<h4>Products</h4>
 					<ul>
-						<li><i class="bx bx-chevron-right"></i> <a href="products/cleanspace-halo.php">CleanSpace HALO</a></li>
-						<li><i class="bx bx-chevron-right"></i> <a href="products/cleanspace-ex.php">CleanSpace EX</a></li>
-						<li><i class="bx bx-chevron-right"></i> <a href="products/cleanspace-ultra.php">CleanSpace ULTRA</a></li>
-						<li><i class="bx bx-chevron-right"></i> <a href="products/cleanspace2.php">CleanSpace2</a></li>
+					<li><i class="bx bx-chevron-right"></i> <a href="products/cleanspace_halo_head_harness.php">CleanSpace® HALO Head Hardness for Half Mask</a></li>
+						<li><i class="bx bx-chevron-right"></i> <a href="products/cleanspace_halo_power_unit.php">CleanSpace® Power Unit</a></li>
+						<li><i class="bx bx-chevron-right"></i> <a href="products/cleanspace2_power_system.php">CleanSpace2 Power System</a></li>
+						<li><i class="bx bx-chevron-right"></i> <a href="products/cleanspace2_half_mask.php">CleanSpace2 Half Mask</a></li>
 					</ul>
 				</div>
 
@@ -29,31 +29,48 @@
 		            <div class="footer-info">
 		              <h3>CleanSpace</h3>
 		              <p>
-		                Unit 5, 39 Herbert Street, St. Leonards NSW 2065 Australia<br>
-		                <strong>Phone:</strong> +612 8436 4000<br>
-		                <strong>Email:</strong> sales@cleanspacetechnology.com<br>
+		              	200 C. Raymundo Avenue Caniogan, Pasig City 1606 Philippines.<br>
+		                <strong>Phone:</strong> +63 (2) 8656 6888<br>
+		                <strong>Email:</strong> info@cleanspace.ph<br>
 		              </p>
 
 			        	<div class="social-links">
-			                <a href="https://www.facebook.com/CleanSpaceTechnology/" class="facebook"><i class="bx bxl-facebook"></i></a>
-			                <a href="https://www.instagram.com/cleanspacetechnology/" class="instagram"><i class="bx bxl-instagram"></i></a>
-			                <a href="https://www.youtube.com/channel/UCnHMKJHnZLrt95VcacugbQg" class="google-plus"><i class="bx bxl-youtube"></i></a>
-			                <a href="https://www.linkedin.com/company/cleanspace-technology/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+			                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+			                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+			                <a href="#" class="google-plus"><i class="bx bxl-youtube"></i></a>
+			                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
 			            </div>
 		            </div>
 		        </div>
 
 				<div class="col-lg-12">
 					<div class="row shop-icon">
-						<div class="col-lg-2 col-sm-6 icon-container">
+						<!-- <div class="col-lg-2 col-sm-6 icon-container">
 							<p>Other Services:</p>
 							<img src="assets/img/lazada.png">
 							<img src="assets/img/shopee.png">
-						</div>
-						<div class="col-lg-2 col-sm-6 icon-container"> 
-							<p>Medical Shop:</p>
-							<img class="ppi" src="assets/img/ppi.ico">
-							<img class="tms" src="assets/img/tms.ico">
+						</div> -->
+						<div class="col-lg-6 col-sm-12 icon-container"> 
+							<p>Available in any of the following official distributors:</p>
+							<a href="https://medicalshop.ph/index.php?route=product/search&search=cleanspace" target="_blank" title="medicalshop.ph"> 
+								<img class="tms" src="assets/img/tms.png">
+							</a>
+							
+							<a href="https://panamed.com.ph/shop/index.php?route=product/search&search=CleanSpace" target="_blank" title="panamed.com.ph"> 
+								<img class="ppi" src="assets/img/ppi.png">
+							</a>
+
+							<a href="https://shopee.ph/search?keyword=cleanspace%C2%AE&shop=385019392" target="_blank" title="shopee.ph">
+								<img src="assets/img/shopee.png">
+							</a>
+
+							<a href="https://inmed.com.ph/direct/index.php?route=product/search&search=cleanspace" target="_blank" title="inmed.com.ph"> 
+								<img class="inmed" src="assets/img/icon.ico">
+							</a>
+
+							<a href="https://www.lazada.com.ph/inmed-corporation-official/?q=cleanspace&langFlag=en&from=wangpu&lang=en&pageTypeId=2&spm=a2o4l.10450891.searchbar.0" target="_blank" title="lazada.com.ph">
+								<img src="assets/img/lazada.png"> 
+							</a>
 						</div>
 					</div>					
 				</div>

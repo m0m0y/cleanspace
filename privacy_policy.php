@@ -11,9 +11,10 @@
             <!-- Navbar -->
             <nav id="navbar" class="navbar">
                 <ul>
-                <li><a class="nav-link scrollto" href="#features">Product</a></li>
+                <li><a class="nav-link scrollto" href="index.php">Home</a></li>
+                <li><a class="nav-link scrollto" href="product.php">Product</a></li>
                 <li><a class="nav-link scrollto" href="about_us.php">About</a></li>
-                <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+                <li><a class="nav-link scrollto" href="warranty.php">Warranty</a></li>
                 <li><a class='nav-link scrollto' href="contactus.php">Contact Us</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -121,11 +122,11 @@
                 <p> CleanSpace welcomes your comments regarding this Privacy Policy. If you have any questions about this Privacy Policy and would like further information, please contact us by any of the following means during business hours Monday to Friday.</p>
 
                 <p> 
-                CleanSpace Technology <br>/>
+                    CleanSpace Technology <br>
                     (ABN 24 146 453 554)<br/>
-                    P | +612 8436 4000<br/>
-                    A | Ground Floor, 16-18 Carlotta St, Artarmon, NSW Australia<br/>
-                    E | sales@cleanspacetechnology.com<br/><br/>
+                    P | +63 (2) 8656 6888<br/>
+                    A | 200 C. Raymundo Avenue Caniogan, Pasig City 1606 Philippines.<br/>
+                    E | info@pmc.ph<br/>
                 </p>
 
                 <p><b>Changes to Our Privacy Policy</b></p>
