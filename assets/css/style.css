@@ -2,8 +2,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
+  font-family: "Myriad Bengali", sans-serif;
+  color: #565656;
 }
 
 a {
@@ -17,8 +17,9 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Myriad Bengali", sans-serif;
 }
+
 .bg-gray {
   background-color: #eaeaea;
 }
@@ -35,6 +36,14 @@ h1, h2, h3, h4, h5, h6 {
 hr.solid {
   border-top: 2px solid #b0abab9e;
 }
+
+/* #fixedbutton {
+  position: fixed;
+  bottom: 0px;
+  right: 1%; 
+  bottom: 20px;
+} */
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -149,7 +158,7 @@ hr.solid {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -380,9 +389,10 @@ hr.solid {
   font-weight: 700;
   line-height: 56px;
   color: rgb(19 19 19 / 80%);
+  font-family: Arial, Helvetica, sans-serif;
 }
 .hero_text h1 span {
-  color: black;
+  color: #282828;
   border-bottom: 4px solid #1acc8d;
 }
 #hero h2 {
@@ -425,7 +435,7 @@ hr.solid {
 
 #warranty {
   width: 100%;
-  background: url("../img/hero/CleanSpace-ULTRA-Banner-02.jpg") no-repeat;
+  background: url("../img/hero/image_2021_10_18T02_43_29_331Z.png") no-repeat;
   background-size: cover; 
   position: relative;
   padding: 15% 0px;
@@ -537,7 +547,7 @@ hr.solid {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 45px 0;
+  padding: 115px 0;
   overflow: hidden;
 }
 
@@ -557,7 +567,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: "Myriad Hebrew", sans-serif;
 }
 .section-title h2::after {
   content: "";
@@ -573,8 +583,8 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #171717;
+  font-family: "Myriad Hebrew", sans-serif;
+  color: #565656;
 }
 
 /*--------------------------------------------------------------
@@ -639,7 +649,7 @@ section {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #171717;
+  color: #565656;
   margin-bottom: 15px;
 }
 .about .icon-box .icon {
@@ -677,12 +687,12 @@ section {
 }
 .about .icon-box .description {
   line-height: 24px;
-  color: black;
+  color: #565656;
 }
-.about .video-box {
-  background: url("../img/about.png") center center no-repeat;
+.about .about-bg-img {
+  background: url("../img/gallery/aboutus/our-story-03.jpg") center center no-repeat;
   background-size: contain;
-  min-height: 300px;
+  min-height: auto;
 }
 /*
 .about .play-btn {
@@ -782,9 +792,7 @@ div.content-box img {
   width: 100%;
   padding-bottom: 15px;
 }
-.uppercase {
-  text-transform: uppercase;
-}
+
 /*.features .icon-box {
   display: flex;
   align-items: center;
@@ -855,7 +863,7 @@ div.content-box img {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Myriad Hebrew", sans-serif;
   font-size: 14px;
 }
 
@@ -868,7 +876,7 @@ div.content-box img {
 .details .content h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #171717;
+  color: #565656;
 }
 .details .content ul {
   list-style: none;
@@ -906,9 +914,10 @@ div.content-box img {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials/pmc.jpg") no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background: url("../img/testimonials/cleanspace_halo.jpg") no-repeat;
+  /* background-position: center center; */
+  /* background-size: cover; */
+  background-position: right;
   position: relative;
 }
 .testimonials::before {
@@ -1068,7 +1077,7 @@ div.content-box img {
 }
 .contact .info i {
   font-size: 20px;
-  color: #000000;
+  color: #565656;
   float: left;
   width: 44px;
   height: 44px;
@@ -1084,13 +1093,13 @@ div.content-box img {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #000000;
+  color: #565656;
 }
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #000000;
+  color: #565656;
 }
 .contact .info .email, .contact .info .phone {
   margin-top: 40px;
@@ -1120,11 +1129,36 @@ div.content-box img {
 /*--------------------------------------------------------------
 # slideshow
 --------------------------------------------------------------*/
+.slide {display: none}
+
 .mySlides {display: none}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.owl-carousel .item {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; font-size:70px; color:#fff;
+  cursor: grab;
+}
+
+
+/* Variant slideshow container */
+.variant-slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* CleanSpace smart app slide container */
+.cleanspace-smart-app-slideshow {
+  max-width: 900px;
   position: relative;
   margin: auto;
 }
@@ -1174,9 +1208,9 @@ div.content-box img {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #90a0b0;
+  background: #101010;
   padding: 0 0 30px 0;
-  color: #f8f8f8;
+  color: #ffffffb8;
   font-size: 14px;
 }
 #footer .footer-top {
@@ -1184,8 +1218,7 @@ div.content-box img {
 }
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #90a0b0;
-  color: #f8f8f8;
+  color: #ffffffb8;
   text-align: center;
   padding: 30px 20px;
 }
@@ -1200,14 +1233,14 @@ div.content-box img {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Myriad Hebrew", sans-serif;
 }
 #footer .footer-top .social-links a {
   font-size: 30px;
   display: inline-block;
-  color: #fff;
+  color: #ffffffb8;
   line-height: 1;
-  padding: 8px 0;
+  padding: 3px 0;
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
@@ -1217,13 +1250,13 @@ div.content-box img {
 }
 #footer .footer-top .social-links a:hover {
   background: #1acc8d;
-  color: #fff;
+  color: #ffffffb8;
   text-decoration: none;
 }
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: #00A66C;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1250,13 +1283,13 @@ div.content-box img {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: #fff;
+  color: #ffffffb8;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 #footer .footer-top .footer-links ul a:hover {
-  color: black;
+  color: #1bfaacb0;
 }
 /*#footer .footer-top .footer-newsletter form {
   margin-top: 30px;
@@ -1288,7 +1321,7 @@ div.content-box img {
   background: #149f6e;
 }*/
 #footer .copyright {
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid #ffffffb8;
   text-align: center;
   padding-top: 30px;
 }
@@ -1296,7 +1329,7 @@ div.content-box img {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
-  color: #fff;
+  color: #ffffffb8;
 }
 #footer .shop-icon img {
   width: 40px;
@@ -1318,6 +1351,11 @@ div.row .shop-icon .ppi, .tms {
   border-radius: 5px;
 }
 
+.footer-logo1 {
+  width: 20%; 
+  margin-bottom: 7px;
+}
+
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
@@ -1332,7 +1370,60 @@ div.row .shop-icon .ppi, .tms {
     padding: 5px 8%;
   }
 }
+/* ========================================== */
+/* Warranty */
+/* ========================================== */
+.warranty-registration-form {
+  margin: 0px 12%;
+}
 
+/* ========================================== */
+/* Star ratings */
+/* ========================================== */
+.container .star-widget .star-rating{
+  display: none;
+}
+.star-widget label{
+  font-size: 25px;
+  color: #444;
+  padding: 10px;
+  float: right;
+  transition: all 0.2s ease;
+}
+.star-rating:not(:checked) ~ label:hover,
+.star-rating:not(:checked) ~ label:hover ~ label{
+  color: #0066ffc0;
+}
+.star-rating:checked ~ label{
+  color: #0d6efda8;
+}
+.star-rating#rate-5:checked ~ label{
+  color: #0d6efda8;
+  text-shadow: 0 0 20px rgba(62, 95, 177, 0.472);
+}
+
+
+/* ========================================== */
+/* Product page */
+/* ========================================== */
+.product-title {
+  font-size: 20px;
+  margin: 1px;
+}
+
+.product-sub-title {
+  font-size: 19px;
+  margin: 1px;
+}
+
+.desc {
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.sub-desc {
+  font-size: 14px;
+}
 
 /* ========================================== */
 /* Custom media query */

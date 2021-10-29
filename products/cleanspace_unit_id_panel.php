@@ -1,4 +1,7 @@
 <?php require("../assets/common/header.php"); ?>
+	<link rel="stylesheet" href="https://cdn.boomcdn.com/libs/owl-carousel/2.3.4/assets/owl.carousel.min.css">
+	<script src="https://cdn.boomcdn.com/libs/owl-carousel/2.3.4/owl.carousel.js"></script>
+	<script src="https://cdn.boomcdn.com/libs/owl-carousel/2.3.4/owl.carousel.min.js"></script>
 
 	<!-- ======= Header Section ======= -->
 	<header id="header" class="fixed-top d-flex align-items-center header-transparent">
@@ -15,7 +18,7 @@
 	      <div class="row justify-content-between">
 	        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center animated">
 	        	<div data-aos="zoom-out" class="hero_text">
-		            <h1 class="uppercase"><span>CleanSpace® HALO</span> Unit ID Panel (Comes in pair)</h1>
+		            <h1 class=""><span>CleanSpace®</span> HALO Unit ID Panel (Comes in pair)</h1>
 	            </div>
 	        </div>
 	      </div>
@@ -30,18 +33,19 @@
 					
 					<div class="col-md-5 pt-4" data-aos="fade-right">
 						<div class="content-box">
-							<div class="slideshow-container">
+							<img src="../assets/img/products/CleanSpace Halo Unit ID Panel First Photo.png" style="width:100%">
+							<!-- <div class="slideshow-container"> -->
 
-								<div class="mySlides">
+								<!-- <div class="mySlides">
 								    <img src="../assets/img/products/CleanSpace Halo Unit ID Panel First Photo.png" style="width:100%">
-								</div>
+								</div> -->
 
-                                <div class="mySlides">
-								    <img src="../assets/img/products/No Dark Edges Blue-1000x1000.png" style="width:100%">
-								</div>
+                              <!--   <div class="mySlides">
+								    <img src="../assets/img/products/Panel with engraving 1.png" style="width:100%">
+								</div> -->
 
-                                <div class="mySlides">
-								    <img src="../assets/img/products/No Dark Edges Dark Pink-1000x1000.png" style="width:100%">
+                                <!-- <div class="mySlides">
+								    <img src="../assets/img/products/image1.png" style="width:100%">
 								</div>
 
                                 <div class="mySlides">
@@ -58,12 +62,11 @@
 
                                 <div class="mySlides">
 								    <img src="../assets/img/products/No Dark Edges Yellow-1000x1000.png" style="width:100%">
-								</div>
+								</div> -->
 
-								<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-								<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-							</div>
+								<!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+								<a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+							<!-- </div> -->
 						</div>
 					</div>
 
@@ -86,7 +89,79 @@
                             <li>Cleaning: Wipe with CleanSpace Cleaning Wipes or a damp cloth. Allow to dry before reusing.</li>
 						</ul>
 
-                        <div class="row content shop-icon">
+
+						<div class="product-variant pt-4">
+							<!-- <h6 class="title">Customize your CleanSpace Halo ID Panel for Personal Touch:</h6> -->
+							<!-- <div class="row">	
+								<div class="col-md-6 col-xl-6 col-sm-12">
+									<div class="owl-carousel owl-theme">
+										<div class="item">
+											<img class="" src="../assets/img/products/Panel with engraving 1.png" style="width:100%">
+										</div>
+										<div class="item">
+											<img class="" src="../assets/img/products/Panel with engraving 2.png" style="width:100%">
+										</div>
+										<div class="item">
+											<img class="" src="../assets/img/products/Panel with engraving 3.png" style="width:100%">
+										</div>
+										<div class="item">
+											<img class="" src="../assets/img/products/Panel with engraving 4.png" style="width:100%">
+										</div>
+										<div class="item">
+											<img class="" src="../assets/img/products/Panel with engraving 5.png" style="width:100%">
+										</div>
+										<div class="item">
+											<img class="" src="../assets/img/products/Panel with engraving 6.png" style="width:100%">
+										</div>
+										<div class="item">
+											<img class="" src="../assets/img/products/Panel with engraving 7.png" style="width:100%">
+										</div>
+										<div class="item">
+											<img class="" src="../assets/img/products/Panel with engraving 8.png" style="width:100%">
+										</div>
+									</div> 
+								</div>
+
+								<div class="col-md-6 col-xl-6 col-sm-12">
+									<h6 class="title pt-5">Customize your CleanSpace HALO ID Panel for Personal Touch</h6>
+								</div>
+							</div> -->
+
+							<div class="col-md-12">
+								<center><h5 class="title">Customize your CleanSpace HALO ID Panel for Personal Touch</h5></center>
+
+								<div class="owl-carousel owl-theme">
+									<div class="item">
+										<img class="" src="../assets/img/products/Panel with engraving 1.png" style="width:65%">
+									</div>
+									<div class="item">
+										<img class="" src="../assets/img/products/Panel with engraving 2.png" style="width:65%">
+									</div>
+									<div class="item">
+										<img class="" src="../assets/img/products/Panel with engraving 3.png" style="width:65%">
+									</div>
+									<div class="item">
+										<img class="" src="../assets/img/products/Panel with engraving 4.png" style="width:65%">
+									</div>
+									<div class="item">
+										<img class="" src="../assets/img/products/Panel with engraving 5.png" style="width:65%">
+									</div>
+									<div class="item">
+										<img class="" src="../assets/img/products/Panel with engraving 6.png" style="width:65%">
+									</div>
+									<div class="item">
+										<img class="" src="../assets/img/products/Panel with engraving 7.png" style="width:65%">
+									</div>
+									<div class="item">
+										<img class="" src="../assets/img/products/Panel with engraving 8.png" style="width:65%">
+									</div>
+								</div> 
+								
+							</div>
+							
+						</div>
+
+                        <div class="row m-3 shop-icon">
 							<h6 class="title">BUY US:</h6>
 							<div class="col-lg-3 col-sm-6"> 
 								<p class="title">Official Website:</p> 
@@ -95,6 +170,9 @@
                                 </a>
                                 <a href="https://panamed.com.ph/shop/index.php?route=product/product&product_id=685&search=CleanSpace" target="_blank"> 
                                     <img class="ppi" src="../assets/img/ppi.png">
+                                </a>
+								<a href="https://inmed.com.ph/direct/index.php?route=product/product&product_id=263&search=cleanspace" target="_blank"> 
+									<img class="inmed" src="../assets/img/inmed.png">
                                 </a>
 							</div>
                             
@@ -113,6 +191,10 @@
 			</div>
 		</section><!-- End Features Section -->
 
+		<div class="container">
+			<hr class="solid"></hr>
+		</div>
+
         <!-- ======= Details Section ======= -->
 		<section class="details">
 			<div class="container">
@@ -130,5 +212,23 @@
 			</div>
 		</section><!-- End Details Section -->
 	</div>
+
+<script>
+$(document).ready(function() {
+	$('.owl-carousel').owlCarousel({
+		loop:true,
+		margin:10,
+		autoplay:3000,
+		nav:true,
+		navText:['<a class="prev">&#10094;</a>', '<a class="next">&#10095;</a>'],
+		lazyLoad : true,
+		responsive:{
+			0:{
+				items:1
+			}
+		}
+	});
+});
+</script>
 <?php require("../comingsoon/assets/common/contact.php"); ?>
 <?php require("../comingsoon/assets/common/footer.php"); ?>

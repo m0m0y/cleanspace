@@ -13,7 +13,7 @@
 	      <div class="row justify-content-between">
 	        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center animated">
 	        	<div data-aos="zoom-out" class="hero_text">
-		            <h1><span>CLEANSPACE® HALO</span> HALF MASK</h1>
+		            <h1 class=""><span>CleanSpace®</span> HALO Half Mask (Half mask is sold seperately)</h1>
 	            </div>
 	        </div>
 	      </div>
@@ -55,22 +55,35 @@
 							<li>Proudly Made in Australia</li>
 						</ul>
 
+						<br/>
+
+						<a class="uppercase btn btn-outline-primary" href="pdf/#">Size Guide</a></p>
+
 						<div class="row content shop-icon">
 							<h6 class="title">BUY US:</h6>
 							<div class="col-lg-3 col-sm-6"> 
 								<p class="title">Official Website:</p> 
+
 								<a href="https://medicalshop.ph/index.php?route=product/product&product_id=798&search=cleanspace" target="_blank"> 
 									<img class="tms" src="../assets/img/tms.png">
 								</a>
+
 								<a href="https://panamed.com.ph/shop/index.php?route=product/product&product_id=671&search=CleanSpace" target="_blank"> 
 									<img class="ppi" src="../assets/img/ppi.png">
 								</a>
+
+								<a href="https://inmed.com.ph/direct/index.php?route=product/product&product_id=249&search=cleanspace" target="_blank"> 
+									<img class="inmed" src="../assets/img/inmed.png">
+								</a>
+
 							</div>
 							<div class="col-lg-3 col-sm-6"> 
 								<p class="title">Other Platform:</p>
+
 								<a href="https://shopee.ph/CleanSpace-HALO-Half-Mask-(Available-in-Small-Medium-and-Large)-i.385019392.7294568970?sp_atk=bf9a0f6b-6532-44eb-998d-ea9f2055f349" target="_blank">
 									<img src="../assets/img/shopee.png">
 								</a>
+
 								<a href="https://www.lazada.com.ph/products/cleanspace-s3-half-mask-i2160641604-s9651421282.html?spm=a2o4l.searchlist.list.13.50e32a405FBQLO&search=1" target="_blank">
 									<img src="../assets/img/lazada.png"> 
 								</a>
@@ -80,6 +93,10 @@
 				</div>
 			</div>
 		</section><!-- End Features Section -->
+
+		<div class="container">
+			<hr class="solid"></hr>
+		</div>
 
 		<!-- ======= Details Section ======= -->
 		<section class="details">

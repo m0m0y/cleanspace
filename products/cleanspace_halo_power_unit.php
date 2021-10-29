@@ -15,7 +15,7 @@
 	      <div class="row justify-content-between">
 	        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center animated">
 	        	<div data-aos="zoom-out" class="hero_text">
-		            <h1 class="uppercase"><span>CLEANSPACE® HALO</span> POWER UNIT (HALF MASK IS SOLD SEPARATELY)</h1>
+		            <h1 class=""><span>CleanSpace®</span> HALO Power Unit (Half mask is sold seperately)</h1>
 	            </div>
 	        </div>
 	      </div>
@@ -46,7 +46,6 @@
 
 								<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 								<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
 							</div>
 						</div>
 					</div>
@@ -92,9 +91,21 @@
 							</div>
 						</div>	
 					</div>
+
+					<div class="col-lg-12"> 
+						<div class="content-box pt-5"> 
+							<center>
+								<iframe width="950" height="400" src="https://www.youtube.com/embed/A1CvvVK4Fco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+							</center>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section><!-- End Features Section -->
+
+		<div class="container">
+			<hr class="solid"></hr>
+		</div>
 
 		<!-- ======= Details Section ======= -->
 		<section class="details">

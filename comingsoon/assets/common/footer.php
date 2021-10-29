@@ -27,7 +27,7 @@
 
 	           <div class="col-lg-8">
 		            <div class="footer-info">
-		              <h3>CleanSpace</h3>
+		              <img class="footer-logo1"  src="../assets/img/logo1.png">
 		              <p>
 					  	200 C. Raymundo Avenue Caniogan, Pasig City 1606 Philippines.<br>
 		                <strong>Phone:</strong> +63 (2) 8656 6888<br>
@@ -55,22 +55,24 @@
 								<img class="ppi" src="../assets/img/ppi.png">
 							</a>
 
-							<a href="https://shopee.ph/search?keyword=cleanspace%C2%AE&shop=385019392" target="_blank" title="shopee.ph">
-								<img src="../assets/img/shopee.png">
+							<a href="https://inmed.com.ph/direct/index.php?route=product/search&search=cleanspace" target="_blank" title="inmed.com.ph"> 
+								<img class="inmed" src="../assets/img/inmed.png">
 							</a>
 
-							<a href="https://inmed.com.ph/direct/index.php?route=product/search&search=cleanspace" target="_blank" title="inmed.com.ph"> 
-								<img class="inmed" src="../assets/img/icon.ico">
+							<a href="https://shopee.ph/search?keyword=cleanspace%C2%AE&shop=385019392" target="_blank" title="shopee.ph">
+								<img src="../assets/img/shopee.png">
 							</a>
 
 							<a href="https://www.lazada.com.ph/inmed-corporation-official/?q=cleanspace&langFlag=en&from=wangpu&lang=en&pageTypeId=2&spm=a2o4l.10450891.searchbar.0" target="_blank" title="lazada.com.ph">
 								<img src="../assets/img/lazada.png"> 
 							</a>
+
 						</div>
-					</div>					
+					</div>
 				</div>
 
 	        </div>
+			<div class="mt-3"> Credits to CleanSpace Technology Australia. </div>
 	      </div>
 	    </div>
 

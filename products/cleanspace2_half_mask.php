@@ -15,7 +15,7 @@
 	      <div class="row justify-content-between">
 	        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center animated">
 	        	<div data-aos="zoom-out" class="hero_text">
-		            <h1 class="uppercase"><span>CleanSpace2</span> Half Mask</h1>
+		            <h1 class=""><span>CleanSpace2</span> Half Mask (Available in different sizes)</h1>
 	            </div>
 	        </div>
 	      </div>
@@ -33,7 +33,7 @@
 							<div class="slideshow-container">
 
 								<div class="mySlides">
-								    <img src="../assets/img/products/cleanspace2_2.png" style="width:100%">
+								    <img src="../assets/img/products/half mask1.png" style="width:100%">
 								</div>
 
                                 <div class="mySlides">
@@ -78,6 +78,10 @@
 				</div>
 			</div>
 		</section><!-- End Features Section -->
+
+		<div class="container">
+			<hr class="solid"></hr>
+		</div>
 
         <!-- ======= Details Section ======= -->
 		<section class="details">

@@ -15,7 +15,7 @@
 	      <div class="row justify-content-between">
 	        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center animated">
 	        	<div data-aos="zoom-out" class="hero_text">
-		            <h1 class="uppercase"><span>CleanSpace® HALO</span> Cleaning and Storage Plug</h1>
+		            <h1 class=""><span>CleanSpace®</span> HALO Cleaning and Storage Plug</h1>
 	            </div>
 	        </div>
 	      </div>
@@ -38,10 +38,6 @@
 
                                 <div class="mySlides">
 								    <img src="../assets/img/products/new1-1000x1000.jpg" style="width:100%">
-								</div>
-
-                                <div class="mySlides">
-								    <img src="../assets/img/products/new2-1000x1000.jpg" style="width:100%">
 								</div>
 
                                 <div class="mySlides">
@@ -84,6 +80,9 @@
                                 <a href="https://panamed.com.ph/shop/index.php?route=product/product&product_id=668&search=CleanSpace" target="_blank"> 
                                     <img class="ppi" src="../assets/img/ppi.png">
                                 </a>
+								<a href="https://inmed.com.ph/direct/index.php?route=product/product&product_id=250&search=cleanspace" target="_blank"> 
+									<img class="inmed" src="../assets/img/inmed.png">
+								</a>
 							</div>
 							<div class="col-lg-3 col-sm-6"> 
 								<p class="title">Other Platform:</p>
@@ -99,6 +98,10 @@
 				</div>
 			</div>
 		</section><!-- End Features Section -->
+
+		<div class="container">
+			<hr class="solid"></hr>
+		</div>
 
         <!-- ======= Details Section ======= -->
 		<section class="details">

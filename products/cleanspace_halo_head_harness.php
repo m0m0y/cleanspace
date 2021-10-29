@@ -14,7 +14,7 @@
 	      <div class="row justify-content-between">
 	        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center animated">
 	        	<div data-aos="zoom-out" class="hero_text">
-		            <h1 class="uppercase"><span>CLEANSPACE® HALO</span> HEAD HARNESS FOR HALF MASK (NON FABRIC)</h1>
+		            <h1 class=""><span>CleanSpace®</span> HALO Head Harness for Half Mask (Non fabric)</h1>
 	            </div>
 	        </div>
 	      </div>
@@ -48,8 +48,8 @@
 					</div>
 
 					<div class="col-md-7 pt-4" data-aos="fade-left">
-						<h6>The CleanSpace HALO Head Harness is designed to be used with the CleanSpace HALO. The Head Harness comes with every CleanSpace HALO PAPR. The part (CS3008) is a spare used for replacement in case of damage or loss. The Head Harness is made of TPU clips, polyethylene strap with polyester adjustment band.</h6> <br/>
-
+						<h6>The CleanSpace HALO Head Harness is designed to be used with the CleanSpace HALO for tightness. The Head Harness comes with every CleanSpace HALO PAPR. The part (CS3008) is a spare used for replacement in case of damage or loss. The Head Harness is made of TPU clips, polyethylene strap with polyester adjustment band.</h6> <br/>
+ 
 						<h6 class="title">FEATURES</h6>
 						<ul>
 							<li>Used with the revolutionary CleanSpace PAPR: light weight, no hoses or belts</li>
@@ -78,6 +78,9 @@
 								<a href="https://panamed.com.ph/shop/index.php?route=product/product&product_id=669&search=CleanSpace" target="_blank"> 
 									<img class="ppi" src="../assets/img/ppi.png">
 								</a>
+								<a href="https://inmed.com.ph/direct/index.php?route=product/product&product_id=252&search=cleanspace" target="_blank"> 
+									<img class="inmed" src="../assets/img/inmed.png">
+								</a>
 							</div>
 							<div class="col-lg-3 col-sm-6"> 
 								<p class="title">Other Platform:</p>
@@ -93,6 +96,10 @@
 				</div>
 			</div>
 		</section><!-- End Features Section -->
+
+		<div class="container">
+			<hr class="solid"></hr>
+		</div>
 
 		<!-- ======= Details Section ======= -->
 		<section class="details">

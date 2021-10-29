@@ -1,4 +1,9 @@
 <?php require("../assets/common/header.php"); ?>
+	<!-- ======= Owl Carousel ======= -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
 
 	<!-- ======= Header Section ======= -->
 	<header id="header" class="fixed-top d-flex align-items-center header-transparent">
@@ -15,7 +20,7 @@
 	      <div class="row justify-content-between">
 	        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center animated">
 	        	<div data-aos="zoom-out" class="hero_text">
-		            <h1 class="uppercase"><span>CleanSpace® HALO</span> Mask ID Badges (Comes in pair)</h1>
+		            <h1 class=""><span>CleanSpace®</span> HALO Mask ID Badges (Comes in pair)</h1>
 	            </div>
 	        </div>
 	      </div>
@@ -30,14 +35,15 @@
 					
 					<div class="col-md-5 pt-4" data-aos="fade-right">
 						<div class="content-box">
-							<div class="slideshow-container">
+							 <img src="../assets/img/products/TMS Mask ID Badge.png" style="width:100%">
+							<!-- <div class="slideshow-container">
 
 								<div class="mySlides">
 								    <img src="../assets/img/products/TMS Mask ID Badge.png" style="width:100%">
 								</div>
 
                                 <div class="mySlides">
-								    <img src="../assets/img/products/No shine engraving blue-1000x1000.png" style="width:100%">
+								    <img src="../assets/img/products/Badge with engraving 1.png" style="width:100%">
 								</div>
 
                                 <div class="mySlides">
@@ -51,7 +57,7 @@
 								<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 								<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-							</div>
+							</div> -->
 						</div>
 					</div>
 
@@ -73,7 +79,29 @@
                             <li>Storage: –10°C to +55°C (–4°F to +131°F) at <90% relative humidity. Store away from direct sunlight, water, grease and oil</li>
 						</ul>
 
-                        <div class="row content shop-icon">
+						<div class="product-variant pt-4">
+							<div class="col-md-12">
+								<center> <h5 class="title pt-5"> Customize your CleanSpace HALO ID Panel for Personal Touch </h5> </center>
+								<div class="owl-carousel owl-theme">
+									<div class="item">
+										<img class="" src="../assets/img/products/Badge with engraving 1.png" style="width: 50%;">
+									</div>
+									<div class="item">
+										<img class="" src="../assets/img/products/Badge with engraving 2.png" style="width: 50%;">
+									</div>
+									<div class="item">
+										<img class="" src="../assets/img/products/Badge with engraving 3.png" style="width: 50%;">
+									</div>
+								</div>
+							</div>
+
+							<!-- <div class="col-sm-6 col-xl-6 col-sm-12"> 
+								<h6 class="title pt-5">Customize your CleanSpace HALO ID Panel for Personal Touch</h6>
+							</div> -->
+							
+						</div>
+
+                        <div class="row mt-3 shop-icon">
 							<h6 class="title">BUY US:</h6>
 							<div class="col-lg-3 col-sm-6"> 
 								<p class="title">Official Website:</p> 
@@ -83,6 +111,9 @@
                                 <a href="https://panamed.com.ph/shop/index.php?route=product/product&product_id=686&search=CleanSpace" target="_blank"> 
                                     <img class="ppi" src="../assets/img/ppi.png">
                                 </a>
+								<a href="https://inmed.com.ph/direct/index.php?route=product/product&product_id=262&search=cleanspace" target="_blank"> 
+									<img class="inmed" src="../assets/img/inmed.png">
+								</a>
 							</div>
 							<div class="col-lg-3 col-sm-6"> 
 								<p class="title">Other Platform:</p>
@@ -93,11 +124,15 @@
                                     <img src="../assets/img/lazada.png"> 
                                 </a>
 							</div>
-						</div>	
+						</div>
 					</div>
 				</div>
 			</div>
 		</section><!-- End Features Section -->
+
+		<div class="container">
+			<hr class="solid"></hr>
+		</div>
 
         <!-- ======= Details Section ======= -->
 		<section class="details">
@@ -124,5 +159,20 @@
 			</div>
 		</section><!-- End Details Section -->
 	</div>
+
+	<script>
+	$('.owl-carousel').owlCarousel({
+		loop:true,
+		margin:10,
+		autoplay:3000,
+		nav:true,
+		navText:['<a class="prev">&#10094;</a>', '<a class="next">&#10095;</a>'],
+		responsive:{
+			0:{
+				items:1
+			}
+		}
+	})
+	</script>
 <?php require("../comingsoon/assets/common/contact.php"); ?>
 <?php require("../comingsoon/assets/common/footer.php"); ?>

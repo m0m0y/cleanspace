@@ -14,7 +14,7 @@
 	      <div class="row justify-content-between">
 	        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center animated">
 	        	<div data-aos="zoom-out" class="hero_text">
-		            <h1 class="uppercase"><span>CleanSpace Hood with Visor</span> (For any CleanSpace Half Mask)</h1>
+		            <h1 class=""><span>CleanSpace®</span> Hood with Visor (For any CleanSpace half mask)</h1>
 	            </div>
 	        </div>
 	      </div>
@@ -88,6 +88,10 @@
 				</div>
 			</div>
 		</section><!-- End Features Section -->
+
+		<div class="container">
+			<hr class="solid"></hr>
+		</div>
 
 		<!-- ======= Details Section ======= -->
 		<section class="details">

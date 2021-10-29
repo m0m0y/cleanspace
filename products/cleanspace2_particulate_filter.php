@@ -15,7 +15,7 @@
 	      <div class="row justify-content-between">
 	        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center animated">
 	        	<div data-aos="zoom-out" class="hero_text">
-		            <h1 class="uppercase"><span>CleanSpace2</span> Particulate Filter P3 pack of 3's</h1>
+		            <h1 class=""><span>CleanSpace2</span> Particulate Filter P3 (Pack of 3's)</h1>
 	            </div>
 	        </div>
 	      </div>
@@ -58,13 +58,7 @@
 
                         <h6 class="title">SPECIFICATIONS</h6>
 						<ul>
-
-						Weight: average 21g. Dimensions: 120mm x 45mm x 45mm
-
-
-
-
-
+							<li>Weight: average 21g. Dimensions: 120mm x 45mm x 45mm</li>
 							<li>Weight: average 21g. Dimensions: 120mm x 45mm x 45mm</li>
 							<li>Materials: ABS frame, borosilicate microfiber; PC spun fibres, polyurethane foam (seal)</li>
 							<li>Only to be used with CleanSpace PAPR power units.</li>
@@ -86,6 +80,10 @@
 				</div>
 			</div>
 		</section><!-- End Features Section -->
+
+		<div class="container">
+			<hr class="solid"></hr>
+		</div>
 
         <!-- ======= Details Section ======= -->
 		<section class="details">

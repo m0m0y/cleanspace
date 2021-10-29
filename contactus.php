@@ -1,93 +1,10 @@
 <?php 
-/////////////////////////////////////////////////////////////
-//                      CAPTCHA FUNCTION
-////////////////////////////////////////////////////////////
-$moy=6;
-function getRand($moy) {
-  $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  $randomString = '';
-
-  for ($i=0; $i < $moy; $i++) { 
-    $index = rand(0, strlen($characters) - 1);
-    $randomString .= $characters[$index];
-  }
-
-  return $randomString;
-}
-
-$rand = getRand($moy);
-
-/////////////////////////////////////////////////////////////
-//                      EMAIL FUNCTION
-////////////////////////////////////////////////////////////
-require_once("controller/phpmail/Exception.php");
-require_once("controller/phpmail/PHPMailerAutoload.php");
-require_once("controller/phpmail/SMTP.php");
-require_once("controller/phpmail/PHPMailer.php");
-
-$error_msg = "";
-$success_msg = "";
-$captcha_alert = "";
-$email_verify = "";
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  // collect value of input field
-  $name = $_POST['name'];
-  $contact = $_POST['contact'];
-  $email = $_POST['email'];
-  $confirm_email = $_POST['confirm_email'];
-  $subject = $_POST['subject'];
-  $message = $_POST['message'];
-  $captcha = $_POST['captcha'];
-  $captcha_validate = $_POST['captcha_validate'];
-
-  if ($email != $confirm_email) {
-    $email_verify = "Please double check your email address!";
-  } 
-  elseif ($captcha != $captcha_validate) {
-    $captcha_alert = "Invalid Captcha";
-  }
-  else {
-    $mail = new PHPMailer;
-    $mail->isSMTP();
-    $mail->SMTPDebug = 0;
-    $mail->Debugoutput = 'html';
-    $mail->Host = "ssl://smtp.gmail.com";
-    $mail->Port = 465;
-    $mail->SMTPAuth = true;
-    $mail->Username = "cpascual107@gmail.com";
-    $mail->Password = "123Pascual123";
-    $mail->setFrom('cpascual107@gmail.com', 'no-reply');
-    $mail->addReplyTo($email, $name);
-    $mail->addAddress('itchaaanp@gmail.com', 'PMC');
-    $mail->Subject = $subject;
-    $mail->Body = '
-    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-    <html>
-    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-      <title>PHPMailer Test</title>
-    </head>
-
-    <body>
-    <div style="width: 640px; font-family: Arial, Helvetica, sans-serif; font-size: 11px;">
-      <h1>'.$message.'</h1>
-      <p>This example uses <strong>HTML</strong>.</p>
-    </div>
-    </body>
-    </html>
-    ';
-    $mail->isHTML(true);
-    //send the message, check for errors
-    if (!$mail->send()) {
-      $error_msg = '<div class="alert alert-danger">Oppss, your message has not sent. Please try again</div>';
-    } else {
-      $success_msg = '<div class="alert alert-success">Your message has been sent. Thank you!</div>';
-    }
-  }
-}
 
 require("assets/common/header.php"); 
+require("controller/captcha.php");
+require("controller/contact.php");
+
+$status_msg = contact();
 ?>
 
 	<!-- ======= Header Section ======= -->
@@ -140,7 +57,11 @@ require("assets/common/header.php");
 
         <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
 
-          <form action="" method="post" role="form">
+          <?php if($status_msg==2){ ?>
+            <div class="alert alert-success">Your message has been sent. <b> Thank you!</b></div>
+          <?php } ?>
+
+          <form id="contactus_form" method="post" role="form">
             <div class="row">
               <div class="col-md-6 form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -149,36 +70,36 @@ require("assets/common/header.php");
                 <input type="number" class="form-control" name="contact" id="contact" min="1" placeholder="Contact Number" required>
               </div>
             </div>
+            
             <div class="row mt-3">
               <div class="col-md-6 form-group">
                 <input type="email" name="email" class="form-control" id="email" placeholder="Your Email" required>
               </div>
               <div class="col-md-6 form-group mt-3 mt-md-0">
-                <input type="email" class="form-control" name="confirm_email" id="email" placeholder="Confirm Email" required>
-                <span class="error"><?php echo $email_verify; ?></span>
+                <input type="email" class="form-control" name="confirm_email" id="confirm_email" placeholder="Confirm Email" required>
+                <span class="error"> <span class="error"><?php if($status_msg==1){ ?> Your email is incorrect, please try again.<?php } ?></span></span>
+                
               </div>
             </div>
             <div class="form-group mt-3">
               <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
             </div>
             <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              <textarea class="form-control" name="message" rows="5" id="message" placeholder="Message" required></textarea>
             </div>
 
             <div class="form-group mt-3">
               <?php echo "Please type <b>".$rand."</b> in the field:"; ?>
-              <input type="hidden" class="form-control" name="captcha_validate" id="subject" value="<?php echo $rand; ?>" readonly>
-              <input type="text" class="form-control" name="captcha" id="subject" placeholder="Captcha">
-              <span class="error"><?php echo $captcha_alert; ?></span>
+              <input type="hidden" class="form-control" name="captcha_validate" value="<?php echo $rand; ?>" readonly>
+              <input type="text" class="form-control" name="captcha" id="captcha" placeholder="Captcha">
+              <span class="error"><?php if($status_msg==3){ ?> Invalid Captcha! <?php } ?></span>
             </div>
 
             <br/>
-            <?php echo $error_msg; ?>
-            <?php echo $success_msg; ?>
           
-            <button class="btn btn-md btn-primary" type="submit">Submit</button>
+            <input type="submit" class="btn btn-md btn-primary" name="send">
           </form>
-
+          
         </div>
 
       </div>
