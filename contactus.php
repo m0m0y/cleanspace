@@ -2,9 +2,6 @@
 
 require("assets/common/header.php"); 
 require("controller/captcha.php");
-require("controller/contact.php");
-
-$status_msg = contact();
 ?>
 
 	<!-- ======= Header Section ======= -->
@@ -57,53 +54,57 @@ $status_msg = contact();
 
         <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
 
-          <?php if($status_msg==2){ ?>
-            <div class="alert alert-success">Your message has been sent. <b> Thank you!</b></div>
-          <?php } ?>
+        <div id="sendingValidation"></div>
 
-          <form id="contactus_form" method="post" role="form">
+          <!-- <form id="contactus_form" method="post" role="form"> -->
             <div class="row">
               <div class="col-md-6 form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name">
+                <span class="error" id="error_name"></span>
               </div>
               <div class="col-md-6 form-group mt-3 mt-md-0">
-                <input type="number" class="form-control" name="contact" id="contact" min="1" placeholder="Contact Number" required>
+                <input type="number" class="form-control" name="contact" id="contact_num" placeholder="Contact Number">
+                <span class="error" id="error_contact"></span>
               </div>
             </div>
             
             <div class="row mt-3">
               <div class="col-md-6 form-group">
-                <input type="email" name="email" class="form-control" id="email" placeholder="Your Email" required>
+                <input type="email" name="email" class="form-control" id="email" placeholder="Your Email">
+                <span class="error" id="error_email"></span>
               </div>
               <div class="col-md-6 form-group mt-3 mt-md-0">
-                <input type="email" class="form-control" name="confirm_email" id="confirm_email" placeholder="Confirm Email" required>
-                <span class="error"> <span class="error"><?php if($status_msg==1){ ?> Your email is incorrect, please try again.<?php } ?></span></span>
-                
-              </div>
+                <input type="email" class="form-control" name="confirm_email" id="confirm_email" placeholder="Confirm Email">
+                <span class="error" id="error_confirmEmail"></span>
+               <span class="error" id="error_emailValidation"></span>
+              </div>  
             </div>
             <div class="form-group mt-3">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+              <span class="error" id="error_subject"></span>
             </div>
             <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="5" id="message" placeholder="Message" required></textarea>
+              <textarea class="form-control" name="message" rows="5" id="message" placeholder="Message"></textarea>
+              <span class="error" id="error_message"></span>
             </div>
 
             <div class="form-group mt-3">
               <?php echo "Please type <b>".$rand."</b> in the field:"; ?>
-              <input type="hidden" class="form-control" name="captcha_validate" value="<?php echo $rand; ?>" readonly>
+              <input type="hidden" class="form-control" name="captcha_validate" id="captcha_validate" value="<?php echo $rand; ?>" readonly>
               <input type="text" class="form-control" name="captcha" id="captcha" placeholder="Captcha">
-              <span class="error"><?php if($status_msg==3){ ?> Invalid Captcha! <?php } ?></span>
+              <span class="error" id="error_captcha"></span>
+              <span class="error" id="error_captchaValidation"></span>
             </div>
 
             <br/>
           
-            <input type="submit" class="btn btn-md btn-primary" name="send">
-          </form>
+            <input type="button" class="btn btn-md btn-primary" name="send" value="Submit" id="contactus_send">
+          <!-- </form> -->
           
         </div>
 
       </div>
-
+      
     </div>
   </section><!-- End Contact Section -->
 
@@ -129,3 +130,4 @@ $status_msg = contact();
   </section><!-- End About Section -->
 
 <?php require("assets/common/footer.php"); ?>
+

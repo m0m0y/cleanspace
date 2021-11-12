@@ -187,19 +187,17 @@
 				<div class="swiper-wrapper">
 
 					<div class="swiper-slide">
-					<div class="testimonial-item">
-						<img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-						<h3>Lorem Ipsum </h3>
-						<h4>Ceo &amp; Founder</h4>
-						<p>
-						<i class="bx bxs-quote-alt-left quote-icon-left"></i>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-						<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-						</p>
+						<div class="testimonial-item">
+							<h3>Dr. Alisasis </h3>
+							<p>
+							<i class="bx bxs-quote-alt-left quote-icon-left"></i>
+							I love using this respirator in the OR, compact and reliable. Best buy!
+							<i class="bx bxs-quote-alt-right quote-icon-right"></i>
+							</p>
+						</div>
 					</div>
-					</div><!-- End testimonial item -->
 
-					<div class="swiper-slide">
+					<!-- <div class="swiper-slide">
 					<div class="testimonial-item">
 						<img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
 						<h3>Lorem Ipsum </h3>
@@ -210,7 +208,7 @@
 						<i class="bx bxs-quote-alt-right quote-icon-right"></i>
 						</p>
 					</div>
-					</div><!-- End testimonial item -->
+					</div>
 
 					<div class="swiper-slide">
 					<div class="testimonial-item">
@@ -223,7 +221,7 @@
 						<i class="bx bxs-quote-alt-right quote-icon-right"></i>
 						</p>
 					</div>
-					</div><!-- End testimonial item -->
+					</div>
 
 					<div class="swiper-slide">
 					<div class="testimonial-item">
@@ -236,7 +234,7 @@
 						<i class="bx bxs-quote-alt-right quote-icon-right"></i>
 						</p>
 					</div>
-					</div><!-- End testimonial item -->
+					</div>
 
 					<div class="swiper-slide">
 					<div class="testimonial-item">
@@ -249,14 +247,15 @@
 						<i class="bx bxs-quote-alt-right quote-icon-right"></i>
 						</p>
 					</div>
-					</div><!-- End testimonial item -->
+					</div> -->
 
 				</div>
 				<div class="swiper-pagination"></div>
 			</div>
 
 		</div>
-    </section><!-- End Testimonials Section -->
+    </section>
+	<!-- End Testimonials Section -->
 
 <?php require("assets/common/contact.php"); ?>
 <?php require("assets/common/footer.php"); ?>

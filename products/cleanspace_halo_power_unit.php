@@ -50,10 +50,10 @@
 						</div>
 					</div>
 
-					<div class="col-md-7 pt-4" data-aos="fade-left">
-						<h6>CleanSpace® Halo is a Powered Air Purifying Respirator (PAPR) system that houses smart technology, designed by biomedical engineers in a revolutionary, compact system. A lightweight compact powered respirator with minimal parts (no cables, hoses or helmets), engineered to deliver the highest protection in healthcare while providing comfort, easy wearing and easy integration into any setting.</h6> <br/>
+					<div class="product-desc col-md-7 pt-4" data-aos="fade-left">
+						<p>CleanSpace® Halo is a Powered Air Purifying Respirator (PAPR) system that houses smart technology, designed by biomedical engineers in a revolutionary, compact system. A lightweight compact powered respirator with minimal parts (no cables, hoses or helmets), engineered to deliver the highest protection in healthcare while providing comfort, easy wearing and easy integration into any setting.</p> <br/>
 						
-						<h6 class="title">FEATURES</h6>
+						<h6 class="product-sub-title"><b>Features</b></h6>
 						<ul>
 							<li>AirSensit™ Technology, a smart automated technology that senses the wearer’s breathing to trigger the airflow to ON or OFF.</li>
 							<li>Provides High Protection: HEPA filters provide 99.97% filtration efficiency for particles 0.3um and larger, including biohazards(APF 50 & 1000).</li>
@@ -110,7 +110,7 @@
 		<!-- ======= Details Section ======= -->
 		<section class="details">
 			<div class="container">
-				<div class="row content">
+				<div class="product-desc row content">
 					<div class="row content" data-aos="fade-right">
 
 						<div class="col-md-4 col-sm-12 pt-4">

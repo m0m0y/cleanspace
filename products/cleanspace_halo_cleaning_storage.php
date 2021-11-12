@@ -51,17 +51,17 @@
 						</div>
 					</div>
 
-					<div class="col-md-7 pt-4" data-aos="fade-left">
-						<h6>The CleanSpace Halo Cleaning and Storage Plug Set is designed to be used with the CleanSpace HALO Respirator Unit to seal all the openings during cleaning and storage. </h6><br/>
+					<div class="product-desc col-md-7 pt-4" data-aos="fade-left">
+						<p>The CleanSpace Halo Cleaning and Storage Plug Set is designed to be used with the CleanSpace HALO Respirator Unit to seal all the openings during cleaning and storage. </p><br/>
 						
-						<h6 class="title">FEATURES</h6>
+						<h6 class="product-sub-title"><b>Features</b></h6>
 						<ul>
 							<li>Used with the revolutionary CleanSpace HALO PAPR.</li>
 							<li>Made from polycarbonate and silicone material.</li>
 							<li>Proudly Made in Australia</li>
 						</ul>
 
-                        <h6 class="title">SPECIFICATIONS</h6>
+                        <h6 class="product-sub-title"><b>Specifications</b></h6>
 						<ul>
 							<li>Weight: 85g</li>
 							<li>Dimensions: 180mm x 110mm x 800mm</li>

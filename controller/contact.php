@@ -1,39 +1,21 @@
 <?php
-function contact() {
-    if(isset($_POST["send"])){
-        // collect value of input field
-        $name = $_POST['name'];
-        $contact = $_POST['contact'];
-        $email = $_POST['email'];
-        $confirm_email = $_POST['confirm_email'];
-        $subject = $_POST['subject'];
-        $message = $_POST['message'];
-        $captcha = $_POST['captcha'];
-        $captcha_validate = $_POST['captcha_validate'];
-
-        if ($email != $confirm_email) {
-            $validation = 1;
-            return $validation;
-        } else if ($captcha != $captcha_validate) {
-            $validation = 3;
-            return $validation;
-        } else {
-            send($name, $email, $subject, $message);
-            $validation = 2;
-            return $validation;
-            die();
-        }
-       
-    }  
-}
-
-function send($name, $email, $subject, $message) {
+// function send($name, $contact, $email, $message) {
     require("phpmail/Exception.php");
     require("phpmail/PHPMailerAutoload.php");
     require("phpmail/SMTP.php");
     require("phpmail/PHPMailer.php");
-    require("template/contactusemail.php");
+    require("contactusemail.php");
 
+    $name = $_POST['customer_name'];
+    $contact = $_POST['customer_contact_num'];
+    $email = $_POST['customer_email'];
+    $subject = $_POST['customer_subject'];
+    $message = $_POST['customer_message'];
+
+    $emailTemplate = new Test();
+
+    $emailBody = $emailTemplate->emailMessage($name, $contact, $email, $message);
+    
     $mail = new PHPMailer;
     $mail->isSMTP();
     $mail->SMTPDebug = 0;
@@ -51,10 +33,10 @@ function send($name, $email, $subject, $message) {
     $mail->isHTML(true);
     //send the message, check for errors
     if (!$mail->send()) {
-        $error_msg = '<div class="alert alert-danger">Oppss, your message has not sent. Please try again</div>';
+        // echo "Opps, something wrong! Please try again!";
+        echo "Mailer Error: " . $mail->ErrorInfo;
     } else {
-        echo '<script>alert("Your message has been sent. Thank you!")</script>';
-        header("Refresh:1; url=http://localhost/cleanspace/contactus.php");
-        exit();
+        echo "Successfully sent!";
     }
-}
+
+?>

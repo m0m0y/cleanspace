@@ -65,7 +65,7 @@
 							<h3 class="product-title">CleanSpace® </h3>
 							<h4 class="product-sub-title"> Steri-Plus Exhalation Valve Filter Case</h4>
 							<h6 class="desc"> (Reusable) </h6>
-							<p class="sub-desc"> CleanSpace Steri-Plus Exhalation Valve Filter Case houses the Steri-Plus Filter. It is suitable for use with the CleanSpace Halo. </p>
+							<p class="sub-desc"> CleanSpace Steri-Plus Exhalation Valve Filter Case houses the Steri-Plus Filter. It is suitable for use with the CleanSpace HALO. </p>
 							<br/>
 							<a class="uppercase btn btn-outline-primary" href="products/cleanspace_steri_plus_exhalation2.php">Learn More</a>
 						</div>

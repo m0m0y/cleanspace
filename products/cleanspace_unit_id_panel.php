@@ -67,13 +67,18 @@
 								<!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 								<a class="next" onclick="plusSlides(1)">&#10095;</a> -->
 							<!-- </div> -->
+							
+							<div class="customize_text">
+								<span> <h1>Customize</h1> <h3>Your CleanSpace HALO ID Panel</h3> <h4>For Personal Touch</h4></span>
+							</div>
+							
 						</div>
 					</div>
 
-					<div class="col-md-7 pt-4" data-aos="fade-left">
+					<div class="product-desc col-md-7 pt-4" data-aos="fade-left">
 						<h6>The CleanSpace HALO Unit ID Panels are suitable for use with the CleanSpace HALO. They allow the user to individualise their units by replacing the standard HALO panels with a range of coloured ones. Apart from the colouring, there is no other difference between the standard and the coloured Unit ID Panels.</h6><br/>
 						
-						<h6 class="title">FEATURES</h6>
+						<h6 class="product-sub-title"><b>Features</b></h6>
 						<ul>
 							<li>Used with the revolutionary CleanSpace HALO</li>
 							<li>Material: PC/ABS.</li>
@@ -81,7 +86,7 @@
                             <li>Nine different colours available.</li>
 						</ul>
 
-                        <h6 class="title">SPECIFICATIONS</h6>
+                        <h6 class="product-sub-title"><b>Specifications</b></h6>
 						<ul>
 							<li>Weight: 10g Package Dimensions: 18cm x 7cmx.05cm</li>
 							<li>Material: PC/ABS.</li>
@@ -89,76 +94,33 @@
                             <li>Cleaning: Wipe with CleanSpace Cleaning Wipes or a damp cloth. Allow to dry before reusing.</li>
 						</ul>
 
-
-						<div class="product-variant pt-4">
-							<!-- <h6 class="title">Customize your CleanSpace Halo ID Panel for Personal Touch:</h6> -->
-							<!-- <div class="row">	
-								<div class="col-md-6 col-xl-6 col-sm-12">
-									<div class="owl-carousel owl-theme">
-										<div class="item">
-											<img class="" src="../assets/img/products/Panel with engraving 1.png" style="width:100%">
-										</div>
-										<div class="item">
-											<img class="" src="../assets/img/products/Panel with engraving 2.png" style="width:100%">
-										</div>
-										<div class="item">
-											<img class="" src="../assets/img/products/Panel with engraving 3.png" style="width:100%">
-										</div>
-										<div class="item">
-											<img class="" src="../assets/img/products/Panel with engraving 4.png" style="width:100%">
-										</div>
-										<div class="item">
-											<img class="" src="../assets/img/products/Panel with engraving 5.png" style="width:100%">
-										</div>
-										<div class="item">
-											<img class="" src="../assets/img/products/Panel with engraving 6.png" style="width:100%">
-										</div>
-										<div class="item">
-											<img class="" src="../assets/img/products/Panel with engraving 7.png" style="width:100%">
-										</div>
-										<div class="item">
-											<img class="" src="../assets/img/products/Panel with engraving 8.png" style="width:100%">
-										</div>
-									</div> 
+						<div width: 90>
+							<div class="owl-carousel owl-theme">
+								<div class="item">
+									<img class="" src="../assets/img/products/Panel with engraving 1.png">
 								</div>
-
-								<div class="col-md-6 col-xl-6 col-sm-12">
-									<h6 class="title pt-5">Customize your CleanSpace HALO ID Panel for Personal Touch</h6>
+								<div class="item">
+									<img class="" src="../assets/img/products/Panel with engraving 2.png">
 								</div>
-							</div> -->
-
-							<div class="col-md-12">
-								<center><h5 class="title">Customize your CleanSpace HALO ID Panel for Personal Touch</h5></center>
-
-								<div class="owl-carousel owl-theme">
-									<div class="item">
-										<img class="" src="../assets/img/products/Panel with engraving 1.png" style="width:65%">
-									</div>
-									<div class="item">
-										<img class="" src="../assets/img/products/Panel with engraving 2.png" style="width:65%">
-									</div>
-									<div class="item">
-										<img class="" src="../assets/img/products/Panel with engraving 3.png" style="width:65%">
-									</div>
-									<div class="item">
-										<img class="" src="../assets/img/products/Panel with engraving 4.png" style="width:65%">
-									</div>
-									<div class="item">
-										<img class="" src="../assets/img/products/Panel with engraving 5.png" style="width:65%">
-									</div>
-									<div class="item">
-										<img class="" src="../assets/img/products/Panel with engraving 6.png" style="width:65%">
-									</div>
-									<div class="item">
-										<img class="" src="../assets/img/products/Panel with engraving 7.png" style="width:65%">
-									</div>
-									<div class="item">
-										<img class="" src="../assets/img/products/Panel with engraving 8.png" style="width:65%">
-									</div>
-								</div> 
-								
-							</div>
-							
+								<div class="item">
+									<img class="" src="../assets/img/products/Panel with engraving 3.png">
+								</div>
+								<div class="item">
+									<img class="" src="../assets/img/products/Panel with engraving 4.png">
+								</div>
+								<div class="item">
+									<img class="" src="../assets/img/products/Panel with engraving 5.png">
+								</div>
+								<div class="item">
+									<img class="" src="../assets/img/products/Panel with engraving 6.png">
+								</div>
+								<div class="item">
+									<img class="" src="../assets/img/products/Panel with engraving 7.png">
+								</div>
+								<div class="item">
+									<img class="" src="../assets/img/products/Panel with engraving 8.png">
+								</div>
+							</div> 
 						</div>
 
                         <div class="row m-3 shop-icon">
@@ -185,7 +147,7 @@
                                     <img src="../assets/img/lazada.png"> 
                                 </a>
 							</div>
-						</div>	
+						</div>
 					</div>
 				</div>
 			</div>
@@ -198,7 +160,7 @@
         <!-- ======= Details Section ======= -->
 		<section class="details">
 			<div class="container">
-				<div class="row content" data-aos="fade-right">
+				<div class="product-desc row content" data-aos="fade-right">
                     <div class="col-md-4 col-sm-12 pt-4">
 						<h6 class="title">Cleaning and Storage</h6>
 						<ul>
@@ -221,7 +183,6 @@ $(document).ready(function() {
 		autoplay:3000,
 		nav:true,
 		navText:['<a class="prev">&#10094;</a>', '<a class="next">&#10095;</a>'],
-		lazyLoad : true,
 		responsive:{
 			0:{
 				items:1

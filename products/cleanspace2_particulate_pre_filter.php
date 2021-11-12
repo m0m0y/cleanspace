@@ -43,10 +43,10 @@
 						</div>
 					</div>
 
-					<div class="col-md-7 pt-4" data-aos="fade-left">
-						<h6>The CleanSpace Pre-Filter is suitable for use with the CleanSpace Standard Particulate P3 TM3 P SL R Filter for protection against airborne particulate (dust, mists and fumes). The Pre-Filter is designed to remove course particles and enhance the life of the Particulate P3 filter. The Pre-Filter should be changed after each use.</h6><br/>
+					<div class="product-desc col-md-7 pt-4" data-aos="fade-left">
+						<p>The CleanSpace Pre-Filter is suitable for use with the CleanSpace Standard Particulate P3 TM3 P SL R Filter for protection against airborne particulate (dust, mists and fumes). The Pre-Filter is designed to remove course particles and enhance the life of the Particulate P3 filter. The Pre-Filter should be changed after each use.</p><br/>
 						
-						<h6 class="title">FEATURES</h6>
+						<h6 class="product-sub-title"><b>Features</b></h6>
 						<ul>
 							<li>Used with the revolutionary CleanSpace – A lightweight PAPR with no hoses/belts</li>
 							<li>Easy to put and removed from the power unit</li>
@@ -56,7 +56,7 @@
                             <li>Made in Australia</li>
 						</ul>
 
-                        <h6 class="title">SPECIFICATIONS</h6>
+                        <h6 class="product-sub-title"><b>Specifications</b></h6>
 						<ul>
 							<li>Weight: average: 50g Dimensions: 170mm x 40mm x 70mm</li>
 							<li>Materials: Spun polymer fibres</li>
@@ -87,7 +87,7 @@
         <!-- ======= Details Section ======= -->
 		<section class="details">
 			<div class="container">
-				<div class="row content" data-aos="fade-right">
+				<div class="product-desc row content" data-aos="fade-right">
                     <div class="col-md-4 col-sm-12 pt-4">
 						<h6 class="title">Standard</h6>
 						<ul>

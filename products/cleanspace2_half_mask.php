@@ -47,10 +47,10 @@
 						</div>
 					</div>
 
-					<div class="col-md-7 pt-4" data-aos="fade-left">
-						<h6>The CleanSpace Half Masks are specifically designed to work to complete the CleanSpace PAPR system. Compatible with all CleanSpace Respirators, the Half Masks clip quickly onto the power units and are easily unclipped for cleaning. The Half Masks are made of soft silicone that readily moulds to the face and does not cause allergic dermatitis.</h6><br/>
+					<div class="product-desc col-md-7 pt-4" data-aos="fade-left">
+						<p>The CleanSpace Half Masks are specifically designed to work to complete the CleanSpace PAPR system. Compatible with all CleanSpace Respirators, the Half Masks clip quickly onto the power units and are easily unclipped for cleaning. The Half Masks are made of soft silicone that readily moulds to the face and does not cause allergic dermatitis.</p><br/>
 						
-						<h6 class="title">FEATURES</h6>
+						<h6 class="product-sub-title"><b>Features</b></h6>
 						<ul>
 							<li> Compatible with ALL Cleanspace PAPR power units</li>
 							<li>Used with revolutionary CleanSpace PAPR: lightweight, no hoses or</li>

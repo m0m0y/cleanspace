@@ -43,12 +43,12 @@
 						</div>
 					</div>
 
-					<div class="col-md-7 pt-4" data-aos="fade-left">
-						<h6>CleanSpace Steri-Plus Exhalation Valve Filter Case houses the Steri-Plus Filter. It is suitable for use with the CleanSpace Halo. Steri-Plus is designed to filter the air exhaled by the wearer and consequently protects those not wearing a respiratory protection system</h6>
+					<div class="product-desc col-md-7 pt-4" data-aos="fade-left">
+						<p>CleanSpace Steri-Plus Exhalation Valve Filter Case houses the Steri-Plus Filter. It is suitable for use with the CleanSpace Halo. Steri-Plus is designed to filter the air exhaled by the wearer and consequently protects those not wearing a respiratory protection system</p>
 
                         <small class="fst-italic">Note: The Steri-Plus shall only be used in combination with a HALO Half Mask fitted with Exhalation Valve Cover. The Steri-Plus shall NOT be used with the Head Cover. </small> <br/> <br/>
 						
-						<h6 class="title">FEATURES</h6>
+						<h6 class="product-sub-title"><b>Features</b></h6>
 						<ul>
 							<li>Used with the revolutionary CleanSpace HALO</li>
 							<li>Materials: Inner Case – ABS, Outer Case – Polycarbonate.</li>
@@ -56,7 +56,7 @@
 							<li>Reusable and easily cleaned.</li>
 						</ul>
 
-                        <h6 class="title">SPECIFICATIONS</h6>
+                        <h6 class="product-sub-title"><b>Specifications</b></h6>
 						<ul>
 							<li>Weight: 70.5g (single). Package Dimensions: 200mm x 330mm</li>
 							<li>Materials: Inner Case – ABS, Outer Case – Polycarbonate.</li>

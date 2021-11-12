@@ -47,11 +47,11 @@
 						</div>
 					</div>
 
-					<div class="col-md-7 pt-4" data-aos="fade-left">
-                    <small class="fst-italic">*These filters are compatible with CleanSpace HALO Power Units</small> </br>
-						<h6>CleanSpace HALO Particulate Filters P3 are suitable for protection against airborne particulates (dust, mists and fumes) and biohazards. When selecting a CleanSpace Filter please consult a Health and Safety specialist for advice on the appropriate respiratory equipment and filter use.</h6><br/>
+					<div class="product-desc col-md-7 pt-4" data-aos="fade-left">
+                    	<small class="fst-italic">*These filters are compatible with CleanSpace HALO Power Units</small> </br>
+						<p>CleanSpace HALO Particulate Filters P3 are suitable for protection against airborne particulates (dust, mists and fumes) and biohazards. When selecting a CleanSpace Filter please consult a Health and Safety specialist for advice on the appropriate respiratory equipment and filter use.</p><br/>
 						
-						<h6 class="title">FEATURES</h6>
+						<h6 class="product-sub-title"><b>Features</b></h6>
 						<ul>
 							<li>Used with the revolutionary CleanSpace PAPR: light weight, no hoses or belts</li>
 							<li>Suitable for protection against airborne particulate (dust, mists and fumes).</li>
@@ -61,7 +61,7 @@
 							<li>Proudly Made in Australia</li>
 						</ul>
 
-                        <h6 class="title">SPECIFICATIONS</h6>
+                        <h6 class="product-sub-title"><b>Specifications</b></h6>
 						<ul>
 							<li>Weight: 30g (single). Package Dimensions: 160mm x 180mm x 50mm</li>
 							<li>Packaged Shelf life: 3 years from manufacturing date.</li>
@@ -104,7 +104,7 @@
         <!-- ======= Details Section ======= -->
 		<section class="details">
 			<div class="container">
-				<div class="row content" data-aos="fade-right">
+				<div class="product-desc row content" data-aos="fade-right">
 					<div class="col-md-4 col-sm-12 pt-4">
 						<h6 class="title">Training</h6>
 						<ul>

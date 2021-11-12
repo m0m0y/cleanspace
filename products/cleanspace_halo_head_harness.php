@@ -47,10 +47,10 @@
 						</div>
 					</div>
 
-					<div class="col-md-7 pt-4" data-aos="fade-left">
-						<h6>The CleanSpace HALO Head Harness is designed to be used with the CleanSpace HALO for tightness. The Head Harness comes with every CleanSpace HALO PAPR. The part (CS3008) is a spare used for replacement in case of damage or loss. The Head Harness is made of TPU clips, polyethylene strap with polyester adjustment band.</h6> <br/>
+					<div class="product-desc col-md-7 pt-4" data-aos="fade-left">
+						<p>The CleanSpace HALO Head Harness is designed to be used with the CleanSpace HALO for tightness. The Head Harness comes with every CleanSpace HALO PAPR. The part (CS3008) is a spare used for replacement in case of damage or loss. The Head Harness is made of TPU clips, polyethylene strap with polyester adjustment band.</p> <br/>
  
-						<h6 class="title">FEATURES</h6>
+						<h6 class="product-sub-title"><b>Features</b></h6>
 						<ul>
 							<li>Used with the revolutionary CleanSpace PAPR: light weight, no hoses or belts</li>
 							<li>Designed for comfort over long periods</li>
@@ -61,7 +61,7 @@
 							<li>Easy and quick replacement</li>
 						</ul>
 
-						<h6 class="title">SPECIFICATIONS</h6>
+						<h6 class="product-sub-title"><b>Specifications</b></h6>
 						<ul>
 							<li>Weight: 20g (.04lb)</li>
 							<li>Cleaning: Lukewarm water and mild detergent (neutral pH 6 – 8). Do not use solvents (turpentine or acetone), hot water, bleaching or chemical agents.</li>
@@ -104,7 +104,7 @@
 		<!-- ======= Details Section ======= -->
 		<section class="details">
 			<div class="container">
-				<div class="row content" data-aos="fade-right">
+				<div class="product-desc row content" data-aos="fade-right">
 
 					<div class="col-md-4 col-sm-12 pt-4">
 						<h6 class="title">Approvals</h6>

@@ -40,11 +40,12 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-7 pt-4" data-aos="fade-left">
-						<p class="fst-italic">*Compatible with CleanSpace Halo Power Unit</p>
-						<h6>CleanSpace Half Masks are specifically designed to work to complete the CleanSpace HALO system. Half Masks clip quickly onto the power units. Made of soft silicone that readily moulds to the face and does not cause allergic dermatitis.</h6> <br/>
 
-						<h6 class="title">FEATURES</h6>
+					<div class="product-desc col-md-7 pt-4" data-aos="fade-left">
+						<p class="fst-italic">*Compatible with CleanSpace Halo Power Unit</p>
+						<p>CleanSpace Half Masks are specifically designed to work to complete the CleanSpace HALO system. Half Masks clip quickly onto the power units. Made of soft silicone that readily moulds to the face and does not cause allergic dermatitis.</p> <br/>
+
+						<h6 class="product-sub-title"><b>Features</b></h6>
 						<ul>
 							<li>Used with the revolutionary CleanSpace HALO: light weight, no hoses or belts.</li>
 							<li>Half masks available in 3 sizes to facilitate a good seal and a comfortable fit.</li>
@@ -57,7 +58,7 @@
 
 						<br/>
 
-						<a class="uppercase btn btn-outline-primary" href="pdf/#">Size Guide</a></p>
+						<a class="uppercase btn btn-md btn-outline-primary" href="../assets/pdf/CleanSpace-mask-size-guide-1.pdf">Size Guide</a></p>
 
 						<div class="row content shop-icon">
 							<h6 class="title">BUY US:</h6>

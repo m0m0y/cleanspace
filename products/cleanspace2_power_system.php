@@ -50,11 +50,11 @@
 						</div>
 					</div>
 
-					<div class="col-md-7 pt-4" data-aos="fade-left">
+					<div class="product-desc col-md-7 pt-4" data-aos="fade-left">
                         <small class="fst-italic">* MASK is NOT included</small> </br></br>
-						<h6>The CleanSpace2 Powered Respirator Unit is a battery-powered, positive pressure air-purifying/filtering respirator. This respirator is breathe responsive and is designed to provide comfortable respiratory protection against gases, vapours, bacteria, viruses and other airborne biohazards.</h6> <br/>
+						<p>The CleanSpace2 Powered Respirator Unit is a battery-powered, positive pressure air-purifying/filtering respirator. This respirator is breathe responsive and is designed to provide comfortable respiratory protection against gases, vapours, bacteria, viruses and other airborne biohazards.</p> <br/>
 
-                        <h6 class="title">FEATURES</h6>
+                        <h6 class="product-sub-title"><b>Features</b></h6>
 						<ul>
 							<li>Lightweight, comfortable and easy to wear over long periods.</li>
 							<li>Portable: no hoses, belts or waist mounted battery packs.</li>

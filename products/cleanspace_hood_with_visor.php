@@ -43,10 +43,10 @@
 						</div>
 					</div>
 
-					<div class="col-md-7 pt-4" data-aos="fade-left">
-						<h6>The CleanSpace Hood is suitable for use with any CleanSpace half mask system and is designed to provide protection against splash and air-borne contaminants. The Hood does not provide or contribute to the system’s respiratory protection and must always be used alongside a CleanSpace Half Mask and a CleanSpace Particulate Filter. The CleanSpace Hood is simply placed over the top of a fully configured half mask system and does not interface directly with the respiratory system.</h6> <br/>
+					<div class="product-desc col-md-7 pt-4" data-aos="fade-left">
+						<p>The CleanSpace Hood is suitable for use with any CleanSpace half mask system and is designed to provide protection against splash and air-borne contaminants. The Hood does not provide or contribute to the system’s respiratory protection and must always be used alongside a CleanSpace Half Mask and a CleanSpace Particulate Filter. The CleanSpace Hood is simply placed over the top of a fully configured half mask system and does not interface directly with the respiratory system.</p> <br/>
 
-						<h6 class="title">FEATURES</h6>
+						<h6 class="product-sub-title"><b>Features</b></h6>
 						<ul>
 							<li>Used with the revolutionary CleanSpace respirators.</li>
 							<li>Materials: Fabric – Microporous polyethylene film laminated to spunbond polypropylene, Visor – PVC.</li>
@@ -54,7 +54,7 @@
 							<li>Wide panoramic visor.</li>
 						</ul>
 
-						<h6 class="title">SPECIFICATIONS</h6>
+						<h6 class="product-sub-title"><b>Specifications</b></h6>
 						<ul>
 							<li>Weight: 100g (single, without packaging). Package Dimensions: Length – 220mm, Diameter – 115mm.</li>
 							<li>Materials: Fabric – Microporous polyethylene film laminated to spunbond polypropylene, Visor – PVC.</li>

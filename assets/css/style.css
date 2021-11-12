@@ -141,7 +141,7 @@ hr.solid {
   background: transparent;
 }
 #header.header-scrolled {
-  background: rgb(255 255 255 / 88%);
+  background: rgb(255 255 255);
   height: 60px;
 }
 #header .logo h1 {
@@ -1425,6 +1425,20 @@ div.row .shop-icon .ppi, .tms {
   font-size: 14px;
 }
 
+.product-desc {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* //////////////////////cleanspace unit/mask ID///////////////////////// */
+div .customize_text  span{
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, 50%); 
+  width:100%;
+}
+
 /* ========================================== */
 /* Custom media query */
 /* ========================================== */
@@ -1434,5 +1448,12 @@ div.row .shop-icon .ppi, .tms {
   }
   .section-title p {
     font-size: 30px;
+  }
+
+  div .customize_text  span{
+    position: inherit;
+  }
+  section .features{
+    padding: 0;
   }
 }

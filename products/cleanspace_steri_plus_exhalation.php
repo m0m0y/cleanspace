@@ -43,12 +43,12 @@
 						</div>
 					</div>
 
-					<div class="col-md-7 pt-4" data-aos="fade-left">
-						<h6>Steri-Plus is designed to filter the air exhaled by the wearer and consequently protects those not wearing a respiratory protection system. The Steri-Plus Exhalation Filter should be changed if it has been contaminated with organic solvents (for instance isopropanol, xylene or toluene), if it has become visibly soiled or if it has passed its expiry date.</h6>
+					<div class="product-desc col-md-7 pt-4" data-aos="fade-left">
+						<p>Steri-Plus is designed to filter the air exhaled by the wearer and consequently protects those not wearing a respiratory protection system. The Steri-Plus Exhalation Filter should be changed if it has been contaminated with organic solvents (for instance isopropanol, xylene or toluene), if it has become visibly soiled or if it has passed its expiry date.</p>
 
                         <small class="fst-italic">Note: The Steri-Plus shall only be used in combination with a HALO Half Mask fitted with the Exhalation Valve Cover. The Steri-Plus shall NOT be used with the CS3024 Head Cover.</small> <br/> <br/>
 
-						<h6 class="title">FEATURES</h6>
+						<h6 class="product-sub-title"><b>Features</b></h6>
 						<ul>
 							<li>Used with the revolutionary CleanSpace HALO</li>
 							<li>Materials: Nonwoven electrostatic media, polypropylene.</li>
@@ -56,7 +56,7 @@
 							<li>Sold in a pack of 20</li>
 						</ul>
 
-						<h6 class="title">SPECIFICATIONS</h6>
+						<h6 class="product-sub-title"><b>Specifications</b></h6>
 						<ul>
 							<li>Weight: 750g (pkt 20) Package Dimensions: 200mm x 270mm</li>
 							<li>Materials: Nonwoven electrostatic media, polypropylene.</li>
