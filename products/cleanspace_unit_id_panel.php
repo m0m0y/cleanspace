@@ -18,7 +18,8 @@
 	      <div class="row justify-content-between">
 	        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center animated">
 	        	<div data-aos="zoom-out" class="hero_text">
-		            <h1 class=""><span>CleanSpace®</span> HALO Unit ID Panel (Comes in pair)</h1>
+		            <h1 class=""><span>CleanSpace®</span></h1>
+					<h2>HALO Unit ID Panel<br/>(Comes in pair)</h2>
 	            </div>
 	        </div>
 	      </div>
@@ -27,13 +28,13 @@
 
 	<div id="features">
 		<!-- ======= Features Section ======= -->
-		<section class="features">
+		<section class="features" style="padding-top:50px;">
 			<div class="container">
 				<div class="row content">
 					
-					<div class="col-md-5 pt-4" data-aos="fade-right">
+					<div class="col-md-5" data-aos="fade-right">
 						<div class="content-box">
-							<img src="../assets/img/products/CleanSpace Halo Unit ID Panel First Photo.png" style="width:100%">
+							
 							<!-- <div class="slideshow-container"> -->
 
 								<!-- <div class="mySlides">
@@ -69,33 +70,22 @@
 							<!-- </div> -->
 							
 							<div class="customize_text">
-								<span> <h1>Customize</h1> <h3>Your CleanSpace HALO ID Panel</h3> <h4>For Personal Touch</h4></span>
+								<span>
+									<p>The CleanSpace HALO Unit ID Panels are suitable for use with the CleanSpace HALO. They allow the user to individualise their units by replacing the standard HALO panels with a range of coloured ones. Apart from the colouring, there is no other difference between the standard and the coloured Unit ID Panels.</p>
+									<br>
+									<h1>Customize</h1> <h3>Your CleanSpace HALO ID Panel</h3> <h4>For Personal Touch</h4>
+								</span>
 							</div>
 							
 						</div>
 					</div>
 
 					<div class="product-desc col-md-7 pt-4" data-aos="fade-left">
-						<h6>The CleanSpace HALO Unit ID Panels are suitable for use with the CleanSpace HALO. They allow the user to individualise their units by replacing the standard HALO panels with a range of coloured ones. Apart from the colouring, there is no other difference between the standard and the coloured Unit ID Panels.</h6><br/>
-						
-						<h6 class="product-sub-title"><b>Features</b></h6>
-						<ul>
-							<li>Used with the revolutionary CleanSpace HALO</li>
-							<li>Material: PC/ABS.</li>
-							<li>Quickly and easily fitted and removed from the CleanSpace HALO.</li>
-                            <li>Nine different colours available.</li>
-						</ul>
-
-                        <h6 class="product-sub-title"><b>Specifications</b></h6>
-						<ul>
-							<li>Weight: 10g Package Dimensions: 18cm x 7cmx.05cm</li>
-							<li>Material: PC/ABS.</li>
-							<li>Storage and Use: –10°C to +55°C (–4°F to +131°F) at <90% relative humidity. Store away from direct sunlight, grease and oil.</li>
-                            <li>Cleaning: Wipe with CleanSpace Cleaning Wipes or a damp cloth. Allow to dry before reusing.</li>
-						</ul>
-
 						<div width: 90>
 							<div class="owl-carousel owl-theme">
+								<div class="item">
+								<img src="../assets/img/products/CleanSpace Halo Unit ID Panel First Photo.png">
+								</div>
 								<div class="item">
 									<img class="" src="../assets/img/products/Panel with engraving 1.png">
 								</div>
@@ -123,7 +113,7 @@
 							</div> 
 						</div>
 
-                        <div class="row m-3 shop-icon">
+                        <div class="row shop-icon">
 							<h6 class="title">BUY US:</h6>
 							<div class="col-lg-3 col-sm-6"> 
 								<p class="title">Official Website:</p> 

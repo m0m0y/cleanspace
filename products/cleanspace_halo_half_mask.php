@@ -13,7 +13,9 @@
 	      <div class="row justify-content-between">
 	        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center animated">
 	        	<div data-aos="zoom-out" class="hero_text">
-		            <h1 class=""><span>CleanSpace®</span> HALO Half Mask (Half mask is sold seperately)</h1>
+		            <h1 class=""><span>CleanSpace®</span></h1>
+					<h2> HALO Half Mask <br/>
+					 (Half mask is sold seperately) </h2>
 	            </div>
 	        </div>
 	      </div>
@@ -65,15 +67,15 @@
 							<div class="col-lg-3 col-sm-6"> 
 								<p class="title">Official Website:</p> 
 
-								<a href="https://medicalshop.ph/index.php?route=product/product&product_id=798&search=cleanspace" target="_blank"> 
+								<a href="https://medicalshop.ph/index.php?route=product/product&product_id=798" target="_blank"> 
 									<img class="tms" src="../assets/img/tms.png">
 								</a>
 
-								<a href="https://panamed.com.ph/shop/index.php?route=product/product&product_id=671&search=CleanSpace" target="_blank"> 
+								<a href="https://panamed.com.ph/shop/index.php?route=product/product&product_id=671" target="_blank"> 
 									<img class="ppi" src="../assets/img/ppi.png">
 								</a>
 
-								<a href="https://inmed.com.ph/direct/index.php?route=product/product&product_id=249&search=cleanspace" target="_blank"> 
+								<a href="https://inmed.com.ph/direct/index.php?route=product/product&product_id=249" target="_blank"> 
 									<img class="inmed" src="../assets/img/inmed.png">
 								</a>
 

@@ -1,5 +1,4 @@
 <?php 
-
 require("assets/common/header.php"); 
 require("controller/captcha.php");
 ?>
@@ -59,41 +58,39 @@ require("controller/captcha.php");
           <!-- <form id="contactus_form" method="post" role="form"> -->
             <div class="row">
               <div class="col-md-6 form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name">
-                <span class="error" id="error_name"></span>
+                <input type="text" name="c_name" class="form-control" id="name" placeholder="Your Name" onkeyup="txtvalidator(this)" required>
+                <span class="error" id="c_name"></span>
               </div>
               <div class="col-md-6 form-group mt-3 mt-md-0">
-                <input type="number" class="form-control" name="contact" id="contact_num" placeholder="Contact Number">
-                <span class="error" id="error_contact"></span>
+                <input type="number" class="form-control" name="c_contact" id="contact_num" placeholder="Contact Number" onkeyup="txtvalidator(this)" required>
+                <span class="error" id="c_contact"></span>
               </div>
             </div>
             
             <div class="row mt-3">
               <div class="col-md-6 form-group">
-                <input type="email" name="email" class="form-control" id="email" placeholder="Your Email">
-                <span class="error" id="error_email"></span>
+                <input type="email" name="c_email" class="form-control" id="email" placeholder="Your Email" onkeyup="txtvalidator(this)" required>
+                <span class="error" id="c_email"></span>
               </div>
               <div class="col-md-6 form-group mt-3 mt-md-0">
-                <input type="email" class="form-control" name="confirm_email" id="confirm_email" placeholder="Confirm Email">
-                <span class="error" id="error_confirmEmail"></span>
-               <span class="error" id="error_emailValidation"></span>
+                <input type="email" class="form-control" name="c_confirm_email" id="confirm_email" placeholder="Confirm Email" onkeyup="txtvalidator(this)" required>
+                <span class="error" id="c_confirm_email"></span>
               </div>  
             </div>
             <div class="form-group mt-3">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
-              <span class="error" id="error_subject"></span>
+              <input type="text" class="form-control" name="c_subject" id="subject" placeholder="Subject" onkeyup="txtvalidator(this)" required>
+              <span class="error" id="c_subject"></span>
             </div>
             <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="5" id="message" placeholder="Message"></textarea>
-              <span class="error" id="error_message"></span>
+              <textarea class="form-control" name="c_message" rows="5" id="message" placeholder="Message" onkeyup="txtvalidator(this)"></textarea>
+              <span class="error" id="c_message"></span>
             </div>
 
             <div class="form-group mt-3">
               <?php echo "Please type <b>".$rand."</b> in the field:"; ?>
               <input type="hidden" class="form-control" name="captcha_validate" id="captcha_validate" value="<?php echo $rand; ?>" readonly>
-              <input type="text" class="form-control" name="captcha" id="captcha" placeholder="Captcha">
-              <span class="error" id="error_captcha"></span>
-              <span class="error" id="error_captchaValidation"></span>
+              <input type="text" class="form-control" name="c_captcha" id="captcha" placeholder="Captcha" onkeyup="txtvalidator(this)">
+              <span class="error" id="c_captcha"></span>
             </div>
 
             <br/>

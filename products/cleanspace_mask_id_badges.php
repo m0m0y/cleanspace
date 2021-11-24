@@ -20,7 +20,9 @@
 	      <div class="row justify-content-between">
 	        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center animated">
 	        	<div data-aos="zoom-out" class="hero_text">
-		            <h1 class=""><span>CleanSpace®</span> HALO Mask ID Badges (Comes in pair)</h1>
+		            <h1 class=""><span>CleanSpace®</span></h1>
+					<h2>HALO Mask ID Badges<br/>
+					(Comes in pair)</h2>
 	            </div>
 	        </div>
 	      </div>
@@ -29,62 +31,28 @@
 
 	<div id="features">
 		<!-- ======= Features Section ======= -->
-		<section class="features">
+		<section class="features" style="padding-top: 50px;">
 			<div class="container">
 				<div class="row content">
 					
-					<div class="col-md-5 pt-4" data-aos="fade-right">
+					<div class="col-md-5" data-aos="fade-right">
 						<div class="content-box">
-							 <img src="../assets/img/products/TMS Mask ID Badge.png" style="width:100%">
-							<!-- <div class="slideshow-container">
-
-								<div class="mySlides">
-								    <img src="../assets/img/products/TMS Mask ID Badge.png" style="width:100%">
-								</div>
-
-                                <div class="mySlides">
-								    <img src="../assets/img/products/Badge with engraving 1.png" style="width:100%">
-								</div>
-
-                                <div class="mySlides">
-								    <img src="../assets/img/products/No shine engraving orange-1000x1000.png" style="width:100%">
-								</div>
-
-                                <div class="mySlides">
-								    <img src="../assets/img/products/No shine engraving yellow-1000x1000.png" style="width:100%">
-								</div>
-
-								<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-								<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-							</div> -->
-
 							<div class="customize_text">
-								<span> <h1>Customize</h1> <h3>Your CleanSpace HALO Mask ID Badges</h3> <h4>For Personal Touch</h4></span>
+								<span> 
+									<p>The CleanSpace Mask ID Badges are suitable for use with the CleanSpace HALO Half Mask. They allow the user to individualise their Half Masks through the addition of a coloured badge.</p>
+									<br/>
+									<h1>Customize</h1> <h3>Your CleanSpace HALO Mask ID Badges</h3> <h4>For Personal Touch</h4>
+								</span>
 							</div>
 						</div>
 					</div>
 
 					<div class="product-desc col-md-7 pt-4" data-aos="fade-left">
-						<p>The CleanSpace Halo Cleaning and Storage Plug Set is designed to be used with the CleanSpace HALO Respirator Unit to seal all the openings during cleaning and storage. </p><br/>
-						
-						<h6 class="product-sub-title"><b>Features</b></h6>
-						<ul>
-							<li>Used with the revolutionary CleanSpace HALO PAPR.</li>
-							<li>Made from polycarbonate and silicone material.</li>
-							<li>Proudly Made in Australia</li>
-						</ul>
-
-                        <h6 class="product-sub-title"><b>Specifications</b></h6>
-						<ul>
-							<li>Weight: 85g</li>
-							<li>Dimensions: 180mm x 110mm x 800mm</li>
-							<li>Cleaning: Lukewarm water and mild detergent (neutral pH 6 – 8). Do not use solvents (turpentine or acetone), hot water, bleaching or chemical agents.</li>
-                            <li>Storage: –10°C to +55°C (–4°F to +131°F) at <90% relative humidity. Store away from direct sunlight, water, grease and oil</li>
-						</ul>
-
 						<div width: 90>
 							<div class="owl-carousel owl-theme">
+								<div class="item">
+									<img src="../assets/img/products/TMS Mask ID Badge.png">
+								</div>
 								<div class="item">
 									<img class="" src="../assets/img/products/Badge with engraving 1.png">
 								</div>
@@ -97,7 +65,7 @@
 							</div>
 						</div>
 
-                        <div class="row mt-3 shop-icon">
+                        <div class="row shop-icon">
 							<h6 class="title">BUY US:</h6>
 							<div class="col-lg-3 col-sm-6"> 
 								<p class="title">Official Website:</p> 

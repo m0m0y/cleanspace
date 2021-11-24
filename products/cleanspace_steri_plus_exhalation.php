@@ -14,7 +14,8 @@
 	      <div class="row justify-content-between">
 	        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center animated">
 	        	<div data-aos="zoom-out" class="hero_text">
-		            <h1 class=""><span>CleanSpace®</span> Steri-Plus Exhalation Valve Filter (Pack of 20)</h1>
+		            <h1 class=""><span>CleanSpace®</span></h1>
+					<h2> Steri-Plus Exhalation Valve Filter<br/>(Pack of 20) </h2>
 	            </div>
 	        </div>
 	      </div>

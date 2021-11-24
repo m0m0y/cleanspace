@@ -15,7 +15,8 @@
 	      <div class="row justify-content-between">
 	        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center animated">
 	        	<div data-aos="zoom-out" class="hero_text">
-		            <h1 class=""><span>CleanSpace®</span> HALO Cleaning and Storage Plug</h1>
+		            <h1 class=""><span>CleanSpace®</span></h1>
+					<h2> HALO Cleaning and Storage Plug </h2>
 	            </div>
 	        </div>
 	      </div>
@@ -35,17 +36,8 @@
 								<div class="mySlides">
 								    <img src="../assets/img/products/cleaning and storage plug.png" style="width:100%">
 								</div>
-
-                                <div class="mySlides">
-								    <img src="../assets/img/products/new1-1000x1000.jpg" style="width:100%">
-								</div>
-
-                                <div class="mySlides">
-								    <img src="../assets/img/products/new3-1000x1000.jpg" style="width:100%">
-								</div>
-
-								<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-								<a class="next" onclick="plusSlides(1)">&#10095;</a>
+								<!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+								<a class="next" onclick="plusSlides(1)">&#10095;</a> -->
 
 							</div>
 						</div>
@@ -74,13 +66,13 @@
 							<h6 class="title">BUY US:</h6>
 							<div class="col-lg-3 col-sm-6"> 
 								<p class="title">Official Website:</p> 
-								<a href="https://medicalshop.ph/index.php?route=product/product&product_id=803&search=cleanspace" target="_blank"> 
+								<a href="https://medicalshop.ph/index.php?route=product/product&product_id=803" target="_blank"> 
 									<img class="tms" src="../assets/img/tms.png">
                                 </a>
-                                <a href="https://panamed.com.ph/shop/index.php?route=product/product&product_id=668&search=CleanSpace" target="_blank"> 
+                                <a href="https://panamed.com.ph/shop/index.php?route=product/product&product_id=668" target="_blank"> 
                                     <img class="ppi" src="../assets/img/ppi.png">
                                 </a>
-								<a href="https://inmed.com.ph/direct/index.php?route=product/product&product_id=250&search=cleanspace" target="_blank"> 
+								<a href="https://inmed.com.ph/direct/index.php?route=product/product&product_id=250" target="_blank"> 
 									<img class="inmed" src="../assets/img/inmed.png">
 								</a>
 							</div>

@@ -14,7 +14,9 @@
 	      <div class="row justify-content-between">
 	        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center animated">
 	        	<div data-aos="zoom-out" class="hero_text">
-		            <h1 class=""><span>CleanSpace®</span> HALO Head Harness for Half Mask (Non fabric)</h1>
+		            <h1 class=""><span>CleanSpace®</span></h1>
+					<h2> HALO Head Harness for Half Mask <br/>
+					 (Non fabric)</h2>
 	            </div>
 	        </div>
 	      </div>
@@ -48,7 +50,7 @@
 					</div>
 
 					<div class="product-desc col-md-7 pt-4" data-aos="fade-left">
-						<p>The CleanSpace HALO Head Harness is designed to be used with the CleanSpace HALO for tightness. The Head Harness comes with every CleanSpace HALO PAPR. The part (CS3008) is a spare used for replacement in case of damage or loss. The Head Harness is made of TPU clips, polyethylene strap with polyester adjustment band.</p> <br/>
+						<p>The CleanSpace HALO Head Harness is designed to be used with the CleanSpace HALO for tightness. The Head Harness comes with every CleanSpace HALO PAPR. Used for replacement in case of damage or loss. The Head Harness is made of TPU clips, polyethylene strap with polyester adjustment band.</p> <br/>
  
 						<h6 class="product-sub-title"><b>Features</b></h6>
 						<ul>
@@ -72,13 +74,13 @@
 							<h6 class="title">BUY US:</h6>
 							<div class="col-lg-3 col-sm-6"> 
 								<p class="title">Official Website:</p> 
-								<a href="https://medicalshop.ph/index.php?route=product/product&product_id=800&search=cleanspace" target="_blank"> 
+								<a href="https://medicalshop.ph/index.php?route=product/product&product_id=800" target="_blank"> 
 									<img class="tms" src="../assets/img/tms.png">
 								</a>
-								<a href="https://panamed.com.ph/shop/index.php?route=product/product&product_id=669&search=CleanSpace" target="_blank"> 
+								<a href="https://panamed.com.ph/shop/index.php?route=product/product&product_id=669" target="_blank"> 
 									<img class="ppi" src="../assets/img/ppi.png">
 								</a>
-								<a href="https://inmed.com.ph/direct/index.php?route=product/product&product_id=252&search=cleanspace" target="_blank"> 
+								<a href="https://inmed.com.ph/direct/index.php?route=product/product&product_id=252" target="_blank"> 
 									<img class="inmed" src="../assets/img/inmed.png">
 								</a>
 							</div>

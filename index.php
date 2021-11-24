@@ -3,9 +3,8 @@
 	<!-- ======= Header Section ======= -->
 	<header id="header" class="fixed-top d-flex align-items-center header-transparent">
 	    <div class="container d-flex align-items-center justify-content-between">
-
-	      	<!-- Navbar -->
-		    <?php require("assets/common/navbar.php"); ?>
+			<!-- Navbar -->
+			<?php require("assets/common/navbar.php") ?>
 	    </div>
 	</header><!-- End Header Section -->
 
@@ -43,28 +42,44 @@
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
-      <div class="container">
+      	<div class="container">
+			<div class="row">
+				<div class="about-bg-img col-xl-5 col-lg-6 d-flex justify-content-center align-items-stretch" data-aos="fade-right">
+				</div>
 
-        <div class="row">
-          <div class="about-bg-img col-xl-5 col-lg-6 d-flex justify-content-center align-items-stretch" data-aos="fade-right">
-          </div>
+				<div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center" data-aos="fade-left">
+					<h3>CLEANSPACE RESPIRATOR TECHNOLOGY</h3>
 
-          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center" data-aos="fade-left">
-            <h3>CLEANSPACE RESPIRATOR TECHNOLOGY</p></h3>
-
-            <div class="icon-box" data-aos-delay="100">
-              <p class="description">Our vision was to create a respirator that was a true innovation in personal respiratory protection. Using a combination of world class skills with a desire to better protect and serve people on the frontline of industry and healthcare, our biomedical engineers created something that would change the way people used respirators. </br></br>
-              CleanSpace respirators deliver all the protection of a Powered Air Purifying Respirator (PAPR), are comfortable to wear and easy to use. Through our proprietary technology, we have created the world’s smallest and smartest respirator
-              </p>
-              <p><a class="uppercase btn btn-outline-primary" href="about_us.php">Learn More About Us</a></p>
-            </div>
-
-          </div>
-        </div>
-      
-      </div>
+					<div class="icon-box" data-aos-delay="100">
+						<p class="description">Our vision was to create a respirator that was a true innovation in personal respiratory protection. Using a combination of world class skills with a desire to better protect and serve people on the frontline of industry and healthcare, our biomedical engineers created something that would change the way people used respirators. </br></br>
+						CleanSpace respirators deliver all the protection of a Powered Air Purifying Respirator (PAPR), are comfortable to wear and easy to use. Through our proprietary technology, we have created the world’s smallest and smartest respirator
+						</p>
+						<p><a class="uppercase btn btn-outline-primary" href="about_us.php">Learn More About Us</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
     </section><!-- End About Section -->
 
+	<section id="about" class="about">
+      	<div class="container">
+			<div class="row">
+				<div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center" data-aos="fade-left">
+					<h3>LOREM IPSUM</h3>
+
+					<div class="icon-box" data-aos-delay="100">
+						<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac sodales orci. Proin vitae libero finibus, imperdiet nulla ac, lacinia augue. Donec a nibh augue. Aenean risus quam, bibendum sit amet tortor viverra, venenatis lobortis risus.</br></br>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac sodales orci. Proin vitae libero finibus, imperdiet nulla ac, lacinia augue. Donec a nibh augue. Aenean risus quam, bibendum sit amet tortor viverra, venenatis lobortis risus.</br></br>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac sodales orci. Proin vitae libero finibus, imperdiet nulla ac, lacinia augue. Donec a nibh augue. Aenean risus quam, bibendum sit amet tortor viverra, venenatis lobortis risus.
+						</p>
+					</div>
+				</div>
+
+				<div class="gif-bg-img col-xl-5 col-lg-6 d-flex justify-content-center align-items-stretch" data-aos="fade-right">
+				</div>
+			</div>
+		</div>
+    </section>
 
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
@@ -77,7 +92,7 @@
 			<div class="row" data-aos="fade-left">
 				<div class="col-lg-3">
 					<div class="content-box">
-						<img src="assets/img/products/head harness.png">
+						<img src="assets/img/products/head harness.png" alt="HALO Head Harness for Half Mask (Non fabric)">
 						<h3 class="product-title">CleanSpace® </h3>
 						<h4 class="product-sub-title"> HALO Head Harness for Half Mask</h4>
 						<h6 class="desc"> (Non fabric) </h6>
@@ -88,7 +103,7 @@
 				
 				<div class="col-lg-3">
 					<div class="content-box">
-						<img src="assets/img/products/power unit.png">
+						<img src="assets/img/products/power unit.png" alt="HALO Power Unit (Half mask is sold separately)">
 						<h3 class="product-title">CleanSpace® </h3>
 						<h4 class="product-sub-title">HALO Power Unit</h4>
 						<h6 class="desc"> (Half mask is sold separately) </h6>
@@ -99,7 +114,7 @@
 
 				<div class="col-lg-3">
 					<div class="content-box">
-						<img src="assets/img/products/CleanSpace2_Power_System.png">
+						<img src="assets/img/products/CleanSpace2_Power_System.png" alt="Power System (Half mask is sold seperately)">
 						<h3 class="product-title">CleanSpace2 </h3>
 						<h4 class="product-sub-title">Power System</h4>
 						<h6 class="desc">(Half mask is sold seperately)</h6>
@@ -110,7 +125,7 @@
 
 				<div class="col-lg-3">
 					<div class="content-box">
-						<img src="assets/img/products/half mask1.png">
+						<img src="assets/img/products/half mask1.png" alt="Half Mask (Available in different sizes)">
 						<h3 class="product-title">CleanSpace2 </h3>
 						<h4 class="product-sub-title">Half Mask</h4>
 						<h6 class="desc">(Available in different sizes)</h6>
@@ -120,31 +135,28 @@
 				</div>
 			</div>
 		</div>
-    </section><!-- End Features Section -->
 
-   <!-- ======= Features Section ======= -->
-   <section id="" class="details">
-      	<div class="container">
-			<div class="row content">
+		<div class="container">
+			<div class="row content" style="margin-top: 5%;" >
 				<div class="col-lg-6 col-sm-12" data-aos="fade-right">
 					<!-- <div class="col-md-5"> -->
 							<div class="content-box">
 								<div class="cleanspace-smart-app-slideshow">
 								
 									<div class="mySlides">
-										<img src="assets/img/gallery/cleanspace_halo/CleanSpace-Smart-App.jpg">
+										<img src="assets/img/gallery/cleanspace_halo/CleanSpace-Smart-App.jpg" alt="slide-img">
 									</div>
 
 									<div class="mySlides">
-										<img src="assets/img/gallery/cleanspace_smart_app/CS Smart App 1.png">
+										<img src="assets/img/gallery/cleanspace_smart_app/CS Smart App 1.png" alt="slide-img">
 									</div>
 
 									<div class="mySlides">
-										<img src="assets/img/gallery/cleanspace_smart_app/CS Smart App 2.png">
+										<img src="assets/img/gallery/cleanspace_smart_app/CS Smart App 2.png" alt="slide-img">
 									</div>
 
 									<div class="mySlides">
-										<img src="assets/img/gallery/cleanspace_smart_app/CS Smart App 3.png">
+										<img src="assets/img/gallery/cleanspace_smart_app/CS Smart App 3.png" alt="slide-img">
 									</div>
 
 									<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -163,10 +175,10 @@
 
 						<div class="row">
 							<div class="col-md-4 col-sm-12">
-								<img src="assets/img/gallery/cleanspace_smart_app/CS App Store QR.png" style="width: 85%;"> 
+								<img src="assets/img/gallery/cleanspace_smart_app/CS App Store QR.png" style="width: 85%;" alt="CleanSpace Smart App on App Store"> 
 							</div>
 							<div class="col-md-4 col-sm-12">
-								<img src="assets/img/gallery/cleanspace_smart_app/CS G Play QR.png" style="width: 85%;"> 
+								<img src="assets/img/gallery/cleanspace_smart_app/CS G Play QR.png" style="width: 85%;" alt="CleanSpace Smart App on Google Play"> 
 							</div>
 							<div class="col-md-4 col-sm-12"></div>
 						</div>
@@ -256,6 +268,8 @@
 		</div>
     </section>
 	<!-- End Testimonials Section -->
+
+	<?php require("assets/common/popup.php"); ?>
 
 <?php require("assets/common/contact.php"); ?>
 <?php require("assets/common/footer.php"); ?>

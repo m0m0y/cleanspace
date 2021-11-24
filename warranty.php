@@ -1,11 +1,6 @@
 <?php 
 require("assets/common/header.php"); 
 require("controller/captcha.php");
-require("controller/warrant.php");
-
-
-$status_msg = warranty();
-$captcha_check = getRand($moy);
 ?>
 
 	<!-- ======= Header Section ======= -->
@@ -55,34 +50,47 @@ $captcha_check = getRand($moy);
                         <p>Warranty Registration</p>
                     </div>
 
-
-                    <?php if($status_msg==2){ ?>
-                    <div class="alert alert-success">Your message has been sent. <b>Thank you!</b></div>
-                    <?php } ?>
-                    <form id="warranty_form" method="post" role="form">
+                    <!-- <form id="warranty_form" role="form"> -->
                         <div class="row">
                             <div class="col-md-6 col-sm-12 form-group">
                                 <h3>Contact Information</h3>
-                                <input type="text" name="name" class="form-control mt-3" placeholder="Your Full Name*">
-                                <input type="email" class="form-control mt-3" name="email" placeholder="Email Address*">
-                                <input type="email" class="form-control mt-3" name="confirm_email" placeholder="Confirm Email*">
-                                <span class="error"><?php if($status_msg==1){ ?> Your email is incorrect, please try again.<?php } ?></span>
-                                <input type="text" class="form-control mt-3" name="address" placeholder="Complete Address">
-                                <input type="number" class="form-control mt-3" name="mobile_num" placeholder="Mobile Number*">
-                                <input type="number" class="form-control mt-3" name="phone_num" placeholder="Phone Number">
+                                <input type="text" name="c_name" id="name" class="form-control mt-3" placeholder="Your Full Name*" onkeyup="txtvalidator(this)" required>
+                                <span class="error" id="c_name"></span>
+
+                                <input type="email" id="email" class="form-control mt-3" name="c_email" placeholder="Email Address*" onkeyup="txtvalidator(this)" required>
+                                <span class="error" id="c_email"></span>
+
+                                <input type="email" id="confirm_email" class="form-control mt-3" name="c_confirm_email" placeholder="Confirm Email*" onkeyup="txtvalidator(this)" required>
+                                <span class="error" id="c_confirm_email"></span>
+
+                                <input type="text" id="complete_add" class="form-control mt-3" name="c_address" placeholder="Complete Address*" onkeyup="txtvalidator(this)" required>
+                                <span class="error" id="c_address"></span>
+
+                                <input type="number" id="mobile_num" class="form-control mt-3" name="c_mobile_num" placeholder="Mobile Number*" onkeyup="txtvalidator(this)"  required>
+                                <span class="error" id="c_mobile_num"></span>
+
+                                <input type="number" class="form-control mt-3" id="phone_num" name="c_phone_num" placeholder="Phone Number">
                             </div>
 
                             <div class="col-md-6 col-sm-12 form-group mt-3 mt-md-0">
                                 <h3>Product Information</h3>
-                                <input type="text" class="form-control  mt-3" name="item" placeholder="Product / Item*">
-                                <input type="text" class="form-control  mt-3" name="purchase_form" placeholder="Purchase Form*">
-                                <input type="number" class="form-control  mt-3" name="purchase_price" placeholder="Purchase Price*">
+                                <input type="text" id="product_item" class="form-control mt-3" name="c_item" placeholder="Product / Item*" onkeyup="txtvalidator(this)" required>
+                                <span class="error" id="c_item"></span>
+
+                                <input type="text" id="purchase_form" class="form-control mt-3" name="c_purchase_form" placeholder="Purchase Form*" onkeyup="txtvalidator(this)" required>
+                                <span class="error" id="c_purchase_form"></span>
+
+                                <input type="number" id="purchase_price" class="form-control mt-3" name="c_purchase_price" placeholder="Purchase Price*" onkeyup="txtvalidator(this)" required>
+                                <span class="error" id="c_purchase_price"></span>
+
                                 <div class="row mt-3">
                                     <div class="col-md-6 form-group">
-                                        <input type="number" class="form-control" name="order_number" placeholder="Order No.*">
+                                        <input type="number" id="order_num" class="form-control" name="c_order_number" placeholder="Order No.*" onkeyup="txtvalidator(this)" required>
+                                        <span class="error" id="c_order_number"></span>
                                     </div>
+
                                     <div class="col-md-6 form-group mt-md-0">
-                                        <select required name="distributor" class="form-select">
+                                        <select name="c_distributor" id="distributor" class="form-select" onkeyup="txtvalidator(this)" required>
                                             <option value="" disabled selected>Distributor*</option>
                                             <option value="The Medical Shop">The Medical Shop</option>
                                             <option value="Panamed Philippines Inc.">Panamed Philippines Inc.</option>
@@ -90,10 +98,15 @@ $captcha_check = getRand($moy);
                                             <option value="Shopee">Shopee</option>
                                             <option value="Lazada">Lazada</option>
                                         </select>
+                                        <span class="error" id="c_distributor"></span>
                                     </div>
                                 </div>
-                                <input type="date" class="form-control  mt-3" name="purchase_date" placeholder="Purchase Date*">
-                                <input type="text" class="form-control  mt-3" name="serial_num" placeholder="Serial Number*">
+
+                                <input type="date" id="purchase_date" class="form-control mt-3" name="c_purchase_date" placeholder="Purchase Date*" required onkeyup="txtvalidator(this)">
+                                <span class="error" id="c_purchase_date"></span>
+
+                                <input type="text" id="serial_num" class="form-control mt-3" name="c_serial_num" placeholder="Serial Number*" required onkeyup="txtvalidator(this)">
+                                <span class="error" id="c_serial_num"></span>
                             </div>
                         </div>
 
@@ -101,35 +114,35 @@ $captcha_check = getRand($moy);
                             <div class="col-md-6 col-sm-12 form-group mt-3 mt-md-0">
                                 <p class="title">How did you first become aware of these products</p>
                                
-                                <input class="form-check-input" name="radio" type="radio" value="Website" checked>
+                                <input class="form-check-input rad" name="radio" type="radio" value="Website" checked>
                                 <label class="form-check-label">
                                     Website
                                 </label>
                                 
                                 <br/><br/>
 
-                                <input class="form-check-input"  name="radio" type="radio" value="Social Media">
+                                <input class="form-check-input rad"  name="radio" type="radio" value="Social Media">
                                 <label class="form-check-label">
                                     Social Media
                                 </label>
                                 
                                 <br/><br/>
                                 
-                                <input class="form-check-input"  name="radio" type="radio" value="Friend / Relative">
+                                <input class="form-check-input rad"  name="radio" type="radio" value="Friend / Relative">
                                 <label class="form-check-label">
                                     Friend / Relative
                                 </label>
                                 
                                 <br/><br/>
                                 
-                                <input class="form-check-input"  name="radio" type="radio" value="Google">
+                                <input class="form-check-input rad"  name="radio" type="radio" value="Google">
                                 <label class="form-check-label">
                                     Google
                                 </label>
 
                                 <br/><br/>
 
-                                <input class="form-check-input"  name="radio" type="radio" value="Others">
+                                <input class="form-check-input rad"  name="radio" type="radio" value="Others">
                                 <label class="form-check-label">
                                     Others
                                 </label>
@@ -137,9 +150,9 @@ $captcha_check = getRand($moy);
                                 <br/><br/>
 
                                 <p class="title">What Factor(s) Influenced you to purchase CleanSpace Products?</p>
-                                <div class="input-group mb-3">
+                                <div class="input-group">
                                     <label class="input-group-text">Options</label>
-                                    <select required name="factors" class="form-select">
+                                    <select name="c_factors" id="factors" class="form-select" onkeyup="txtvalidator(this)" required>
                                         <option value="" disabled selected>Choose factors*</option>
                                         <option value="Flyers">Flyers</option>
                                         <option value="Brochure">Brochure</option>
@@ -152,26 +165,27 @@ $captcha_check = getRand($moy);
                                         <option value="Field that I'm in">Field that I'm in</option>
                                     </select>
                                 </div>
+                                <span class="error" id="c_factors"></span>
                                 
-                                <br>
+                                <br/>
 
-                                <?php echo "Please type <b>".$captcha_check."</b> in the field:"; ?>
-                                <input type="hidden" class="form-control" name="captcha_check" value="<?php echo $captcha_check; ?>" readonly>
-                                <input type="text" class="form-control" name="captcha" id="subject" placeholder="Captcha*">
-                                <span class="error"><?php if($status_msg==3){ ?> Invalid Captcha! <?php } ?></span>
+                                <?php echo "Please type <b>".$rand."</b> in the field:"; ?>
+                                <input type="hidden" class="form-control" name="captcha_validate" id="captcha_validate" value="<?php echo $rand; ?>" readonly>
+                                <input type="text" class="form-control" name="c_captcha" id="captcha" placeholder="Captcha*" onkeyup="txtvalidator(this)">
+                                <span class="error" id="c_captcha"></span>
                             </div>
 
                             <div class="col-md-6 col-sm-12 form-group mt-3 mt-md-0">
                                 <p class="title">How would you rate the packaging of Products?</p>
                                
-                                <input class="form-check-input" name="packaging" type="radio" value="Good" checked>
+                                <input class="form-check-input" id="packaging" name="packaging" type="radio" value="Good" checked>
                                 <label class="form-check-label">
                                     Good
                                 </label>
                                 
                                 <br/><br/>
 
-                                <input class="form-check-input" name="packaging" type="radio" value="Poor">
+                                <input class="form-check-input" id="packaging" name="packaging" type="radio" value="Poor">
                                 <label class="form-check-label">
                                     Poor
                                 </label>
@@ -184,7 +198,7 @@ $captcha_check = getRand($moy);
                                     <div class="star-widget">
                                         <input type="radio" class="star-rating" name="satisfaction" id="rate-5" value="5-star">
                                         <label for="rate-5" class="fas fa-star"></label>
-                                        <input type="radio" class="star-rating"  name="satisfaction" id="rate-4" value="4-star">
+                                        <input type="radio" class="star-rating"  name="satisfaction" id="rate-4" value="4-star" checked>
                                         <label for="rate-4" class="fas fa-star"></label>
                                         <input type="radio" class="star-rating"  name="satisfaction" id="rate-3" value="3-star">
                                         <label for="rate-3" class="fas fa-star"></label>
@@ -195,15 +209,21 @@ $captcha_check = getRand($moy);
                                     </div>
                                 </div>
 
+
                                 <p class="title">Comments:</p>
-                                <textarea class="form-control" name="message" rows="4" placeholder="Message"></textarea>
+                                <textarea class="form-control" name="c_message" rows="5" id="message" placeholder="Message" onkeyup="txtvalidator(this)"></textarea>
+                                <span class="error" id="c_message"></span>
                             </div>
                         </div>
 
                         <br/>
 
-                        <input type="submit" class="btn btn-md btn-primary" name="send">
-                    </form>
+                        <div id="sendingValidation"></div>
+
+                        <br/>
+
+                        <input type="submit" class="btn btn-md btn-primary" name="send" value="Submit" id="warranty_send">
+                    <!-- </form> -->                   
                 </div>
             </div>
         </div>
@@ -280,6 +300,7 @@ $captcha_check = getRand($moy);
         onSubmit({ formElem: form2, displayElem: outputDisplay2 })
         );
     </script>
+
 <?php require("assets/common/contact.php"); ?>
 <?php require("assets/common/footer.php"); ?>
 

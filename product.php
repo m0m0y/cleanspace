@@ -152,6 +152,17 @@
 							<a class="uppercase btn btn-outline-primary" href="products/cleanspace_halo_half_mask.php">Learn More</a></p>
 						</div>
 					</div>
+
+					<div class="col-lg-3 pt-5">
+						<div class="content-box">
+							<img src="assets/img/products/cleanspace_protective_coverall1.JPG">
+							<h3 class="product-title">CleanSpace</h3>
+							<h4 class="product-sub-title">Protective Coverall and Pre-Filter</h4>
+							<h6 class="desc">(Pack of 20’s)</h6>
+							<p class="sub-desc"> CleanSpace Protective Cover and Pre-Filter is designed to protect the CleanSpace Respirator and the Particulate P3 Filter against airborne particulates like dust, mists and fumes to enhance the life of the Particulate P3 Filter.<br/><br/>
+							<a class="uppercase btn btn-outline-primary" href="products/cleanspace_protective_coverall.php">Learn More</a></p>
+						</div>
+					</div>
 				</div>	
 			</div>
 

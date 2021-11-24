@@ -15,7 +15,8 @@
 	      <div class="row justify-content-between">
 	        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center animated">
 	        	<div data-aos="zoom-out" class="hero_text">
-		            <h1 class=""><span>CleanSpace®</span> Steri-Plus Exhalation Valve Filter Case (Reusable)</h1>
+		            <h1 class=""><span>CleanSpace®</span></h1>
+					<h2>Steri-Plus Exhalation Valve Filter Case<br/>(Reusable)</h2>
 	            </div>
 	        </div>
 	      </div>
@@ -74,6 +75,9 @@
 								</a>
 								<a href="https://panamed.com.ph/shop/index.php?route=product/product&product_id=683&search=CleanSpace" target="_blank"> 
 									<img class="ppi" src="../assets/img/ppi.png">
+								</a>
+								<a href="https://inmed.com.ph/direct/index.php?route=product/product&product_id=272&search=CleanSpace&description=true" target="_blank"> 
+									<img class="inmed" src="../assets/img/inmed.png">
 								</a>
 							</div>
 							<div class="col-lg-3 col-sm-6"> 

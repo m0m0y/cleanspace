@@ -15,7 +15,8 @@
 	      <div class="row justify-content-between">
 	        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center animated">
 	        	<div data-aos="zoom-out" class="hero_text">
-		            <h1 class=""><span>CleanSpace2</span> CleanSpace2 Particulate Pre-Filter Standard (Pack of 10's)</h1>
+		            <h1 class=""><span>CleanSpace2</span></h1>
+					<h2>CleanSpace2 Particulate Pre-Filter Standard<br/>(Pack of 10's)</h2>
 	            </div>
 	        </div>
 	      </div>
@@ -73,6 +74,12 @@
 								<a href="https://medicalshop.ph/index.php?route=product/product&product_id=730&search=cleanspace" target="_blank"> 
                                     <img class="tms" src="../assets/img/tms.png">
                                 </a>
+							</div>
+							<div class="col-lg-3 col-sm-6"> 
+								<p class="title">Other Platform:</p>
+								<a href="https://www.lazada.com.ph/inmed-corporation-official/?q=cleanspace&langFlag=en&from=wangpu&lang=en&pageTypeId=2&spm=a2o4l.storeSpmB.searchbar.0" target="_blank">
+									<img src="../assets/img/lazada.png"> 
+								</a>
 							</div>
 						</div>	
 					</div>

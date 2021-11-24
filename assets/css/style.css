@@ -443,16 +443,6 @@ hr.solid {
 
 /*=============================================*/
 
-/* #cleanspace-ex {
-  width: 100%;
-  background: url("../img/hero/CleanSpace-EX-Banner-01.jpg") no-repeat;
-  background-size: cover; 
-  position: relative;
-  padding: 15% 0px;
-} */
-
-/*=============================================*/
-
 #cleanspace-halo {
   width: 100%;
   background: url("../img/hero/CleanSpace-HALO-Banner-01.jpg") no-repeat;
@@ -473,16 +463,6 @@ hr.solid {
 
 /*=============================================*/
 
-/* #cleanspace-ultra {
-  width: 100%;
-  background: url("../img/hero/CleanSpace-ULTRA-Banner-01.jpg") no-repeat;
-  background-size: cover; 
-  position: relative;
-  padding: 15% 0px;
-} */
-
-/*=============================================*/
-
 #product-hero {
   width: 100%;
   background: url("../img/hero/CleanSpace-HALO-08.jpg") no-repeat;
@@ -490,7 +470,6 @@ hr.solid {
   position: relative;
   padding: 15% 0px;
 }
-
 
 /*=============================================*/
 @media (max-width: 575px) {
@@ -764,6 +743,16 @@ section {
   border-radius: 0;
 }*/
 
+
+/*--------------------------------------------------------------
+# GIF
+--------------------------------------------------------------*/
+.gif-bg-img {
+  background: url("../img/others/draft_gif.gif") center no-repeat;
+  background-size: contain;
+  min-height: auto;
+  min-width: auto;
+}
 @-webkit-keyframes pulsate-btn {
   0% {
     transform: scale(0.6, 0.6);
@@ -1433,16 +1422,34 @@ div.row .shop-icon .ppi, .tms {
 /* //////////////////////cleanspace unit/mask ID///////////////////////// */
 div .customize_text  span{
   position: absolute; 
-  top: 50%; 
+  top: 15%; 
   left: 50%; 
   transform: translate(-50%, 50%); 
   width:100%;
+}
+
+
+/* ========================================== */
+/* Modal pop up */
+/* ========================================== */
+#imgModal {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.5);
+}
+
+@media (max-width: 700px){
+  #imgModal {
+    width: 100%;
+  }
 }
 
 /* ========================================== */
 /* Custom media query */
 /* ========================================== */
 @media (max-width: 991px) {
+  section {
+    padding: 25px 0;
+  }
   .details .content + .content {
     margin-top: 25px;
   }

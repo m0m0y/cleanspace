@@ -15,7 +15,9 @@
 	      <div class="row justify-content-between">
 	        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center animated">
 	        	<div data-aos="zoom-out" class="hero_text">
-		            <h1 class=""><span>CleanSpace®</span> HALO Particulate Filter (Pack of 3)</h1>
+		            <h1 class=""><span>CleanSpace®</span></h1>
+					<h2>HALO Particulate Filter<br/>
+					(Pack of 3)</h2>
 	            </div>
 	        </div>
 	      </div>
@@ -49,7 +51,7 @@
 
 					<div class="product-desc col-md-7 pt-4" data-aos="fade-left">
                     	<small class="fst-italic">*These filters are compatible with CleanSpace HALO Power Units</small> </br>
-						<p>CleanSpace HALO Particulate Filters P3 are suitable for protection against airborne particulates (dust, mists and fumes) and biohazards. When selecting a CleanSpace Filter please consult a Health and Safety specialist for advice on the appropriate respiratory equipment and filter use.</p><br/>
+						<p>CleanSpace HALO Particulate Filters P3 are suitable for protection against airborne particulates (dust, mists and fumes) and biohazards.</p><br/>
 						
 						<h6 class="product-sub-title"><b>Features</b></h6>
 						<ul>
@@ -71,6 +73,14 @@
 							<li>These filters are not waterproof and should be replaced if they come in contact with water.</li>
 						</ul>
 
+						<h6 class="product-sub-title"><b>When to change the filter</b></h6>
+						<ul>
+							<li>The filter is heavily soiled or wet.</li>
+							<li>Packaged Shelf life: 3 years from manufacturing date.</li>
+							<li>Any sign of damage or suspected damage to the filter.</li>
+                            <li> Signs of dust or contaminants on the inside surface of the filter.</li>
+						</ul>
+
                         <div class="row content shop-icon">
 							<h6 class="title">BUY US:</h6>
 							<div class="col-lg-3 col-sm-6"> 
@@ -81,6 +91,9 @@
                                 <a href="https://panamed.com.ph/shop/index.php?route=product/product&product_id=670&search=CleanSpace" target="_blank"> 
                                     <img class="ppi" src="../assets/img/ppi.png">
                                 </a>
+								<a href="https://inmed.com.ph/direct/index.php?route=product/product&product_id=251&search=CleanSpace&description=true" target="_blank"> 
+									<img class="inmed" src="../assets/img/inmed.png">
+								</a>
 							</div>
 							<div class="col-lg-3 col-sm-6"> 
 								<p class="title">Other Platform:</p>
