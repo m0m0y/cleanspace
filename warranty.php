@@ -121,31 +121,34 @@ require("controller/captcha.php");
                                 
                                 <br/><br/>
 
-                                <input class="form-check-input rad"  name="radio" type="radio" value="Social Media">
+                                <input class="form-check-input rad" name="radio" type="radio" value="Social Media">
                                 <label class="form-check-label">
                                     Social Media
                                 </label>
                                 
                                 <br/><br/>
                                 
-                                <input class="form-check-input rad"  name="radio" type="radio" value="Friend / Relative">
+                                <input class="form-check-input rad" name="radio" type="radio" value="Friend / Relative">
                                 <label class="form-check-label">
                                     Friend / Relative
                                 </label>
                                 
                                 <br/><br/>
                                 
-                                <input class="form-check-input rad"  name="radio" type="radio" value="Google">
+                                <input class="form-check-input rad" name="radio" type="radio" value="Google">
                                 <label class="form-check-label">
                                     Google
                                 </label>
 
                                 <br/><br/>
 
-                                <input class="form-check-input rad"  name="radio" type="radio" value="Others">
+                                <input class="form-check-input others" name="radio" type="radio" value="Others">
                                 <label class="form-check-label">
                                     Others
                                 </label>
+
+                                <input type="text" id="other_input" class="form-control mt-3" name="other_input" placeholder="Please Specify Here.. " onkeyup="txtvalidator(this)" required>
+                                <span class="error" id="other_input"></span>
                                 
                                 <br/><br/>
 

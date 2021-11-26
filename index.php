@@ -61,21 +61,25 @@
 		</div>
     </section><!-- End About Section -->
 
-	<section id="about" class="about">
+	<section id="advantage" class="about advantage">
       	<div class="container">
 			<div class="row">
-				<div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center" data-aos="fade-left">
-					<h3>LOREM IPSUM</h3>
-
+				<div class="col-xl-6 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center" data-aos="fade-right">
+					<center>
+						<h3>ADVANTAGES OF BUYING FROM US </h3>
+					</center>
 					<div class="icon-box" data-aos-delay="100">
-						<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac sodales orci. Proin vitae libero finibus, imperdiet nulla ac, lacinia augue. Donec a nibh augue. Aenean risus quam, bibendum sit amet tortor viverra, venenatis lobortis risus.</br></br>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac sodales orci. Proin vitae libero finibus, imperdiet nulla ac, lacinia augue. Donec a nibh augue. Aenean risus quam, bibendum sit amet tortor viverra, venenatis lobortis risus.</br></br>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac sodales orci. Proin vitae libero finibus, imperdiet nulla ac, lacinia augue. Donec a nibh augue. Aenean risus quam, bibendum sit amet tortor viverra, venenatis lobortis risus.
+						<p class="description gif-desc">
+							<i class="fas fa-check"></i> Items are ready to ship <br>
+							<i class="fas fa-check"></i> Service and repairs <br>
+							<i class="fas fa-check"></i> Freebies <br>
+							<i class="fas fa-check"></i> Discounts and more promos <br>
 						</p>
 					</div>
 				</div>
 
-				<div class="gif-bg-img col-xl-5 col-lg-6 d-flex justify-content-center align-items-stretch" data-aos="fade-right">
+				<div class="col-xl-6 col-lg-6 d-flex justify-content-center align-items-stretch" data-aos="fade-left">
+					<img class="gif" src="assets/img/others/cleanspace_gif1.gif" alt="slide-img">
 				</div>
 			</div>
 		</div>

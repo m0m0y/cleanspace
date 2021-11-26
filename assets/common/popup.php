@@ -11,7 +11,7 @@
 
 <body>
     <div id="imgModal" class="modal fade" tabindex="-1">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
 
                 <div class="modal-header">
@@ -20,7 +20,7 @@
                 </div>
 
                 <div class="modal-body">
-                    <img src="assets/img/others/get_discount.png" alt="discount-img" width="100%">
+                    <img src="assets/img/others/image_popup.png" alt="discount-img" width="100%">
                 </div>
             </div>
         </div>

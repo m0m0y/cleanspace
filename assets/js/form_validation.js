@@ -9,6 +9,15 @@ function isEmail(email, confirmEmail) {
 }
 
 $(document).ready(function(){
+    $('#other_input').hide();
+    
+    $('.others').click(function(){
+        var others = $(this).attr('class');
+        var target = $('.' + others);
+        $('#other_input').not(target).show();
+        $(target).hide();
+    });
+
     $('#warranty_send').on('click', function(){
         var c_name = '';
         var c_email = '';

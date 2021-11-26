@@ -71,7 +71,7 @@
 							
 							<div class="customize_text">
 								<span>
-									<p>The CleanSpace HALO Unit ID Panels are suitable for use with the CleanSpace HALO. They allow the user to individualise their units by replacing the standard HALO panels with a range of coloured ones. Apart from the colouring, there is no other difference between the standard and the coloured Unit ID Panels.</p>
+									<p>The CleanSpace HALO Unit ID Panels are suitable for use with the CleanSpace HALO. They allow the user to individualize their units by replacing the standard HALO panels with a range of coloured ones. Apart from the colouring, there is no other difference between the standard and the coloured Unit ID Panels.</p>
 									<br>
 									<h1>Customize</h1> <h3>Your CleanSpace HALO ID Panel</h3> <h4>For Personal Touch</h4>
 								</span>

@@ -745,13 +745,22 @@ section {
 
 
 /*--------------------------------------------------------------
-# GIF
+# GIF section
 --------------------------------------------------------------*/
-.gif-bg-img {
-  background: url("../img/others/draft_gif.gif") center no-repeat;
-  background-size: contain;
-  min-height: auto;
-  min-width: auto;
+section.advantage {
+  background: url('../img/hero/CleanSpace-ULTRA-Banner-021.png') center no-repeat; 
+  background-size: cover;
+}
+img.gif{
+  width: 80%;
+}
+p.gif-desc{
+  font-size: 19px;
+  text-align: left;
+  padding: 0px 23%;
+}
+.fa-check {
+  color: #00A66C;
 }
 @-webkit-keyframes pulsate-btn {
   0% {
@@ -1435,6 +1444,7 @@ div .customize_text  span{
 #imgModal {
   background-color: rgb(0,0,0); 
   background-color: rgba(0,0,0,0.5);
+  padding: auto;
 }
 
 @media (max-width: 700px){
@@ -1455,6 +1465,10 @@ div .customize_text  span{
   }
   .section-title p {
     font-size: 30px;
+  }
+  .gif-desc{
+    text-align: left;
+    padding: 0px 10%;
   }
 
   div .customize_text  span{

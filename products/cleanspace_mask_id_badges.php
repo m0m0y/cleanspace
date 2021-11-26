@@ -39,7 +39,7 @@
 						<div class="content-box">
 							<div class="customize_text">
 								<span> 
-									<p>The CleanSpace Mask ID Badges are suitable for use with the CleanSpace HALO Half Mask. They allow the user to individualise their Half Masks through the addition of a coloured badge.</p>
+									<p>The CleanSpace Mask ID Badges are suitable for use with the CleanSpace HALO Half Mask. They allow the user to individualize their Half Masks through the addition of a coloured badge.</p>
 									<br/>
 									<h1>Customize</h1> <h3>Your CleanSpace HALO Mask ID Badges</h3> <h4>For Personal Touch</h4>
 								</span>

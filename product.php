@@ -113,7 +113,7 @@
 							<h3 class="product-title">CleanSpace® </h3>
 							<h4 class="product-sub-title"> HALO Mask ID Badges </h4>
 							<h6 class="desc"> (Comes in pair) </h6>
-							<p class="sub-desc"> The CleanSpace Mask ID Badges are suitable for use with the CleanSpace HALO Half Mask. They allow the user to individualise their Half Masks through the addition of a coloured badge.<br/><br/>
+							<p class="sub-desc"> The CleanSpace Mask ID Badges are suitable for use with the CleanSpace HALO Half Mask. They allow the user to individualize their Half Masks through the addition of a coloured badge.<br/><br/>
 							<a class="uppercase btn btn-outline-primary" href="products/cleanspace_mask_id_badges.php">Learn More</a></p>
 						</div>
 					</div>
@@ -137,7 +137,7 @@
 							<h3 class="product-title">CleanSpace® </h3>
 							<h4 class="product-sub-title"> HALO Unit ID Panel </h4> 
 							<h6 class="desc">(Comes in pair)</h6>
-							<p class="sub-desc"> The CleanSpace HALO Unit ID Panels are suitable for use with the CleanSpace HALO. They allow the user to individualise their units by replacing the standard HALO panels with a range of coloured ones. <br/><br/>
+							<p class="sub-desc"> The CleanSpace HALO Unit ID Panels are suitable for use with the CleanSpace HALO. They allow the user to individualize their units by replacing the standard HALO panels with a range of coloured ones. <br/><br/>
 							<a class="uppercase btn btn-outline-primary" href="products/cleanspace_unit_id_panel.php">Learn More</a></p>
 						</div>
 					</div>
