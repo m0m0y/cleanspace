@@ -9,13 +9,14 @@ function isEmail(email, confirmEmail) {
 }
 
 $(document).ready(function(){
-    $('#other_input').hide();
+    $('#field').hide();
     
     $('.others').click(function(){
-        var others = $(this).attr('class');
-        var target = $('.' + others);
-        $('#other_input').not(target).show();
-        $(target).hide();
+        $('#field').show();
+    });
+
+    $('.rad').click(function(){
+        $('#field').hide();
     });
 
     $('#warranty_send').on('click', function(){
@@ -35,6 +36,8 @@ $(document).ready(function(){
         var c_factors = '';
         var c_captcha = '';
 
+        var others = '';
+
         var distributor = $('#distributor option:selected').val();
         var factors = $('#factors option:selected').val();
 
@@ -42,111 +45,122 @@ $(document).ready(function(){
         var confirmEmail = $('#confirm_email').val();
 
 
-        if($('#name').val() == ''){
-            c_name = '<b>This field is required!</b>';
-            $('#c_name').html(c_name);
-        } 
+        // if($('#name').val() == ''){
+        //     c_name = '<b>This field is required!</b>';
+        //     $('#c_name').html(c_name);
+        // } 
 
-        if ($.trim(email).length == null || $.trim(confirmEmail).length == null) {
-            c_email = '<b>This field is required!</b>';
-            $('#c_email').html(c_email);
+        // if ($.trim(email).length == null || $.trim(confirmEmail).length == null) {
+        //     c_email = '<b>This field is required!</b>';
+        //     $('#c_email').html(c_email);
 
-            c_confirm_email = '<b>This field is required!</b>';
-                $('#c_confirm_email').html(c_confirm_email);
-        }
-        if (isEmail(email, confirmEmail)) {
-            c_email = '';
-            $('#c_email').html(c_email);
+        //     c_confirm_email = '<b>This field is required!</b>';
+        //         $('#c_confirm_email').html(c_confirm_email);
+        // }
+        // if (isEmail(email, confirmEmail)) {
+        //     c_email = '';
+        //     $('#c_email').html(c_email);
 
-            c_confirm_email = '';
-                $('#c_confirm_email').html(c_confirm_email);
-        }
-        else {
-            c_email = '<b>Invalid Email Address!</b>';
-            $('#c_email').html(c_email);
+        //     c_confirm_email = '';
+        //         $('#c_confirm_email').html(c_confirm_email);
+        // }
+        // else {
+        //     c_email = '<b>Invalid Email Address!</b>';
+        //     $('#c_email').html(c_email);
 
-            c_confirm_email = '<b>Invalid Email Address!</b>';
-                $('#c_confirm_email').html(c_confirm_email);
-        }
+        //     c_confirm_email = '<b>Invalid Email Address!</b>';
+        //         $('#c_confirm_email').html(c_confirm_email);
+        // }
 
-        if($('#email').val() != $('#confirm_email').val()){
-            c_confirm_email = '<b>Please double check your email!</b>';
-            $('#c_confirm_email').html(c_confirm_email);
-        }
+        // if($('#email').val() != $('#confirm_email').val()){
+        //     c_confirm_email = '<b>Please double check your email!</b>';
+        //     $('#c_confirm_email').html(c_confirm_email);
+        // }
 
-        if($('#complete_add').val() == ''){
-            c_address = '<b>This field is required!</b>';
-            $('#c_address').html(c_address);
-        } 
+        // if($('#complete_add').val() == ''){
+        //     c_address = '<b>This field is required!</b>';
+        //     $('#c_address').html(c_address);
+        // } 
 
-        if($('#mobile_num').val() == ''){
-            c_mobile_num = '<b>This field is required!</b>';
-            $('#c_mobile_num').html(c_mobile_num);
-        } 
+        // if($('#mobile_num').val() == ''){
+        //     c_mobile_num = '<b>This field is required!</b>';
+        //     $('#c_mobile_num').html(c_mobile_num);
+        // } 
 
-        if($('#product_item').val() == ''){
-            c_item = '<b>This field is required!</b>';
-            $('#c_item').html(c_item);
-        } 
+        // if($('#product_item').val() == ''){
+        //     c_item = '<b>This field is required!</b>';
+        //     $('#c_item').html(c_item);
+        // } 
 
-        if($('#purchase_form').val() == ''){
-            c_purchase_form = '<b>This field is required!</b>';
-            $('#c_purchase_form').html(c_purchase_form);
-        } 
+        // if($('#purchase_form').val() == ''){
+        //     c_purchase_form = '<b>This field is required!</b>';
+        //     $('#c_purchase_form').html(c_purchase_form);
+        // } 
 
-        if($('#purchase_price').val() == ''){
-            c_purchase_price = '<b>This field is required!</b>';
-            $('#c_purchase_price').html(c_purchase_price);
-        } 
+        // if($('#purchase_price').val() == ''){
+        //     c_purchase_price = '<b>This field is required!</b>';
+        //     $('#c_purchase_price').html(c_purchase_price);
+        // } 
 
-        if($('#order_num').val() == ''){
-            c_order_number = '<b>This field is required!</b>';
-            $('#c_order_number').html(c_order_number);
-        } 
+        // if($('#order_num').val() == ''){
+        //     c_order_number = '<b>This field is required!</b>';
+        //     $('#c_order_number').html(c_order_number);
+        // } 
 
-        if(distributor == ''){
-            c_distributor = '<b>Please select one!</b>';
-            $('#c_distributor').html(c_distributor);
-        } 
-        else {
-            c_distributor = '';
-            $('#c_distributor').html(c_distributor);
-        }
+        // if(distributor == ''){
+        //     c_distributor = '<b>Please select one!</b>';
+        //     $('#c_distributor').html(c_distributor);
+        // } 
+        // else {
+        //     c_distributor = '';
+        //     $('#c_distributor').html(c_distributor);
+        // }
 
-        if($('#purchase_date').val()== ''){
-            c_purchase_date = '<b>This field is required!</b>';
-            $('#c_purchase_date').html(c_purchase_date);
-        } 
-        else {
-            c_purchase_date = '';
-            $('#c_purchase_date').html(c_purchase_date);
-        }
+        // if($('#purchase_date').val()== ''){
+        //     c_purchase_date = '<b>This field is required!</b>';
+        //     $('#c_purchase_date').html(c_purchase_date);
+        // } 
+        // else {
+        //     c_purchase_date = '';
+        //     $('#c_purchase_date').html(c_purchase_date);
+        // }
 
-        if($('#serial_num').val() == ''){
-            c_serial_num = '<b>This field is required!</b>';
-            $('#c_serial_num').html(c_serial_num);
-        } 
+        // if($('#serial_num').val() == ''){
+        //     c_serial_num = '<b>This field is required!</b>';
+        //     $('#c_serial_num').html(c_serial_num);
+        // } 
     
-        if(factors == ''){
-            c_factors = '<b>This field is required!</b>';
-            $('#c_factors').html(c_factors);
-        } 
-        else {
-            c_factors = '';
-            $('#c_factors').html(c_factors);
+        // if(factors == ''){
+        //     c_factors = '<b>This field is required!</b>';
+        //     $('#c_factors').html(c_factors);
+        // } 
+        // else {
+        //     c_factors = '';
+        //     $('#c_factors').html(c_factors);
+        // }
+
+        // if($('#captcha_validate').val() != $('#captcha').val()){
+        //     c_captcha = '<b>Invalid Captcha. Please try again!</b>';
+        //     $('#c_captcha').html(c_captcha);
+        // }
+
+        // if($('#message').val() == '') {
+        //     c_message = '<b>This field is required!</b>';
+        //     $('#c_message').html(c_message);
+        // }
+
+        if($(".others").prop('checked') == true){
+            if($("#order_input").val() == ''){
+                others = '<b>This field is required!</b>';
+                $('#others').html(others);
+            }
+        } else {
+            others = '';
+            $('#others').html(others);
         }
 
-        if($('#captcha_validate').val() != $('#captcha').val()){
-            c_captcha = '<b>Invalid Captcha. Please try again!</b>';
-            $('#c_captcha').html(c_captcha);
-        }
 
-        if($('#message').val() == '') {
-            c_message = '<b>This field is required!</b>';
-            $('#c_message').html(c_message);
-        }
-
-        if(c_name != '' || c_email != '' || c_confirm_email != '' || c_address != '' || c_mobile_num != '' || c_message != '' || c_item != '' || c_purchase_form != '' || c_purchase_price != '' || c_order_number != '' || c_distributor != '' || c_purchase_date != '' || c_serial_num != '' || c_factors != '' || c_captcha != ''){
+        if (c_name != '' || c_email != '' || c_confirm_email != '' || c_address != '' || c_mobile_num != '' || c_message != '' || c_item != '' || c_purchase_form != '' || c_purchase_price != '' || c_order_number != '' || c_distributor != '' || c_purchase_date != '' || c_serial_num != '' || c_factors != '' || c_captcha != '' || others != '') {
             return false;
         } else {
             var customer_name = $('#name').val();
@@ -162,45 +176,51 @@ $(document).ready(function(){
             var customer_purchase_date = $('#purchase_date').val();
             var customer_serial_num = $('#serial_num').val();
 
-            var aware = $('.rad:checked').val();
             var customer_factors = $('#factors').val();
             var packaging_rate = $('#packaging:checked').val();
             var product_rate = $('.star-rating:checked').val();
             var customer_message = $('#message').val();
 
-            var captcha = $('#captcha').val();
+            if($(".others").prop('checked') == true){
+                var aware = $("#others").val();
+            } 
+            else {
+                var aware = $('.rad:checked').val();
+            }
 
-            $.ajax({
-                url: 'controller/warrant.php',
-                method: 'POST',
-                data:{
-                    customer_name:customer_name,
-                    customer_email:customer_email,
-                    customer_address:customer_address,
-                    customer_mobile_num:customer_mobile_num,
-                    customer_phone_num:customer_phone_num,
-                    customer_product_item:customer_product_item,
-                    customer_purchase_form:customer_purchase_form,
-                    customer_purchase_price:customer_purchase_price,
-                    customer_order_num:customer_order_num,
-                    customer_distributor:customer_distributor,
-                    customer_purchase_date:customer_purchase_date,
-                    customer_serial_num:customer_serial_num,
-                    aware:aware,
-                    customer_factors:customer_factors,
-                    packaging_rate:packaging_rate,
-                    product_rate:product_rate,
-                    customer_message:customer_message
-                },
-                success: function(response){
-                    if(response == "Successfully sent!"){
-                        window.location.reload(true);
-                    } else {
-                        $('#sendingValidation').addClass('alert alert-danger');
-                        $('#sendingValidation').html(response);
-                    }
-                }
-            });
+            alert(aware)
+
+            // $.ajax({
+            //     url: 'controller/warrant.php',
+            //     method: 'POST',
+            //     data:{
+            //         customer_name:customer_name,
+            //         customer_email:customer_email,
+            //         customer_address:customer_address,
+            //         customer_mobile_num:customer_mobile_num,
+            //         customer_phone_num:customer_phone_num,
+            //         customer_product_item:customer_product_item,
+            //         customer_purchase_form:customer_purchase_form,
+            //         customer_purchase_price:customer_purchase_price,
+            //         customer_order_num:customer_order_num,
+            //         customer_distributor:customer_distributor,
+            //         customer_purchase_date:customer_purchase_date,
+            //         customer_serial_num:customer_serial_num,
+            //         aware:aware,
+            //         customer_factors:customer_factors,
+            //         packaging_rate:packaging_rate,
+            //         product_rate:product_rate,
+            //         customer_message:customer_message
+            //     },
+            //     success: function(response){
+            //         if(response == "Successfully sent!"){
+            //             window.location.reload(true);
+            //         } else {
+            //             $('#sendingValidation').addClass('alert alert-danger');
+            //             $('#sendingValidation').html(response);
+            //         }
+            //     }
+            // });
         }
     });
 });

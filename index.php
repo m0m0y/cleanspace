@@ -54,7 +54,7 @@
 						<p class="description">Our vision was to create a respirator that was a true innovation in personal respiratory protection. Using a combination of world class skills with a desire to better protect and serve people on the frontline of industry and healthcare, our biomedical engineers created something that would change the way people used respirators. </br></br>
 						CleanSpace respirators deliver all the protection of a Powered Air Purifying Respirator (PAPR), are comfortable to wear and easy to use. Through our proprietary technology, we have created the world’s smallest and smartest respirator
 						</p>
-						<p><a class="uppercase btn btn-outline-primary" href="about_us.php">Learn More About Us</a></p>
+						<p><a class="uppercase btn btn-outline-primary" href="about_us">Learn More About Us</a></p>
 					</div>
 				</div>
 			</div>

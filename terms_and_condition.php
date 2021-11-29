@@ -5,17 +5,17 @@
 	    <div class="container d-flex align-items-center justify-content-between">
             <!-- Logo -->
             <div class="logo">
-                <a href="index.php"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+                <a href="index"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
             </div>
             
             <!-- Navbar -->
             <nav id="navbar" class="navbar">
                 <ul>
-                <li><a class="nav-link scrollto" href="index.php">Home</a></li>
-                <li><a class="nav-link scrollto" href="product.php">Product</a></li>
-                <li><a class="nav-link scrollto" href="about_us.php">About</a></li>
-                <li><a class="nav-link scrollto" href="warranty.php">Warranty</a></li>
-                <li><a class='nav-link scrollto' href="contactus.php">Contact Us</a></li>
+                <li><a class="nav-link scrollto" href="index">Home</a></li>
+                <li><a class="nav-link scrollto" href="product">Product</a></li>
+                <li><a class="nav-link scrollto" href="about_us">About</a></li>
+                <li><a class="nav-link scrollto" href="warranty">Warranty</a></li>
+                <li><a class='nav-link scrollto' href="contactus">Contact Us</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->

@@ -7,21 +7,21 @@
 				<div class="col-lg-2 col-md-6 footer-links">
 					<h4>Useful Links</h4>
 					<ul>
-						<li><i class="bx bx-chevron-right"></i> <a href="../index.php">Home</a></li>
-						<li><i class="bx bx-chevron-right"></i> <a href="../about_us.php">About us</a></li>
-						<li><i class="bx bx-chevron-right"></i> <a href="../warranty.php">Warranty</a></li>
-						<li><i class="bx bx-chevron-right"></i> <a href="../terms_and_condition.php">Terms and Conditions</a></li>
-						<li><i class="bx bx-chevron-right"></i> <a href="../privacy_policy.php">Privacy policy</a></li>
+						<li><i class="bx bx-chevron-right"></i> <a href="../index">Home</a></li>
+						<li><i class="bx bx-chevron-right"></i> <a href="../about_us">About us</a></li>
+						<li><i class="bx bx-chevron-right"></i> <a href="../warranty">Warranty</a></li>
+						<li><i class="bx bx-chevron-right"></i> <a href="../terms_and_condition">Terms and Conditions</a></li>
+						<li><i class="bx bx-chevron-right"></i> <a href="../privacy_policy">Privacy policy</a></li>
 					</ul>
 				</div>
 
 				<div class="col-lg-2 col-md-6 footer-links">
 					<h4>Products</h4>
 					<ul>
-						<li><i class="bx bx-chevron-right"></i> <a href="cleanspace_halo_head_harness.php">CleanSpace® HALO Head Hardness for Half Mask</a></li>
-						<li><i class="bx bx-chevron-right"></i> <a href="cleanspace_halo_power_unit.php">CleanSpace® Power Unit</a></li>
-						<li><i class="bx bx-chevron-right"></i> <a href="cleanspace2_power_system.php">CleanSpace2 Power System</a></li>
-						<li><i class="bx bx-chevron-right"></i> <a href="cleanspace2_half_mask.php">CleanSpace2 Half Mask</a></li>
+						<li><i class="bx bx-chevron-right"></i> <a href="cleanspace_halo_head_harness">CleanSpace® HALO Head Hardness for Half Mask</a></li>
+						<li><i class="bx bx-chevron-right"></i> <a href="cleanspace_halo_power_unit">CleanSpace® Power Unit</a></li>
+						<li><i class="bx bx-chevron-right"></i> <a href="cleanspace2_power_system">CleanSpace2 Power System</a></li>
+						<li><i class="bx bx-chevron-right"></i> <a href="cleanspace2_half_mask">CleanSpace2 Half Mask</a></li>
 					</ul>
 				</div>
 

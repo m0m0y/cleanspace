@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-md-9">
                 <h3>Call: +63 (2) 8656 6888</h3>
-                <a class="btn btn-lg btn-primary" href="contactus.php" role="button">Contact Us</a>
+                <a class="btn btn-lg btn-primary" href="contactus" role="button">Contact Us</a>
             </div>
         </div>
       </div>

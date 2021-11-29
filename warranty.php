@@ -3,24 +3,10 @@ require("assets/common/header.php");
 require("controller/captcha.php");
 ?>
 
-	<!-- ======= Header Section ======= -->
-	<header id="header" class="fixed-top d-flex align-items-center header-transparent">
+<header id="header" class="fixed-top d-flex align-items-center header-transparent">
 	    <div class="container d-flex align-items-center justify-content-between">
-            <!-- Logo -->
-            <div class="logo">
-                <a href="index.php"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-            </div>
-            <!-- Navbar -->
-            <nav id="navbar" class="navbar">
-                <ul>
-                <li><a class="nav-link scrollto" href="index.php">Home</a></li>
-                <li><a class="nav-link scrollto" href="product.php">Product</a></li>
-                <li><a class="nav-link scrollto" href="about_us.php">About</a></li>
-                <li><a class="nav-link scrollto" href="#active">Warranty</a></li>
-                <li><a class='nav-link scrollto' href="contactus.php">Contact Us</a></li>
-                </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav><!-- .navbar -->
+			<!-- Navbar -->
+			<?php require("assets/common/navbar.php") ?>
 	    </div>
 	</header><!-- End Header Section -->
 
@@ -147,9 +133,12 @@ require("controller/captcha.php");
                                     Others
                                 </label>
 
-                                <input type="text" id="other_input" class="form-control mt-3" name="other_input" placeholder="Please Specify Here.. " onkeyup="txtvalidator(this)" required>
-                                <span class="error" id="other_input"></span>
-                                
+
+                                <div id="field">
+                                    <input type="text" id="others" class="form-control mt-3" name="other_input" placeholder="Please Specify Here.. " onkeyup="txtvalidator(this)" required>
+                                    <span class="error" id="other_input"></span>
+                                </div>
+
                                 <br/><br/>
 
                                 <p class="title">What Factor(s) Influenced you to purchase CleanSpace Products?</p>
