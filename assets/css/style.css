@@ -1460,13 +1460,13 @@ div .customize_text  span{
 
 .thankyou-section {
   width: 100%;
-  background: url("../img/hero/CleanSpace-ULTRA-Banner-01.jpg") no-repeat;
+  background: url("../img/hero/CleanSpace-ULTRA-Background-01.png") no-repeat;
   background-size: cover; 
   position: relative;
   padding: 10% 0px;
 }
 
-h2, .thankyou {
+.thankyou {
   font-weight: 800;
   font-size: 50px;
 }

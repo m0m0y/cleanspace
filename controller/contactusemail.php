@@ -119,7 +119,7 @@ class mailTemplate {
                     <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
                         <tr>
                             <td style="background-color:#FFFFFF;color:#000000;padding:30px;">
-                                <img alt="CleanSpace Logo" src="../assets/img/logo.png" width="120" style="display: block; margin: auto" />
+                                <img alt="CleanSpace Logo" src="https://senz-medical.com/cleanspace_dev/assets/img/logo.png" width="130" style="display: block; margin: auto" />
                             </td>
                         </tr>
                     </table>

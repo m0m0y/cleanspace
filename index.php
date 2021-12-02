@@ -30,9 +30,9 @@
 
 			<div class="row content" data-aos="zoom-out">
 				<div class="col-md-9 pt-4 border-left">
-					<h3>CleanSpace Respirators are the world’s only smart respirators, providing the highest level of protection, comfort and performance.</h3>
+					<h3>CleanSpace Respirators are the world’s only smart and compact design respirators, providing the highest level of protection, comfort and performance.</h3>
 					<p>
-						We understand the importance of best-in-class personal protective equipment that not only performs, but allows the wearer to work comfortably and interact naturally in their work environment. Our products are designed for maximum compliance and comfort in the industrial and healthcare setting.
+						We understand the importance of best-in-class personal protective equipment that not only performs, but allows the wearer to work comfortably and interact naturally in their work environment. Our products are designed for maximum compliance and comfort in healthcare settings and in any type environment.
 					</p>
 				</div>
 			</div>
@@ -51,8 +51,8 @@
 					<h3>CLEANSPACE RESPIRATOR TECHNOLOGY</h3>
 
 					<div class="icon-box" data-aos-delay="100">
-						<p class="description">Our vision was to create a respirator that was a true innovation in personal respiratory protection. Using a combination of world class skills with a desire to better protect and serve people on the frontline of industry and healthcare, our biomedical engineers created something that would change the way people used respirators. </br></br>
-						CleanSpace respirators deliver all the protection of a Powered Air Purifying Respirator (PAPR), are comfortable to wear and easy to use. Through our proprietary technology, we have created the world’s smallest and smartest respirator
+						<p class="description">Our vision is to create a respirator with true innovation in personal respiratory protection. Using a combination of world class skills with a desire to better protect and serve people on the frontline industry and healthcare, our biomedical engineers created something that would change the way people use respirators. </br></br>
+						CleanSpace respirators deliver all the protection of a Powered Air Purifying Respirator (PAPR), providing comfortable wearing and ease-of-use. Through our proprietary technology, we have created the world’s smallest and smartest respirator
 						</p>
 						<p><a class="uppercase btn btn-outline-primary" href="about_us">Learn More About Us</a></p>
 					</div>
@@ -66,12 +66,12 @@
 			<div class="row">
 				<div class="col-xl-6 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center" data-aos="fade-right">
 					<center>
-						<h3>ADVANTAGES OF BUYING FROM US </h3>
+						<h3>ADVANTAGES OF BUYING FROM US: </h3>
 					</center>
 					<div class="icon-box" data-aos-delay="100">
 						<p class="description gif-desc">
 							<i class="fas fa-check"></i> Items are ready to ship <br>
-							<i class="fas fa-check"></i> Service and repairs <br>
+							<i class="fas fa-check"></i> Service and repairs assistance<br>
 							<i class="fas fa-check"></i> Freebies <br>
 							<i class="fas fa-check"></i> Discounts and more promos <br>
 						</p>
@@ -90,7 +90,7 @@
       	<div class="container">
 			<div class="section-title" data-aos="fade-up">
 				<h2 class="uppercase">CleanSpace</h2>
-				<p>Feature Products</p>
+				<p>Featured Products</p>
 			</div>
 
 			<div class="row" data-aos="fade-left">
@@ -110,7 +110,7 @@
 						<img src="assets/img/products/power unit.png" alt="HALO Power Unit (Half mask is sold separately)">
 						<h3 class="product-title">CleanSpace® </h3>
 						<h4 class="product-sub-title">HALO Power Unit</h4>
-						<h6 class="desc"> (Half mask is sold separately) </h6>
+						<h6 class="desc"> (Half mask, sold separately) </h6>
 						<p class="sub-desc"> CleanSpace® Halo is a Powered Air Purifying Respirator (PAPR) system that houses smart technology, designed by biomedical engineers in a revolutionary, compact system. <br/><br/>
 						<a class="uppercase btn btn-outline-primary" href="products/cleanspace_halo_power_unit.php">Learn More</a></p>
 					</div>
@@ -121,7 +121,7 @@
 						<img src="assets/img/products/CleanSpace2_Power_System.png" alt="Power System (Half mask is sold seperately)">
 						<h3 class="product-title">CleanSpace2 </h3>
 						<h4 class="product-sub-title">Power System</h4>
-						<h6 class="desc">(Half mask is sold seperately)</h6>
+						<h6 class="desc">(Half mask, sold seperately)</h6>
 						<p class="sub-desc"> The CleanSpace2 Powered Respirator Unit is a battery-powered, positive pressure air-purifying/filtering respirator. This respirator is breathe responsive and is designed to provide comfortable respiratory protection<br/><br/>
 						<a class="uppercase btn btn-outline-primary" href="products/cleanspace2_power_system.php">Learn More</a></p>
 					</div>

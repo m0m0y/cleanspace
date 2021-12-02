@@ -3,7 +3,7 @@ require("assets/common/header.php");
 require("controller/captcha.php");
 ?>
 
-<header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
 	    <div class="container d-flex align-items-center justify-content-between">
 			<!-- Navbar -->
 			<?php require("assets/common/navbar.php") ?>

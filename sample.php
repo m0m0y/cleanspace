@@ -54,36 +54,24 @@ function myFunctionshow() {
   </tr>
   
 </table> -->
-<?php 
-require("assets/common/header.php"); 
-?>
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
 
-<div class="container mt-3">
-  <h3>Toast Example</h3>
-  <p>In this example, we use a button to show the toast message.</p>
-
-  <button type="button" class="btn btn-primary" id="toastbtn">Show Toast</button>
-  
-  <div class="toast" style="position: absolute; bottom: 15px; right: 10px; z-index: 9999; float: right;">
-    <div class="toast-header">
-      <strong class="me-auto">Toast Header</strong>
-      <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
-    </div>
-    <div class="toast-body">
-      <p>Some text inside the toast body</p>
-    </div>
-  </div>
+<div ng-app="myApp" ng-controller="myCtrl">
+{{ firstName + " " + lastName }}
 </div>
 
-
-<?php require("assets/common/footer.php"); ?>
+<p></p>
 
 <script>
-document.getElementById("toastbtn").onclick = function() {
-  var toastElList = [].slice.call(document.querySelectorAll('.toast'))
-  var toastList = toastElList.map(function(toastEl) {
-    return new bootstrap.Toast(toastEl)
-  })
-  toastList.forEach(toast => toast.show()) 
-}
+var app = angular.module("myApp", []);
+app.controller("myCtrl", function($scope) {
+    $scope.firstName = "John";
+    $scope.lastName = "Doe";
+});
 </script>
+
+</body>
+</html>
