@@ -165,21 +165,21 @@
 		</section><!-- End Details Section -->
 	</div>
 
-<script>
-$(document).ready(function() {
-	$('.owl-carousel').owlCarousel({
-		loop:true,
-		margin:10,
-		autoplay:3000,
-		nav:true,
-		navText:['<a class="prev">&#10094;</a>', '<a class="next">&#10095;</a>'],
-		responsive:{
-			0:{
-				items:1
+	<script>
+	$(document).ready(function() {
+		$('.owl-carousel').owlCarousel({
+			loop:true,
+			margin:10,
+			autoplay:3000,
+			nav:true,
+			navText:['<a class="prev">&#10094;</a>', '<a class="next">&#10095;</a>'],
+			responsive:{
+				0:{
+					items:1
+				}
 			}
-		}
+		});
 	});
-});
-</script>
+	</script>
 <?php require("../comingsoon/assets/common/contact.php"); ?>
 <?php require("../comingsoon/assets/common/footer.php"); ?>
