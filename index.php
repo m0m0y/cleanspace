@@ -101,7 +101,7 @@
 						<h4 class="product-sub-title"> HALO Head Harness for Half Mask</h4>
 						<h6 class="desc"> (Non fabric) </h6>
 						<p class="sub-desc"> The CleanSpace HALO Head Harness is designed to be used with the CleanSpace HALO PAPR Power Units (CS3000). The Head Harness comes with every CleanSpace HALO PAPR system.<br/><br/> </p>
-						<a class="uppercase btn btn-outline-primary" href="products/cleanspace_halo_head_harness.php">Learn More</a>
+						<a class="uppercase btn btn-outline-primary" href="cleanspace_halo_head_harness">Learn More</a>
 					</div>
 				</div>
 				
@@ -112,7 +112,7 @@
 						<h4 class="product-sub-title">HALO Power Unit</h4>
 						<h6 class="desc"> (Half mask, sold separately) </h6>
 						<p class="sub-desc"> CleanSpace® Halo is a Powered Air Purifying Respirator (PAPR) system that houses smart technology, designed by biomedical engineers in a revolutionary, compact system. <br/><br/>
-						<a class="uppercase btn btn-outline-primary" href="products/cleanspace_halo_power_unit.php">Learn More</a></p>
+						<a class="uppercase btn btn-outline-primary" href="cleanspace_halo_power_unit">Learn More</a></p>
 					</div>
 				</div>
 
@@ -123,7 +123,7 @@
 						<h4 class="product-sub-title">Power System</h4>
 						<h6 class="desc">(Half mask, sold seperately)</h6>
 						<p class="sub-desc"> The CleanSpace2 Powered Respirator Unit is a battery-powered, positive pressure air-purifying/filtering respirator. This respirator is breathe responsive and is designed to provide comfortable respiratory protection<br/><br/>
-						<a class="uppercase btn btn-outline-primary" href="products/cleanspace2_power_system.php">Learn More</a></p>
+						<a class="uppercase btn btn-outline-primary" href="cleanspace2_power_system">Learn More</a></p>
 					</div>
 				</div>
 
@@ -134,7 +134,7 @@
 						<h4 class="product-sub-title">Half Mask</h4>
 						<h6 class="desc">(Available in different sizes)</h6>
 						<p class="sub-desc">The CleanSpace Half Masks are specifically designed to work to complete the CleanSpace PAPR system. Compatible with all CleanSpace Respirators, the Half Masks clip quickly onto the power units and are easily unclipped for cleaning. <br/><br/>
-						<a class="uppercase btn btn-outline-primary" href="products/cleanspace2_half_mask.php">Learn More</a></p>
+						<a class="uppercase btn btn-outline-primary" href="cleanspace2_half_mask">Learn More</a></p>
 					</div>
 				</div>
 			</div>

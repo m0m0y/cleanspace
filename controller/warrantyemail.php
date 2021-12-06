@@ -62,7 +62,7 @@ class mailTemplate{
                                                     </tr>
                                                     <tr>
                                                         <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">Product Price:</td>
-                                                        <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">Php '.$purchase_price.'</td>
+                                                        <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">Php '.number_format($purchase_price,2).'</td>
                                                     </tr>
                                                     <tr>
                                                         <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">Order Number:</td>

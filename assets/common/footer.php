@@ -19,10 +19,10 @@
 					<div class="col-lg-2 col-md-6 footer-links">
 						<h4>Products</h4>
 						<ul>
-						<li><i class="bx bx-chevron-right"></i> <a href="products/cleanspace_halo_head_harness">CleanSpace® HALO Head Hardness for Half Mask</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="products/cleanspace_halo_power_unit">CleanSpace® Power Unit</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="products/cleanspace2_power_system">CleanSpace2 Power System</a></li>
-							<li><i class="bx bx-chevron-right"></i> <a href="products/cleanspace2_half_mask">CleanSpace2 Half Mask</a></li>
+						<li><i class="bx bx-chevron-right"></i> <a href="cleanspace_halo_head_harness">CleanSpace® HALO Head Hardness for Half Mask</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="cleanspace_halo_power_unit">CleanSpace® Power Unit</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="cleanspace2_power_system">CleanSpace2 Power System</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="cleanspace2_half_mask">CleanSpace2 Half Mask</a></li>
 						</ul>
 					</div>
 
