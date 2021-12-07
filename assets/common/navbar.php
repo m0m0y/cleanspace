@@ -1,11 +1,11 @@
 <!-- Navbar -->
 <div class="logo">
-    <a href="index"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+    <a href="http://localhost/cleanspace"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
 </div>
 
 <nav id="navbar" class="navbar">
 	<ul>
-	  <li><a class="nav-link scrollto" href="index">Home</a></li>
+	  <li><a class="nav-link scrollto" href="http://localhost/cleanspace">Home</a></li>
 	  <li><a class="nav-link scrollto" href="product">Product</a></li>
 	  <li><a class="nav-link scrollto" href="about_us">About</a></li>
 	  <li><a class="nav-link scrollto" href="warranty">Warranty</a></li>

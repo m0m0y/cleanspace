@@ -8,7 +8,7 @@
 					<div class="col-lg-2 col-md-6 footer-links">
 						<h4>Useful Links</h4>
 						<ul>
-							<li><i class="bx bx-chevron-right"></i> <a href="index">Home</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="http://localhost/cleanspace">Home</a></li>
 							<li><i class="bx bx-chevron-right"></i> <a href="about_us">About us</a></li>
 							<li><i class="bx bx-chevron-right"></i> <a href="warranty">Warranty</a></li>
 							<li><i class="bx bx-chevron-right"></i> <a href="terms_and_condition">Terms and Conditions</a></li>
