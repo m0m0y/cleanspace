@@ -1382,7 +1382,7 @@ div.row .shop-icon .ppi, .tms {
 .star-widget label{
   font-size: 25px;
   color: #444;
-  padding: 10px;
+  padding: 5px;
   float: right;
   transition: all 0.2s ease;
 }
@@ -1506,5 +1506,11 @@ div .customize_text  span{
   .thankyou-section {
     height: 600px;
     padding: 90px 0%;
+  }
+  .warranty-registration-form {
+    margin: 0px 5%;
+  }
+  img.gif {
+    width: 90%;
   }
 }

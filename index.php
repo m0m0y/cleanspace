@@ -179,10 +179,10 @@
 
 						<div class="row">
 							<div class="col-md-4 col-sm-12">
-								<img src="assets/img/gallery/cleanspace_smart_app/CS App Store QR.png" style="width: 85%;" alt="CleanSpace Smart App on App Store"> 
+								<img src="assets/img/gallery/cleanspace_smart_app/CS App Store QR.png" width="85%" alt="CleanSpace Smart App on App Store"> 
 							</div>
 							<div class="col-md-4 col-sm-12">
-								<img src="assets/img/gallery/cleanspace_smart_app/CS G Play QR.png" style="width: 85%;" alt="CleanSpace Smart App on Google Play"> 
+								<img src="assets/img/gallery/cleanspace_smart_app/CS G Play QR.png" width="85%" alt="CleanSpace Smart App on Google Play"> 
 							</div>
 							<div class="col-md-4 col-sm-12"></div>
 						</div>

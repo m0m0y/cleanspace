@@ -72,12 +72,12 @@
 					</div>
 
 					<div class="col-md-6 col-sm-12 pt-4" data-aos="fade-left">
-						<img src="assets/img/gallery/aboutus/CleanSpace-Nuisance-Odor-Filter.jpg" style="width: 90%;">
+						<center><img src="assets/img/gallery/aboutus/CleanSpace-Nuisance-Odor-Filter.jpg" width="90%"><center>
 					</div>
 			
 
 					<div class="col-md-6 col-sm-12 pt-4" data-aos="fade-right">
-						<img src="assets/img/gallery/aboutus/CleanSpace2-Refinery-1200x800.jpg" style="width: 90%;">
+						<center><img src="assets/img/gallery/aboutus/CleanSpace2-Refinery-1200x800.jpg" width="90%;"></center>
 					</div>
 
 					<div class="col-md-6 col-sm-12 pt-4" data-aos="fade-left">

@@ -36,10 +36,9 @@
 						</p>
 
 							<div class="social-links">
-								<a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-								<a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-								<a href="#" class="google-plus"><i class="bx bxl-youtube"></i></a>
-								<a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+								<a href="https://www.facebook.com/ProgressiveMedicalCorp/" class="facebook"><i class="bx bxl-facebook"></i></a>
+								<a href="https://www.youtube.com/channel/UCRVCYrGPB0wsS6RsnTd31CQ" class="youtube"><i class="bx bxl-youtube"></i></a>
+								<a href="https://www.linkedin.com/company/progressive-medical-corporation-ph/about/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
 							</div>
 						</div>
 					</div>
