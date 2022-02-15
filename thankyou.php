@@ -1,12 +1,10 @@
 <?php require("assets/common/header.php"); ?>
 
-	<!-- ======= Header Section ======= -->
 	<header id="header" class="fixed-top d-flex align-items-center header-transparent">
 	    <div class="container d-flex align-items-center justify-content-between">
-			<!-- Navbar -->
 			<?php require("assets/common/navbar.php") ?>
 	    </div>
-	</header><!-- End Header Section -->
+	</header>
 
 	<section id="" class="thankyou-section">
       	<div class="container">

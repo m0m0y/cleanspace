@@ -1,4 +1,3 @@
-<!-- Navbar -->
 <div class="logo">
     <a href="../index"><img src="../assets/img/logo.png" alt="" class="img-fluid"></a>
 </div>
@@ -12,4 +11,4 @@
 	  <li><a class='nav-link scrollto' href="#contact">Contact Us</a></li>
 	</ul>
 	<i class="bi bi-list mobile-nav-toggle"></i>
-</nav><!-- .navbar -->
+</nav>

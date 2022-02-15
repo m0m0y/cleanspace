@@ -3,16 +3,12 @@ require("assets/common/header.php");
 require("controller/captcha.php");
 ?>
 
-	<!-- ======= Header Section ======= -->
 	<header id="header" class="fixed-top d-flex align-items-center header-transparent">
 	    <div class="container d-flex align-items-center justify-content-between">
-
-	      <!-- Navbar -->
 	      <?php require("assets/common/navbar.php") ?>
 	    </div>
-	</header><!-- End Header Section -->
+	</header>
 
-	<!-- ======= Hero Section ======= -->
 	<section id="cleanspace-2">
 		<div class="container">
 	      <div class="row justify-content-between">
@@ -23,9 +19,8 @@ require("controller/captcha.php");
 	        </div>
 	      </div>
 	    </div>
-	</section><!-- End Hero Section -->
+	</section>
 
-  <!-- ======= Contact Section ======= -->
   <section id="contact" class="contact">
     <div class="container">
       <div class="row pt-4">
@@ -52,10 +47,7 @@ require("controller/captcha.php");
         </div>
 
         <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
-
-        <div id="sendingValidation"></div>
-
-          <!-- <form id="contactus_form" method="post" role="form"> -->
+            <div id="sendingValidation"></div>
             <div class="row">
               <div class="col-md-6 form-group">
                 <input type="text" name="c_name" class="form-control" id="name" placeholder="Your Name" onkeyup="txtvalidator(this)" required>
@@ -94,21 +86,15 @@ require("controller/captcha.php");
             </div>
 
             <br/>
-          
+    
             <input type="button" class="btn btn-md btn-primary" name="send" value="Submit" id="contactus_send">
-          <!-- </form> -->
-          
         </div>
-
       </div>
-      
     </div>
-  </section><!-- End Contact Section -->
+  </section>
 
-  <!-- ======= About Section ======= -->
   <section id="about" class="about">
     <div class="container" data-aos="fade-left">
-
       <div class="content">
         <div class="pt-4 icon-boxes border-left">
           <h3>CLEANSPACE RESPIRATOR TECHNOLOGY</p></h3>
@@ -119,12 +105,10 @@ require("controller/captcha.php");
             </p>
             <p><a class="uppercase btn btn-outline-primary" href="about_us">Learn More About Us</a></p>
           </div>
-
         </div>
       </div>
-
     </div>
-  </section><!-- End About Section -->
+  </section>
 
 <?php require("assets/common/footer.php"); ?>
 

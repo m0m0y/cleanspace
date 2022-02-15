@@ -5,12 +5,10 @@ require("controller/captcha.php");
 
     <header id="header" class="fixed-top d-flex align-items-center header-transparent">
 	    <div class="container d-flex align-items-center justify-content-between">
-			<!-- Navbar -->
 			<?php require("assets/common/navbar.php") ?>
 	    </div>
-	</header><!-- End Header Section -->
+	</header>
 
-    <!-- ======= Hero Section ======= -->
 	<section id="warranty">
 		<div class="container">
 	      <div class="row justify-content-between">
@@ -24,9 +22,8 @@ require("controller/captcha.php");
 	        </div>
 	      </div>
 	    </div>
-	</section><!-- End Hero Section -->
+	</section>
 
-    <!-- ======= Form Section ======= -->
     <section id="active" class="details">
         <div class="container">
             <div class="content">
@@ -36,196 +33,193 @@ require("controller/captcha.php");
                         <p>Warranty Registration</p>
                     </div>
 
-                    <!-- <form id="warranty_form" role="form"> -->
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12 form-group">
-                                <h3>Contact Information</h3>
-                                <input type="text" name="c_name" id="name" class="form-control mt-3" placeholder="Your Full Name*" onkeyup="txtvalidator(this)" required>
-                                <span class="error" id="c_name"></span>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 form-group">
+                            <h3>Contact Information</h3>
+                            <input type="text" name="c_name" id="name" class="form-control mt-3" placeholder="Your Full Name*" onkeyup="txtvalidator(this)" required>
+                            <span class="error" id="c_name"></span>
 
-                                <input type="email" id="email" class="form-control mt-3" name="c_email" placeholder="Email Address*" onkeyup="txtvalidator(this)" required>
-                                <span class="error" id="c_email"></span>
+                            <input type="email" id="email" class="form-control mt-3" name="c_email" placeholder="Email Address*" onkeyup="txtvalidator(this)" required>
+                            <span class="error" id="c_email"></span>
 
-                                <input type="email" id="confirm_email" class="form-control mt-3" name="c_confirm_email" placeholder="Confirm Email*" onkeyup="txtvalidator(this)" required>
-                                <span class="error" id="c_confirm_email"></span>
+                            <input type="email" id="confirm_email" class="form-control mt-3" name="c_confirm_email" placeholder="Confirm Email*" onkeyup="txtvalidator(this)" required>
+                            <span class="error" id="c_confirm_email"></span>
 
-                                <input type="text" id="complete_add" class="form-control mt-3" name="c_address" placeholder="Complete Address*" onkeyup="txtvalidator(this)" required>
-                                <span class="error" id="c_address"></span>
+                            <input type="text" id="complete_add" class="form-control mt-3" name="c_address" placeholder="Complete Address*" onkeyup="txtvalidator(this)" required>
+                            <span class="error" id="c_address"></span>
 
-                                <input type="number" id="mobile_num" class="form-control mt-3" name="c_mobile_num" placeholder="Mobile Number*" onkeyup="txtvalidator(this)"  required>
-                                <span class="error" id="c_mobile_num"></span>
+                            <input type="number" id="mobile_num" class="form-control mt-3" name="c_mobile_num" placeholder="Mobile Number*" onkeyup="txtvalidator(this)"  required>
+                            <span class="error" id="c_mobile_num"></span>
 
-                                <input type="number" class="form-control mt-3" id="phone_num" name="c_phone_num" placeholder="Phone Number">
-                            </div>
-
-                            <div class="col-md-6 col-sm-12 form-group mt-3 mt-md-0">
-                                <h3>Product Information</h3>
-                                <input type="text" id="product_item" class="form-control mt-3" name="c_item" placeholder="Product / Item*" onkeyup="txtvalidator(this)" required>
-                                <span class="error" id="c_item"></span>
-
-                                <input type="text" id="purchase_form" class="form-control mt-3" name="c_purchase_form" placeholder="Purchase Form*" onkeyup="txtvalidator(this)" required>
-                                <span class="error" id="c_purchase_form"></span>
-
-                                <input type="number" id="purchase_price" class="form-control mt-3" name="c_purchase_price" placeholder="Purchase Price*" onkeyup="txtvalidator(this)" required>
-                                <span class="error" id="c_purchase_price"></span>
-
-                                <div class="row mt-3">
-                                    <div class="col-md-6 form-group">
-                                        <input type="number" id="order_num" class="form-control" name="c_order_number" placeholder="Order No.*" onkeyup="txtvalidator(this)" required>
-                                        <span class="error" id="c_order_number"></span>
-                                    </div>
-
-                                    <div class="col-md-6 form-group mt-md-0">
-                                        <select name="c_distributor" id="distributor" class="form-select" onkeyup="txtvalidator(this)" required>
-                                            <option value="" disabled selected>Distributor*</option>
-                                            <option value="The Medical Shop">The Medical Shop</option>
-                                            <option value="Panamed Philippines Inc.">Panamed Philippines Inc.</option>
-                                            <option value="Inmed Corporation">Inmed Corporation</option>
-                                            <option value="Shopee">Shopee</option>
-                                            <option value="Lazada">Lazada</option>
-                                        </select>
-                                        <span class="error" id="c_distributor"></span>
-                                    </div>
-                                </div>
-
-                                <input type="date" id="purchase_date" class="form-control mt-3" name="c_purchase_date" placeholder="Purchase Date*" required onkeyup="txtvalidator(this)">
-                                <span class="error" id="c_purchase_date"></span>
-
-                                <input type="text" id="serial_num" class="form-control mt-3" name="c_serial_num" placeholder="Serial Number*" required onkeyup="txtvalidator(this)">
-                                <span class="error" id="c_serial_num"></span>
-                            </div>
+                            <input type="number" class="form-control mt-3" id="phone_num" name="c_phone_num" placeholder="Phone Number">
                         </div>
 
-                        <div class="row pt-5"> 
-                            <div class="col-md-6 col-sm-12 form-group mt-3 mt-md-0">
-                                <p class="title">How did you first become aware of these products</p>
-                               
-                                <input class="form-check-input rad" name="radio" type="radio" value="Website" checked>
-                                <label class="form-check-label">
-                                    Website
-                                </label>
-                                
-                                <br/><br/>
+                        <div class="col-md-6 col-sm-12 form-group mt-3 mt-md-0">
+                            <h3>Product Information</h3>
+                            <input type="text" id="product_item" class="form-control mt-3" name="c_item" placeholder="Product / Item*" onkeyup="txtvalidator(this)" required>
+                            <span class="error" id="c_item"></span>
 
-                                <input class="form-check-input rad" name="radio" type="radio" value="Social Media">
-                                <label class="form-check-label">
-                                    Social Media
-                                </label>
-                                
-                                <br/><br/>
-                                
-                                <input class="form-check-input rad" name="radio" type="radio" value="Friend / Relative">
-                                <label class="form-check-label">
-                                    Friend / Relative
-                                </label>
-                                
-                                <br/><br/>
-                                
-                                <input class="form-check-input rad" name="radio" type="radio" value="Google">
-                                <label class="form-check-label">
-                                    Google
-                                </label>
+                            <input type="text" id="purchase_form" class="form-control mt-3" name="c_purchase_form" placeholder="Purchase Form*" onkeyup="txtvalidator(this)" required>
+                            <span class="error" id="c_purchase_form"></span>
 
-                                <br/><br/>
+                            <input type="number" id="purchase_price" class="form-control mt-3" name="c_purchase_price" placeholder="Purchase Price*" onkeyup="txtvalidator(this)" required>
+                            <span class="error" id="c_purchase_price"></span>
 
-                                <input class="form-check-input others" name="radio" type="radio" value="Others">
-                                <label class="form-check-label">
-                                    Others
-                                </label>
-
-
-                                <div id="field">
-                                    <input type="text" id="others" class="form-control mt-3" name="other_input" placeholder="Please Specify Here.. " onkeyup="txtvalidator(this)" required>
-                                    <span class="error" id="other_input"></span>
+                            <div class="row mt-3">
+                                <div class="col-md-6 form-group">
+                                    <input type="number" id="order_num" class="form-control" name="c_order_number" placeholder="Order No.*" onkeyup="txtvalidator(this)" required>
+                                    <span class="error" id="c_order_number"></span>
                                 </div>
 
-                                <br/><br/>
-
-                                <p class="title">What Factor(s) Influenced you to purchase CleanSpace Products?</p>
-                                <div class="input-group">
-                                    <label class="input-group-text">Options</label>
-                                    <select name="c_factors" id="factors" class="form-select" onkeyup="txtvalidator(this)" required>
-                                        <option value="" disabled selected>Choose factors*</option>
-                                        <option value="Flyers">Flyers</option>
-                                        <option value="Brochure">Brochure</option>
-                                        <option value="Internet">Internet</option>
-                                        <option value="Low Price / on Sale">Low Price / on Sale</option>
-                                        <option value="Bonus Item / offer with Product">Bonus Item / offer with Product</option>
-                                        <option value="Style Appearance">Style Appearance</option>
-                                        <option value="Previous Customer">Previous Customer</option>
-                                        <option value="Features of CleanSpace Products">Features of CleanSpace Products</option>
-                                        <option value="Field that I'm in">Field that I'm in</option>
+                                <div class="col-md-6 form-group mt-md-0">
+                                    <select name="c_distributor" id="distributor" class="form-select" onkeyup="txtvalidator(this)" required>
+                                        <option value="" disabled selected>Distributor*</option>
+                                        <option value="The Medical Shop">The Medical Shop</option>
+                                        <option value="Panamed Philippines Inc.">Panamed Philippines Inc.</option>
+                                        <option value="Inmed Corporation">Inmed Corporation</option>
+                                        <option value="Shopee">Shopee</option>
+                                        <option value="Lazada">Lazada</option>
                                     </select>
+                                    <span class="error" id="c_distributor"></span>
                                 </div>
-                                <span class="error" id="c_factors"></span>
-                                
-                                <br/>
-
-                                <?php echo "Please type <b>".$rand."</b> in the field:"; ?>
-                                <input type="hidden" class="form-control" name="captcha_validate" id="captcha_validate" value="<?php echo $rand; ?>" readonly>
-                                <input type="text" class="form-control" name="c_captcha" id="captcha" placeholder="Captcha*" onkeyup="txtvalidator(this)">
-                                <span class="error" id="c_captcha"></span>
                             </div>
 
-                            <div class="col-md-6 col-sm-12 form-group mt-3 mt-md-0">
-                                <p class="title">How would you rate the packaging of Products?</p>
-                               
-                                <input class="form-check-input" id="packaging" name="packaging" type="radio" value="Good" checked>
-                                <label class="form-check-label">
-                                    Good
-                                </label>
-                                
-                                <br/><br/>
+                            <input type="date" id="purchase_date" class="form-control mt-3" name="c_purchase_date" placeholder="Purchase Date*" required onkeyup="txtvalidator(this)">
+                            <span class="error" id="c_purchase_date"></span>
 
-                                <input class="form-check-input" id="packaging" name="packaging" type="radio" value="Poor">
-                                <label class="form-check-label">
-                                    Poor
-                                </label>
-                                
-                                <br/><br/>
+                            <input type="text" id="serial_num" class="form-control mt-3" name="c_serial_num" placeholder="Serial Number*" required onkeyup="txtvalidator(this)">
+                            <span class="error" id="c_serial_num"></span>
+                        </div>
+                    </div>
 
-                                <p class="title">Overall how satisfied are you with the products and services that we provide:</p>
+                    <div class="row pt-5"> 
+                        <div class="col-md-6 col-sm-12 form-group mt-3 mt-md-0">
+                            <p class="title">How did you first become aware of these products</p>
+                        
+                            <input class="form-check-input rad" name="radio" type="radio" value="Website" checked>
+                            <label class="form-check-label">
+                                Website
+                            </label>
+                            
+                            <br/><br/>
 
-                                <div class="input-group mb-3">
-                                    <div class="star-widget">
-                                        <input type="radio" class="star-rating" name="satisfaction" id="rate-5" value="5-star">
-                                        <label for="rate-5" class="fas fa-star"></label>
-                                        <input type="radio" class="star-rating"  name="satisfaction" id="rate-4" value="4-star" checked>
-                                        <label for="rate-4" class="fas fa-star"></label>
-                                        <input type="radio" class="star-rating"  name="satisfaction" id="rate-3" value="3-star">
-                                        <label for="rate-3" class="fas fa-star"></label>
-                                        <input type="radio" class="star-rating"  name="satisfaction" id="rate-2" value="2-star">
-                                        <label for="rate-2" class="fas fa-star"></label>
-                                        <input type="radio" class="star-rating"  name="satisfaction" id="rate-1" value="1-star">
-                                        <label for="rate-1" class="fas fa-star"></label>
-                                    </div>
-                                </div>
+                            <input class="form-check-input rad" name="radio" type="radio" value="Social Media">
+                            <label class="form-check-label">
+                                Social Media
+                            </label>
+                            
+                            <br/><br/>
+                            
+                            <input class="form-check-input rad" name="radio" type="radio" value="Friend / Relative">
+                            <label class="form-check-label">
+                                Friend / Relative
+                            </label>
+                            
+                            <br/><br/>
+                            
+                            <input class="form-check-input rad" name="radio" type="radio" value="Google">
+                            <label class="form-check-label">
+                                Google
+                            </label>
+
+                            <br/><br/>
+
+                            <input class="form-check-input others" name="radio" type="radio" value="Others">
+                            <label class="form-check-label">
+                                Others
+                            </label>
 
 
-                                <p class="title">Comments:</p>
-                                <textarea class="form-control" name="c_message" rows="5" id="message" placeholder="Message" onkeyup="txtvalidator(this)"></textarea>
-                                <span class="error" id="c_message"></span>
+                            <div id="field">
+                                <input type="text" id="others" class="form-control mt-3" name="other_input" placeholder="Please Specify Here.. " onkeyup="txtvalidator(this)" required>
+                                <span class="error" id="other_input"></span>
                             </div>
+
+                            <br/><br/>
+
+                            <p class="title">What Factor(s) Influenced you to purchase CleanSpace Products?</p>
+                            <div class="input-group">
+                                <label class="input-group-text">Options</label>
+                                <select name="c_factors" id="factors" class="form-select" onkeyup="txtvalidator(this)" required>
+                                    <option value="" disabled selected>Choose factors*</option>
+                                    <option value="Flyers">Flyers</option>
+                                    <option value="Brochure">Brochure</option>
+                                    <option value="Internet">Internet</option>
+                                    <option value="Low Price / on Sale">Low Price / on Sale</option>
+                                    <option value="Bonus Item / offer with Product">Bonus Item / offer with Product</option>
+                                    <option value="Style Appearance">Style Appearance</option>
+                                    <option value="Previous Customer">Previous Customer</option>
+                                    <option value="Features of CleanSpace Products">Features of CleanSpace Products</option>
+                                    <option value="Field that I'm in">Field that I'm in</option>
+                                </select>
+                            </div>
+                            <span class="error" id="c_factors"></span>
+                            
+                            <br/>
+
+                            <?php echo "Please type <b>".$rand."</b> in the field:"; ?>
+                            <input type="hidden" class="form-control" name="captcha_validate" id="captcha_validate" value="<?php echo $rand; ?>" readonly>
+                            <input type="text" class="form-control" name="c_captcha" id="captcha" placeholder="Captcha*" onkeyup="txtvalidator(this)">
+                            <span class="error" id="c_captcha"></span>
                         </div>
 
-                        <br/>
+                        <div class="col-md-6 col-sm-12 form-group mt-3 mt-md-0">
+                            <p class="title">How would you rate the packaging of Products?</p>
+                        
+                            <input class="form-check-input" id="packaging" name="packaging" type="radio" value="Good" checked>
+                            <label class="form-check-label">
+                                Good
+                            </label>
+                            
+                            <br/><br/>
 
-                        <div id="sendingValidation"></div>
+                            <input class="form-check-input" id="packaging" name="packaging" type="radio" value="Poor">
+                            <label class="form-check-label">
+                                Poor
+                            </label>
+                            
+                            <br/><br/>
 
-                        <br/>
+                            <p class="title">Overall how satisfied are you with the products and services that we provide:</p>
 
-                        <input type="submit" class="btn btn-md btn-primary" name="send" value="Submit" id="warranty_send">
-                    <!-- </form> -->                   
+                            <div class="input-group mb-3">
+                                <div class="star-widget">
+                                    <input type="radio" class="star-rating" name="satisfaction" id="rate-5" value="5-star">
+                                    <label for="rate-5" class="fas fa-star"></label>
+                                    <input type="radio" class="star-rating"  name="satisfaction" id="rate-4" value="4-star" checked>
+                                    <label for="rate-4" class="fas fa-star"></label>
+                                    <input type="radio" class="star-rating"  name="satisfaction" id="rate-3" value="3-star">
+                                    <label for="rate-3" class="fas fa-star"></label>
+                                    <input type="radio" class="star-rating"  name="satisfaction" id="rate-2" value="2-star">
+                                    <label for="rate-2" class="fas fa-star"></label>
+                                    <input type="radio" class="star-rating"  name="satisfaction" id="rate-1" value="1-star">
+                                    <label for="rate-1" class="fas fa-star"></label>
+                                </div>
+                            </div>
+
+
+                            <p class="title">Comments:</p>
+                            <textarea class="form-control" name="c_message" rows="5" id="message" placeholder="Message" onkeyup="txtvalidator(this)"></textarea>
+                            <span class="error" id="c_message"></span>
+                        </div>
+                    </div>
+
+                    <br/>
+
+                    <div id="sendingValidation"></div>
+
+                    <br/>
+
+                        <input type="submit" class="btn btn-md btn-primary" name="send" value="Submit" id="warranty_send">              
                 </div>
             </div>
         </div>
-    </section><!-- End Form Section -->
+    </section>
 
     <div class="container">
         <hr class="solid"></hr>
     </div>
 
-    <!-- ======= Details Section ======= -->
     <section id="active" class="details">
         <div class="container">
             <div class="content" data-aos="fade-right">
@@ -259,7 +253,7 @@ require("controller/captcha.php");
                 </div>
             </div>
         </div>
-    </section><!-- End Details Section -->
+    </section>
 
     <script type="text/javascript">
         const form1 = document.getElementById("my-form-1");

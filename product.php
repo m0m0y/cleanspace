@@ -2,14 +2,12 @@
 require("assets/common/header.php"); 
 require("controller/productlist.php");
 ?>
-<!-- ======= Header Section ======= -->
+
 <header id="header" class="fixed-top d-flex align-items-center header-transparent">
 	<div class="container d-flex align-items-center justify-content-between">
-
-		<!-- Navbar -->
 		<?php require("assets/common/navbar.php"); ?>
 	</div>
-</header><!-- End Header Section -->
+</header>
 
 <?php 
   $host = $_SERVER['REQUEST_URI'];

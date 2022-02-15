@@ -1,14 +1,11 @@
 <?php require("assets/common/header.php"); ?>
 
-	<!-- ======= Header Section ======= -->
 	<header id="header" class="fixed-top d-flex align-items-center header-transparent">
 	    <div class="container d-flex align-items-center justify-content-between">
-			<!-- Navbar -->
 			<?php require("assets/common/navbar.php") ?>
 	    </div>
-	</header><!-- End Header Section -->
+	</header>
 
-	<!-- ======= Hero Section ======= -->
 	<section id="hero">
 		<div class="container">
 	      <div class="row justify-content-between">
@@ -22,12 +19,10 @@
 	        </div>
 	      </div>
 	    </div>
-	</section><!-- End Hero Section -->
+	</section>
 
-	<!-- ======= Details Section ======= -->
     <section id="details" class="details">
       <div class="container">
-
 			<div class="row content" data-aos="zoom-out">
 				<div class="col-md-9 pt-4 border-left">
 					<h3>CleanSpace Respirators are the world’s only smart and compact design respirators, providing the highest level of protection, comfort and performance.</h3>
@@ -37,10 +32,8 @@
 				</div>
 			</div>
       </div>
-    </section><!-- End Details Section -->
+    </section>
 
-
-    <!-- ======= About Section ======= -->
     <section id="about" class="about">
       	<div class="container">
 			<div class="row">
@@ -59,7 +52,7 @@
 				</div>
 			</div>
 		</div>
-    </section><!-- End About Section -->
+    </section>
 
 	<section id="advantage" class="about advantage">
       	<div class="container">
@@ -85,7 +78,6 @@
 		</div>
     </section>
 
-    <!-- ======= Features Section ======= -->
     <section id="features" class="features">
       	<div class="container">
 			<div class="section-title" data-aos="fade-up">
@@ -143,32 +135,28 @@
 		<div class="container">
 			<div class="row content" style="margin-top: 5%;" >
 				<div class="col-lg-6 col-sm-12" data-aos="fade-right">
-					<!-- <div class="col-md-5"> -->
-							<div class="content-box">
-								<div class="cleanspace-smart-app-slideshow">
-								
-									<div class="mySlides">
-										<img src="assets/img/gallery/cleanspace_halo/CleanSpace-Smart-App.jpg" alt="slide-img">
-									</div>
-
-									<div class="mySlides">
-										<img src="assets/img/gallery/cleanspace_smart_app/CS Smart App 1.png" alt="slide-img">
-									</div>
-
-									<div class="mySlides">
-										<img src="assets/img/gallery/cleanspace_smart_app/CS Smart App 2.png" alt="slide-img">
-									</div>
-
-									<div class="mySlides">
-										<img src="assets/img/gallery/cleanspace_smart_app/CS Smart App 3.png" alt="slide-img">
-									</div>
-
-									<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-									<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
+						<div class="content-box">
+							<div class="cleanspace-smart-app-slideshow">
+								<div class="mySlides">
+									<img src="assets/img/gallery/cleanspace_halo/CleanSpace-Smart-App.jpg" alt="slide-img">
 								</div>
+
+								<div class="mySlides">
+									<img src="assets/img/gallery/cleanspace_smart_app/CS Smart App 1.png" alt="slide-img">
+								</div>
+
+								<div class="mySlides">
+									<img src="assets/img/gallery/cleanspace_smart_app/CS Smart App 2.png" alt="slide-img">
+								</div>
+
+								<div class="mySlides">
+									<img src="assets/img/gallery/cleanspace_smart_app/CS Smart App 3.png" alt="slide-img">
+								</div>
+
+								<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+								<a class="next" onclick="plusSlides(1)">&#10095;</a>
 							</div>
-						<!-- </div> -->
+						</div>
 				</div>
 				
 				<div class="col-lg-6 col-sm-12 d-flex flex-column align-items-stretch" data-aos="fade-left">
@@ -194,14 +182,12 @@
 				</div>
 			</div>
 		</div>
-    </section><!-- End Features Section -->
+    </section>
 
-	<!-- ======= Testimonials Section ======= -->
 	<section id="testimonials" class="testimonials">
 		<div class="container">
 			<div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
 				<div class="swiper-wrapper">
-
 					<div class="swiper-slide">
 						<div class="testimonial-item">
 							<h3>Dr. Alisasis </h3>
@@ -212,68 +198,13 @@
 							</p>
 						</div>
 					</div>
-
-					<!-- <div class="swiper-slide">
-					<div class="testimonial-item">
-						<img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-						<h3>Lorem Ipsum </h3>
-						<h4>Designer</h4>
-						<p>
-						<i class="bx bxs-quote-alt-left quote-icon-left"></i>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-						<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-						</p>
-					</div>
-					</div>
-
-					<div class="swiper-slide">
-					<div class="testimonial-item">
-						<img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-						<h3>Lorem Ipsum </h3>
-						<h4>Store Owner</h4>
-						<p>
-						<i class="bx bxs-quote-alt-left quote-icon-left"></i>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-						<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-						</p>
-					</div>
-					</div>
-
-					<div class="swiper-slide">
-					<div class="testimonial-item">
-						<img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-						<h3>Lorem Ipsum</h3>
-						<h4>Freelancer</h4>
-						<p>
-						<i class="bx bxs-quote-alt-left quote-icon-left"></i>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-						<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-						</p>
-					</div>
-					</div>
-
-					<div class="swiper-slide">
-					<div class="testimonial-item">
-						<img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-						<h3>Lorem Ipsum </h3>
-						<h4>Entrepreneur</h4>
-						<p>
-						<i class="bx bxs-quote-alt-left quote-icon-left"></i>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-						<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-						</p>
-					</div>
-					</div> -->
-
 				</div>
 				<div class="swiper-pagination"></div>
 			</div>
-
 		</div>
     </section>
-	<!-- End Testimonials Section -->
 
 	<?php require("assets/common/popup.php"); ?>
 
-<?php require("assets/common/contact.php"); ?>
-<?php require("assets/common/footer.php"); ?>
+	<?php require("assets/common/contact.php"); ?>
+	<?php require("assets/common/footer.php"); ?>

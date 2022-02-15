@@ -1,14 +1,11 @@
 <?php require("assets/common/header.php") ?>
-	<!-- ======= Header Section ======= -->
+
 	<header id="header" class="fixed-top d-flex align-items-center header-transparent">
 	    <div class="container d-flex align-items-center justify-content-between">
-
-	      <!-- Navbar -->
 	      	<?php require("assets/common/navbar.php") ?>
 	    </div>
-	</header><!-- End Header Section -->
+	</header>
 
-	<!-- ======= Hero Section ======= -->
 	<section id="aboutus">
 		<div class="container">
 	      <div class="row justify-content-between">
@@ -19,9 +16,8 @@
 	        </div>
 	      </div>
 	    </div>
-	</section><!-- End Hero Section -->
+	</section>
 
-	<!-- ======= About Section ======= -->
 	<div id="about">
 		<section class="details">
 			<div class="container">
@@ -184,7 +180,7 @@
 				</div>
 			</div>
 		</section>
-	</div><!-- End About Section -->
+	</div>
 	
 <?php require("assets/common/contact.php") ?>
 <?php require("assets/common/footer.php") ?>

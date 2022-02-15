@@ -1,6 +1,4 @@
-  <!-- ======= Footer ======= -->
 	<footer id="footer">
-	<!-- <a class="btn btn-lg btn-primary" href="#" role="button" id="fixedbutton"> Help</a> -->
 	    <div class="footer-top">
 			<div class="container">
 				<div class="row">
@@ -82,12 +80,11 @@
 				&copy; Progressive Medical Corporation <?php echo date("Y"); ?>
 		    </div>
 	    </div>
-	 </footer><!-- End Footer -->
+	 </footer>
 
 	<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 	<div id="preloader"></div>
 
-	<!-- Vendor JS Files -->
 	<script src="assets/vendor/aos/aos.js"></script>
 	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 	<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -95,13 +92,11 @@
 	<script src="assets/vendor/purecounter/purecounter.js"></script>
 	<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-	<!-- Template Main JS File -->
 	<script src="assets/js/main.js"></script>
 	<script src="https://cdn.jsdelivr.net/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
 	<script src="assets/js/form_validation.js"></script>
-	
-	<!-- ProductSlide -->
+
 	<script>
 	var slideIndex = 1;
 	showSlides(slideIndex);

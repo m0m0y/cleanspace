@@ -1,14 +1,11 @@
 <?php require("assets/common/header.php");  ?>
 
-	<!-- ======= Header Section ======= -->
 	<header id="header" class="fixed-top d-flex align-items-center header-transparent">
 	    <div class="container d-flex align-items-center justify-content-between">
-            <!-- Logo -->
             <div class="logo">
                 <a href="index"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
             </div>
             
-            <!-- Navbar -->
             <nav id="navbar" class="navbar">
                 <ul>
                 <li><a class="nav-link scrollto" href="index">Home</a></li>
@@ -18,11 +15,10 @@
                 <li><a class='nav-link scrollto' href="contactus">Contact Us</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav><!-- .navbar -->
+            </nav>
 	    </div>
 	</header>
 
-    <!-- ======= Hero Section ======= -->
 	<section id="cleanspace-2">
 		<div class="container">
 	      <div class="row justify-content-between">
@@ -33,7 +29,7 @@
 	        </div>
 	      </div>
 	    </div>
-	</section><!-- End Hero Section -->
+	</section>
 
     <section id="details" class="details">
         <div class="container">
