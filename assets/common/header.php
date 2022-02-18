@@ -15,12 +15,12 @@
   	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   	<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   	<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"> 
-  	<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  	<link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   	<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+	<link rel="stylesheet" href="assets/vendor/owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="assets/vendor/owlcarousel/owl.theme.default.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="assets/vendor/owlcarousel/owl.carousel.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-
   	<link href="assets/css/style.css" rel="stylesheet">
 </head>
 

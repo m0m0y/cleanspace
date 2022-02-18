@@ -17,9 +17,6 @@ require("controller/captcha.php");
 		            <h1><span>WARRANTY</span></h1>
 	            </div>
 	        </div>
-	        <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos-delay="300">
-	          <img src="assets/img/" class="img-fluid animated" alt="">
-	        </div>
 	      </div>
 	    </div>
 	</section>

@@ -26,4 +26,9 @@
         </div>
     </div>
 </body>
+<script>
+$(document).ready(function(){
+  $("#imgModal").modal('show');
+});
+</script>
 </html>

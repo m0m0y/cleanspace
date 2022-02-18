@@ -30,7 +30,6 @@
 						</div>
 					</div>
 				</div>
-
 				<div class="product-desc col-md-7 pt-4" data-aos="fade-left">
 					<div width: 90>
 						<div class="owl-carousel owl-theme">
@@ -48,7 +47,6 @@
 							</div>
 						</div>
 					</div>
-
 					<div class="row shop-icon">
 						<h6 class="title">BUY US:</h6>
 						<div class="col-lg-3 col-sm-6"> 
@@ -77,11 +75,9 @@
 			</div>
 		</div>
 	</section><!-- End Features Section -->
-
 	<div class="container">
 		<hr class="solid"></hr>
 	</div>
-
 	<!-- ======= Details Section ======= -->
 	<section class="details">
 		<div class="container">
@@ -90,7 +86,6 @@
 					<h6 class="title">Approvals</h6>
 					<p>Compatible with the CleanSpace HALO PAPR (CS3000)</p>
 				</div>
-
 				<div class="col-md-4 col-sm-12 pt-4">
 					<h6 class="title">Standards</h6>
 					<ul>
@@ -98,7 +93,6 @@
 						<li><i class="bi bi-check"></i> EN 12942</li>
 					</ul>
 				</div>
-
 				<div class="col-md-4 col-sm-12 pt-4">
 					<h6 class="title">Classifications</h6>
 					<p> PAPR-P3 </p>
@@ -107,7 +101,6 @@
 		</div>
 	</section><!-- End Details Section -->
 </div>
-
 <script>
 $('.owl-carousel').owlCarousel({
 	loop:true,
