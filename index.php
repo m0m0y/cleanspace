@@ -1,4 +1,7 @@
-<?php require("assets/common/header.php"); ?>
+<?php 
+require("assets/common/header.php"); 
+require("counter.php");
+?>
 
 	<header id="header" class="fixed-top d-flex align-items-center header-transparent">
 	    <div class="container d-flex align-items-center justify-content-between">
@@ -17,6 +20,8 @@
 	      </div>
 	    </div>
 	</section>
+
+	<?= "<p class='d-none'>You are visitor number $counterVal to this site</p>"; ?>
 
     <section id="details" class="details">
       <div class="container">
